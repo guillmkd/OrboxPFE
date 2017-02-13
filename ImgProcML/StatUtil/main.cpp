@@ -14,7 +14,7 @@ using namespace std;
 using namespace cv;
 
 int main() {
-    FileStorage configFs("../config.json", FileStorage::READ);
+    FileStorage configFs("../../config.json", FileStorage::READ);
     string dataPath;
     configFs["dataPath"] >> dataPath;
     configFs.release();
@@ -24,7 +24,7 @@ int main() {
     FileNodeIterator it = inFs["index"].begin();
     vector<Rois> collection;
     while (it != inFs["index"].end()) {
-        collection.push_back(Rois(dataPath + "rois/" + to_string((int) *it) + ".json", dataPath));
+        collection.push_back(Rois(dataPath, ((int) *it)));
         it++;
     }
     inFs.release();

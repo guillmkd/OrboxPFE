@@ -7,8 +7,8 @@
 using namespace std;
 using namespace cv;
 
-void Rois::readFromFile(string path) {
-    FileStorage fs(path, FileStorage::READ);
+void Rois::readFromFile() {
+    FileStorage fs(dataPath + 'rois/' + to_string(selfId) + '.json', FileStorage::READ);
     fs["self_id"] >> selfId;
     fs["parent_id"] >> parentId;
     fs["bound_rect_height"] >> boundRectHeight;
@@ -25,8 +25,8 @@ void Rois::readFromFile(string path) {
     maskMat = imread(dataPath + maskPicPath, IMREAD_GRAYSCALE);
 }
 
-void Rois::writeToFile(std::string path) {
-    FileStorage fs(path, FileStorage::WRITE);
+void Rois::writeToFile(bool overwritePics) {
+    FileStorage fs(dataPath + 'rois/' + to_string(selfId) + '.json', FileStorage::WRITE);
     fs << "self_id" << selfId;
     fs << "parent_id" << parentId;
     fs << "bound_rect_height" << boundRectHeight;
@@ -38,11 +38,16 @@ void Rois::writeToFile(std::string path) {
     fs << "class_id" << classId;
     fs << "class_name" << className;
     fs.release();
+    if (overwritePics) {
+        imwrite(dataPath + colorPicPath, colorMat);
+        imwrite(dataPath + maskPicPath, maskMat);
+    }
 }
 
-Rois::Rois(std::string path, string argDataPath) {
+Rois::Rois(string argDataPath, int id) {
     dataPath = argDataPath;
-    readFromFile(path);
+    selfId = id;
+    readFromFile();
 }
 
 Rois::Rois(cv::Mat color, cv::Mat mask, int X, int Y, std::vector<cv::Point> contour, int selfId) {
@@ -52,6 +57,8 @@ Rois::Rois(cv::Mat color, cv::Mat mask, int X, int Y, std::vector<cv::Point> con
     boundRectY = Y;
     this->contour = contour;
     this->selfId = selfId;
+    colorPicPath = "pics/" + to_string(selfId) + "CL.png";
+    maskPicPath = "pics/" + to_string(selfId) + "MK.png";
 }
 
 float Rois::getPerimeter() {
@@ -101,7 +108,19 @@ std::vector<cv::Point> Rois::getContour() {
                        BORDER_CONSTANT, Scalar(0));
         threshold(maskWithBorder, bin, 128, 255, THRESH_BINARY);
         findContours(bin, contours, RETR_EXTERNAL, CHAIN_APPROX_SIMPLE);
-        contour = contours[0];
+        int index = 0;
+        if (contours.size() > 1) {
+            double maxArea = -1;
+            int i = 0;
+            for (auto &it : contours) {
+                if (maxArea < cv::contourArea(it)) {
+                    maxArea = cv::contourArea(it);
+                    index = i;
+                }
+                i++;
+            }
+        }
+        contour = contours[index];
     }
     return contour;
 }

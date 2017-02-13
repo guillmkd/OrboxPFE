@@ -64,11 +64,11 @@ void ClassificationTest::runSimpleSVM(ml::SVM::Types type, ml::SVM::KernelTypes 
 }
 
 ClassificationTest::ClassificationTest() {
-    FileStorage configFs("../config.json", FileStorage::READ);
+    FileStorage configFs("../../config.json", FileStorage::READ);
     configFs["dataPath"] >> dataPath;
     configFs.release();
 
-    FileStorage inFs("indexRois.json", FileStorage::READ);
+    FileStorage inFs(dataPath + "indexRois.json", FileStorage::READ);
     FileNodeIterator it = inFs["index"].begin();
     while (it != inFs["index"].end()) {
         Rois currentRoi(dataPath + "rois/" + to_string((int) *it) + ".json", dataPath);

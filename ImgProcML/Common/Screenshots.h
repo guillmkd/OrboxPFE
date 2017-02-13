@@ -31,8 +31,9 @@ private:
     std::set<int> roisChildId;
 public:
     Screenshots(std::string dataPath, int id);
-    void readFromFile(std::string path);
-    void writeToFile(std::string path, bool overwritePics);
+    Screenshots(cv::Mat rawLitOn,cv::Mat rawLitOff, cv::Mat undistOn, cv::Mat undistOff, std::string dataPath, int id);
+    void readFromFile();
+    void writeToFile(bool overwritePics);
     std::vector<Rois> segmentation();
 };
 
