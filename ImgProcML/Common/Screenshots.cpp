@@ -10,8 +10,8 @@
 using namespace std;
 using namespace cv;
 
-void Screenshots::writeToFile(std::string path, bool overwritePics) {
-    FileStorage fs(path, FileStorage::WRITE);
+void Screenshots::writeToFile(bool overwritePics) {
+    FileStorage fs(dataPath + '/screenshots/' + to_string(selfID) + '.json', FileStorage::WRITE);
     fs << "self_id" << selfID;
     fs << "raw_lightOn" << pathRawLightOn;
     fs << "raw_lightOff" << pathRawLightOff;
@@ -24,17 +24,17 @@ void Screenshots::writeToFile(std::string path, bool overwritePics) {
     fs << "]";
     fs.release();
     if (overwritePics) {
-        string scrId = to_string(selfID);
-        imwrite(dataPath + "pics/" + scrId + "RO.jpg", lightOn);
-        imwrite(dataPath + "pics/" + scrId + "RF.jpg", lightOff);
-        imwrite(dataPath + "pics/" + scrId + "UO.jpg", undistLightOn);
-        imwrite(dataPath + "pics/" + scrId + "UF.jpg", undistLightOff);
-        imwrite(dataPath + "pics/" + scrId + "MB.jpg", maskBin);
+        imwrite(dataPath + pathRawLightOn, lightOn);
+        imwrite(dataPath + pathRawLightOff, lightOff);
+        imwrite(dataPath + pathUndistLightOn, undistLightOn);
+        imwrite(dataPath + pathUndistLightOff, undistLightOff);
+        imwrite(dataPath + pathMaskBin, maskBin);
     }
 }
 
-void Screenshots::readFromFile(std::string path) {
-    FileStorage fs(path, FileStorage::READ);
+void Screenshots::readFromFile() {
+    FileStorage fs(dataPath + '/screenshots/' + to_string(selfID) + '.json',
+                   FileStorage::READ);
     fs["self_id"] >> selfID;
     fs["raw_lightOn"] >> pathRawLightOn;
     fs["raw_lightOff"] >> pathRawLightOff;
@@ -57,6 +57,24 @@ void Screenshots::readFromFile(std::string path) {
 Screenshots::Screenshots(std::string path, int id) {
     selfID = id;
     dataPath = path;
+    readFromFile;
+}
+
+Screenshots::Screenshots(cv::Mat rawLitOn, cv::Mat rawLitOff,
+                         cv::Mat undistOn, cv::Mat undistOff,
+                         std::string dataPath, int id) {
+    selfID = id;
+    auto strId = to_string(selfID);
+    this->dataPath = dataPath;
+    lightOn = rawLitOn;
+    lightOff = rawLitOff;
+    undistLightOff = undistOff;
+    undistLightOn = undistOn;
+    pathRawLightOn = "pics/" + strId + "RO.jpg";
+    pathRawLightOff = "pics/" + strId + "RF.jpg";
+    pathUndistLightOn = "pics/" + strId + "UO.jpg";
+    pathUndistLightOff = "pics/" + strId + "UF.jpg";
+    pathMaskBin = "pics/" + strId + "MB.jpg";
 }
 
 std::vector<Rois> Screenshots::segmentation() {
@@ -101,8 +119,12 @@ std::vector<Rois> Screenshots::segmentation() {
         ));
         roisChildId.insert(roiId);
     }
+    for(auto &roi : out)
+        roi.writeToFile(true);
     return out;
 }
+
+
 
 
 

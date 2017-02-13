@@ -43,7 +43,7 @@ private:
 
 public:
     // Constructors
-    Rois(std::string path, std::string dataPath);
+    Rois(std::string dataPath, int id);
 
     Rois(cv::Mat color, cv::Mat mask, int X, int Y, std::vector<cv::Point> contour, int selfId);
 
@@ -63,9 +63,9 @@ public:
 
     int getBoundRectY() const { return boundRectY; }
 
-    void readFromFile(std::string);
+    void readFromFile();
 
-    void writeToFile(std::string);
+    void writeToFile(bool overwritePics);
 
     float getPerimeter();
 

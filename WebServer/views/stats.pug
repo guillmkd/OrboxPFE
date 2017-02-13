@@ -3,6 +3,10 @@ extends layout.pug
 block content
     h1 Features analysis and performance reports
 
+    a.w3-btn.w3-round.w3-teal(href='/stats/updatestat')
+        i.fa.fa-refresh
+        span &nbsp Update Stats
+
     h2 Shape descriptor statistics
 
     table.w3-table.w3-striped.w3-border
@@ -60,6 +64,8 @@ block content
     script(src='/static/js/d3.min.js')
     script(src='/static/js/metricsgraphics.min.js')
     script(src='/static/js/graphtool.js')
+
+    h2 Perfomance results
 
 
 
