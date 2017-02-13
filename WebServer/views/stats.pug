@@ -1,0 +1,65 @@
+extends layout.pug
+
+block content
+    h1 Features analysis and performance reports
+
+    h2 Shape descriptor statistics
+
+    table.w3-table.w3-striped.w3-border
+        tr.w3-dark-grey
+            th(colspan='3') Class
+            th(colspan='2') Perimeter
+            th(colspan='2') Circularity
+            th(colspan='2') Area
+            th(colspan='2') Min height
+            th(colspan='2') Min width
+        tr.w3-dark-grey
+            td Id
+            td Name
+            td Population
+            td: span.avg x
+            td &sigma;
+            td: span.avg x
+            td &sigma;
+            td: span.avg x
+            td &sigma;
+            td: span.avg x
+            td &sigma;
+            td: span.avg x
+            td &sigma;
+        each classStat in classStats
+            tr
+                td #{classStat.class_id}
+                td #{classStat.class_name}
+                td #{classStat.population}
+                td #{classStat.perimeter_mean.toLocaleString()}
+                td #{classStat.perimeter_stdev.toLocaleString()}
+                td #{classStat.cirucularity_mean.toLocaleString()}
+                td #{classStat.cirucularity_stdev.toLocaleString()}
+                td #{classStat.area_mean.toLocaleString()}
+                td #{classStat.area_stdev.toLocaleString()}
+                td #{classStat.minHeight_mean.toLocaleString()}
+                td #{classStat.minHeight_stdev.toLocaleString()}
+                td #{classStat.minWidth_mean.toLocaleString()}
+                td #{classStat.minWidth_stdev.toLocaleString()}
+    div(style='text-align: center')
+        div(id='cldpt_perimeter_area' style='display: inline-block').w3-card-4.w3-margin-right.w3-margin-top
+        div(id='cldpt_min_w_h' style='display: inline-block').w3-card-4.w3-margin-right.w3-margin-top
+
+    h2 Histogram statistics
+
+    p.
+        These are the mean histograms for each object with the confidence band
+        of 1 sigma, it has been calculated over 180 beam and values ranging
+        from 0 to 255.
+    div(style='text-align: center')
+        each id in objIds
+            div(id=('histograph_' + id) style='display: inline-block').w3-card-4.w3-margin-right.w3-margin-bottom
+
+    link(rel='stylesheet', href='/static/css/metricsgraphics.css')
+    script(src='/static/js/d3.min.js')
+    script(src='/static/js/metricsgraphics.min.js')
+    script(src='/static/js/graphtool.js')
+
+
+

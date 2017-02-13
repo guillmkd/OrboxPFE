@@ -1,0 +1,12 @@
+{
+    "self_id": 60600242,
+    "parent_id": 50394932,
+    "bound_rect_height": 157,
+    "bound_rect_width": 160,
+    "bound_rect_x": 448,
+    "bound_rect_y": 493,
+    "color_pic_path": "pics/60600242CL.png",
+    "mask_pic_path": "pics/60600242MK.png",
+    "class_id": 2,
+    "class_name": "2 cents"
+}

@@ -1,0 +1,6563 @@
+{
+    "index": [
+        {
+            "class_id": 1,
+            "perimeter": 4.6091882324218750e+02,
+            "area": 1.5380500000000000e+04,
+            "minHeight": 129.0,
+            "minWidth": 141.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.6983050537109375e+02,
+            "area": 2.3049500000000000e+04,
+            "minHeight": 1.7399996948242188e+02,
+            "minWidth": 1.6099996948242188e+02
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.7098486328125000e+02,
+            "area": 32297.0,
+            "minHeight": 1.8699996948242188e+02,
+            "minWidth": 2.0999996948242188e+02
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.4710260009765625e+02,
+            "area": 21355.0,
+            "minHeight": 150.0,
+            "minWidth": 171.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.3243353271484375e+02,
+            "area": 1.3543500000000000e+04,
+            "minHeight": 121.0,
+            "minWidth": 133.0
+        },
+        {
+            "class_id": 8,
+            "perimeter": 7.1526910400390625e+02,
+            "area": 36954.0,
+            "minHeight": 207.0,
+            "minWidth": 218.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.9995538330078125e+02,
+            "area": 35097.0,
+            "minHeight": 1.9499996948242188e+02,
+            "minWidth": 2.1999996948242188e+02
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.6867617797851562e+02,
+            "area": 15774.0,
+            "minHeight": 125.0,
+            "minWidth": 148.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.5891882324218750e+02,
+            "area": 1.8340500000000000e+04,
+            "minHeight": 138.0,
+            "minWidth": 171.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.1910260009765625e+02,
+            "area": 24804.0,
+            "minHeight": 150.0,
+            "minWidth": 193.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.5916146850585938e+02,
+            "area": 15332.0,
+            "minHeight": 129.0,
+            "minWidth": 141.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 5.8211480712890625e+02,
+            "area": 2.4487500000000000e+04,
+            "minHeight": 169.0,
+            "minWidth": 178.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 5.3427416992187500e+02,
+            "area": 20416.0,
+            "minHeight": 1.4699996948242188e+02,
+            "minWidth": 1.6699996948242188e+02
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.3817364501953125e+02,
+            "area": 2.0900500000000000e+04,
+            "minHeight": 151.0,
+            "minWidth": 167.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.6609039306640625e+02,
+            "area": 1.5603500000000000e+04,
+            "minHeight": 130.0,
+            "minWidth": 142.0
+        },
+        {
+            "class_id": 8,
+            "perimeter": 7.1361224365234375e+02,
+            "area": 36751.0,
+            "minHeight": 203.0,
+            "minWidth": 220.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.0524475097656250e+02,
+            "area": 26298.0,
+            "minHeight": 167.0,
+            "minWidth": 186.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 4.8035028076171875e+02,
+            "area": 1.1371500000000000e+04,
+            "minHeight": 1.0799998474121094e+02,
+            "minWidth": 1.4299996948242188e+02
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.5290161132812500e+02,
+            "area": 22221.0,
+            "minHeight": 1.6199996948242188e+02,
+            "minWidth": 1.6599996948242188e+02
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.1623254394531250e+02,
+            "area": 1.9177500000000000e+04,
+            "minHeight": 148.0,
+            "minWidth": 152.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.4154626464843750e+02,
+            "area": 1.9109500000000000e+04,
+            "minHeight": 138.0,
+            "minWidth": 166.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.3710260009765625e+02,
+            "area": 20845.0,
+            "minHeight": 157.0,
+            "minWidth": 159.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.3991375732421875e+02,
+            "area": 2.8465500000000000e+04,
+            "minHeight": 1.7599996948242188e+02,
+            "minWidth": 1.9699996948242188e+02
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.6548736572265625e+02,
+            "area": 2.3091500000000000e+04,
+            "minHeight": 160.0,
+            "minWidth": 174.0
+        },
+        {
+            "class_id": 8,
+            "perimeter": 7.2185491943359375e+02,
+            "area": 3.7682500000000000e+04,
+            "minHeight": 2.1099996948242188e+02,
+            "minWidth": 2.1699996948242188e+02
+        },
+        {
+            "class_id": 8,
+            "perimeter": 7.2044067382812500e+02,
+            "area": 37459.0,
+            "minHeight": 2.0599996948242188e+02,
+            "minWidth": 2.2099996948242188e+02
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.3324475097656250e+02,
+            "area": 20644.0,
+            "minHeight": 159.0,
+            "minWidth": 158.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.5643353271484375e+02,
+            "area": 2.0066500000000000e+04,
+            "minHeight": 154.0,
+            "minWidth": 162.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.5932800292968750e+02,
+            "area": 31427.0,
+            "minHeight": 192.0,
+            "minWidth": 198.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.1728637695312500e+02,
+            "area": 2.7552500000000000e+04,
+            "minHeight": 175.0,
+            "minWidth": 189.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.8547015380859375e+02,
+            "area": 33811.0,
+            "minHeight": 1.9999996948242188e+02,
+            "minWidth": 2.0599996948242188e+02
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.3114422607421875e+02,
+            "area": 2.8406500000000000e+04,
+            "minHeight": 184.0,
+            "minWidth": 184.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.2334521484375000e+02,
+            "area": 1.9669500000000000e+04,
+            "minHeight": 146.0,
+            "minWidth": 164.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.4100207519531250e+02,
+            "area": 2.1110500000000000e+04,
+            "minHeight": 157.0,
+            "minWidth": 163.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.1081832885742188e+02,
+            "area": 18772.0,
+            "minHeight": 1.4899996948242188e+02,
+            "minWidth": 1.4799996948242188e+02
+        },
+        {
+            "class_id": 3,
+            "perimeter": 5.7865893554687500e+02,
+            "area": 2.4083500000000000e+04,
+            "minHeight": 1.6899996948242188e+02,
+            "minWidth": 1.7099996948242188e+02
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.7998989868164062e+02,
+            "area": 16566.0,
+            "minHeight": 129.0,
+            "minWidth": 152.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.6665893554687500e+02,
+            "area": 2.2816500000000000e+04,
+            "minHeight": 166.0,
+            "minWidth": 168.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.5547009277343750e+02,
+            "area": 30963.0,
+            "minHeight": 190.0,
+            "minWidth": 201.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.1865893554687500e+02,
+            "area": 2.7484500000000000e+04,
+            "minHeight": 175.0,
+            "minWidth": 185.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.0457568359375000e+02,
+            "area": 1.8298500000000000e+04,
+            "minHeight": 145.0,
+            "minWidth": 148.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.9264172363281250e+02,
+            "area": 34217.0,
+            "minHeight": 2.0399996948242188e+02,
+            "minWidth": 2.0499996948242188e+02
+        },
+        {
+            "class_id": 3,
+            "perimeter": 1.6242641448974609e+01,
+            "area": 7.5000000000000000e+00,
+            "minHeight": 6.7082033157348633e+00,
+            "minWidth": 2.6832814216613770e+00
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.7433303833007812e+02,
+            "area": 16069.0,
+            "minHeight": 1.2999996948242188e+02,
+            "minWidth": 1.4699996948242188e+02
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.7372998046875000e+02,
+            "area": 23762.0,
+            "minHeight": 157.0,
+            "minWidth": 182.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.3934521484375000e+02,
+            "area": 2.0852500000000000e+04,
+            "minHeight": 1.5399996948242188e+02,
+            "minWidth": 1.6399996948242188e+02
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.6326196289062500e+02,
+            "area": 1.5423500000000000e+04,
+            "minHeight": 130.0,
+            "minWidth": 140.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.3724475097656250e+02,
+            "area": 27384.0,
+            "minHeight": 190.0,
+            "minWidth": 179.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.5110260009765625e+02,
+            "area": 21483.0,
+            "minHeight": 153.0,
+            "minWidth": 170.0
+        },
+        {
+            "class_id": 8,
+            "perimeter": 7.2375439453125000e+02,
+            "area": 37838.0,
+            "minHeight": 2.1299996948242188e+02,
+            "minWidth": 2.1799996948242188e+02
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.3471783447265625e+02,
+            "area": 1.9840500000000000e+04,
+            "minHeight": 147.0,
+            "minWidth": 164.0
+        },
+        {
+            "class_id": 8,
+            "perimeter": 7.2434020996093750e+02,
+            "area": 3.8072500000000000e+04,
+            "minHeight": 214.0,
+            "minWidth": 217.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.2423254394531250e+02,
+            "area": 2.3449500000000000e+04,
+            "minHeight": 158.0,
+            "minWidth": 190.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.2940411376953125e+02,
+            "area": 2.0055500000000000e+04,
+            "minHeight": 1.5099996948242188e+02,
+            "minWidth": 1.5499996948242188e+02
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.7288433837890625e+02,
+            "area": 3.2534500000000000e+04,
+            "minHeight": 189.0,
+            "minWidth": 211.0
+        },
+        {
+            "class_id": 8,
+            "perimeter": 7.1702648925781250e+02,
+            "area": 3.7161500000000000e+04,
+            "minHeight": 205.0,
+            "minWidth": 220.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.4685992431640625e+02,
+            "area": 2.1412500000000000e+04,
+            "minHeight": 1.6399996948242188e+02,
+            "minWidth": 1.5599996948242188e+02
+        },
+        {
+            "class_id": 6,
+            "perimeter": 7.1585491943359375e+02,
+            "area": 3.6410500000000000e+04,
+            "minHeight": 204.0,
+            "minWidth": 221.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.8688433837890625e+02,
+            "area": 3.3393500000000000e+04,
+            "minHeight": 197.0,
+            "minWidth": 210.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.5191375732421875e+02,
+            "area": 3.0412500000000000e+04,
+            "minHeight": 180.0,
+            "minWidth": 206.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.3983050537109375e+02,
+            "area": 2.0730500000000000e+04,
+            "minHeight": 154.0,
+            "minWidth": 166.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.4084271240234375e+02,
+            "area": 29490.0,
+            "minHeight": 186.0,
+            "minWidth": 193.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.5874218750000000e+02,
+            "area": 3.1325500000000000e+04,
+            "minHeight": 1.9199996948242188e+02,
+            "minWidth": 1.9799996948242188e+02
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.3694323730468750e+02,
+            "area": 2.9074500000000000e+04,
+            "minHeight": 183.0,
+            "minWidth": 192.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.5357061767578125e+02,
+            "area": 3.0109500000000000e+04,
+            "minHeight": 187.0,
+            "minWidth": 201.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.2461730957031250e+02,
+            "area": 19894.0,
+            "minHeight": 148.0,
+            "minWidth": 160.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.5884271240234375e+02,
+            "area": 31187.0,
+            "minHeight": 185.0,
+            "minWidth": 203.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.5065893554687500e+02,
+            "area": 2.1944500000000000e+04,
+            "minHeight": 154.0,
+            "minWidth": 172.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.2510260009765625e+02,
+            "area": 19762.0,
+            "minHeight": 1.5199996948242188e+02,
+            "minWidth": 1.5799996948242188e+02
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.3496044921875000e+02,
+            "area": 20504.0,
+            "minHeight": 151.0,
+            "minWidth": 161.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.6332800292968750e+02,
+            "area": 31652.0,
+            "minHeight": 187.0,
+            "minWidth": 205.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.6160513305664062e+02,
+            "area": 1.5143500000000000e+04,
+            "minHeight": 129.0,
+            "minWidth": 139.0
+        },
+        {
+            "class_id": 8,
+            "perimeter": 7.1926910400390625e+02,
+            "area": 37280.0,
+            "minHeight": 210.0,
+            "minWidth": 217.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.7821527099609375e+02,
+            "area": 24110.0,
+            "minHeight": 1.6299996948242188e+02,
+            "minWidth": 1.7999996948242188e+02
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.1494323730468750e+02,
+            "area": 2.7356500000000000e+04,
+            "minHeight": 176.0,
+            "minWidth": 188.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.5500207519531250e+02,
+            "area": 2.2087500000000000e+04,
+            "minHeight": 158.0,
+            "minWidth": 169.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 8.5019805908203125e+02,
+            "area": 2.4631500000000000e+04,
+            "minHeight": 1.6899996948242188e+02,
+            "minWidth": 1.9699996948242188e+02
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.7550460815429688e+02,
+            "area": 16028.0,
+            "minHeight": 135.0,
+            "minWidth": 142.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 6.1470056152343750e+02,
+            "area": 27274.0,
+            "minHeight": 177.0,
+            "minWidth": 186.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.6655841064453125e+02,
+            "area": 23119.0,
+            "minHeight": 158.0,
+            "minWidth": 178.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.2427416992187500e+02,
+            "area": 19898.0,
+            "minHeight": 149.0,
+            "minWidth": 160.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.2427416992187500e+02,
+            "area": 19876.0,
+            "minHeight": 148.0,
+            "minWidth": 161.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 6.1275946044921875e+02,
+            "area": 26305.0,
+            "minHeight": 172.0,
+            "minWidth": 183.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.8101931762695312e+02,
+            "area": 16152.0,
+            "minHeight": 1.3299996948242188e+02,
+            "minWidth": 1.4499996948242188e+02
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.4860003662109375e+02,
+            "area": 3.0074500000000000e+04,
+            "minHeight": 176.0,
+            "minWidth": 206.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.3063455200195312e+02,
+            "area": 1.3280500000000000e+04,
+            "minHeight": 114.0,
+            "minWidth": 135.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.5950460815429688e+02,
+            "area": 15242.0,
+            "minHeight": 1.2699998474121094e+02,
+            "minWidth": 1.4199996948242188e+02
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.1670056152343750e+02,
+            "area": 27481.0,
+            "minHeight": 1.7599996948242188e+02,
+            "minWidth": 1.8799996948242188e+02
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.1637469482421875e+02,
+            "area": 1.9253500000000000e+04,
+            "minHeight": 146.0,
+            "minWidth": 157.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.6239904785156250e+02,
+            "area": 3.1494500000000000e+04,
+            "minHeight": 192.0,
+            "minWidth": 201.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.7762951660156250e+02,
+            "area": 2.3955500000000000e+04,
+            "minHeight": 156.0,
+            "minWidth": 187.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.2204876708984375e+02,
+            "area": 12827.0,
+            "minHeight": 112.0,
+            "minWidth": 133.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.8995538330078125e+02,
+            "area": 34307.0,
+            "minHeight": 197.0,
+            "minWidth": 213.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 5.8314422607421875e+02,
+            "area": 2.4420500000000000e+04,
+            "minHeight": 1.6899996948242188e+02,
+            "minWidth": 1.7499996948242188e+02
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.4984774780273438e+02,
+            "area": 14664.0,
+            "minHeight": 126.0,
+            "minWidth": 137.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.7498486328125000e+02,
+            "area": 32502.0,
+            "minHeight": 188.0,
+            "minWidth": 211.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.8009039306640625e+02,
+            "area": 1.6126500000000000e+04,
+            "minHeight": 131.0,
+            "minWidth": 148.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.5641632080078125e+02,
+            "area": 22324.0,
+            "minHeight": 156.0,
+            "minWidth": 172.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.0090161132812500e+02,
+            "area": 25810.0,
+            "minHeight": 1.7699996948242188e+02,
+            "minWidth": 1.7499996948242188e+02
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.4593103027343750e+02,
+            "area": 21518.0,
+            "minHeight": 153.0,
+            "minWidth": 168.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.6516146850585938e+02,
+            "area": 15665.0,
+            "minHeight": 128.0,
+            "minWidth": 145.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 5.5475946044921875e+02,
+            "area": 22038.0,
+            "minHeight": 165.0,
+            "minWidth": 161.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.2647515869140625e+02,
+            "area": 18248.0,
+            "minHeight": 152.0,
+            "minWidth": 154.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.5981329345703125e+02,
+            "area": 31512.0,
+            "minHeight": 194.0,
+            "minWidth": 198.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 7.0747015380859375e+02,
+            "area": 35951.0,
+            "minHeight": 195.0,
+            "minWidth": 222.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.7267617797851562e+02,
+            "area": 15995.0,
+            "minHeight": 125.0,
+            "minWidth": 150.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.6894323730468750e+02,
+            "area": 3.1799500000000000e+04,
+            "minHeight": 190.0,
+            "minWidth": 201.0
+        },
+        {
+            "class_id": 8,
+            "perimeter": 7.2936962890625000e+02,
+            "area": 3.7978500000000000e+04,
+            "minHeight": 204.0,
+            "minWidth": 226.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.3334521484375000e+02,
+            "area": 2.0635500000000000e+04,
+            "minHeight": 152.0,
+            "minWidth": 163.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.0684271240234375e+02,
+            "area": 26676.0,
+            "minHeight": 176.0,
+            "minWidth": 186.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 5.8904370117187500e+02,
+            "area": 24982.0,
+            "minHeight": 169.0,
+            "minWidth": 180.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.1320312500000000e+02,
+            "area": 1.8752500000000000e+04,
+            "minHeight": 1.3899996948242188e+02,
+            "minWidth": 1.6299996948242188e+02
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.6894323730468750e+02,
+            "area": 3.2206500000000000e+04,
+            "minHeight": 185.0,
+            "minWidth": 206.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.7908532714843750e+02,
+            "area": 3.2992500000000000e+04,
+            "minHeight": 203.0,
+            "minWidth": 196.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.2860009765625000e+02,
+            "area": 2.8456500000000000e+04,
+            "minHeight": 183.0,
+            "minWidth": 189.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.2120312500000000e+02,
+            "area": 1.9668500000000000e+04,
+            "minHeight": 151.0,
+            "minWidth": 155.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.3932800292968750e+02,
+            "area": 29459.0,
+            "minHeight": 187.0,
+            "minWidth": 193.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 5.9104370117187500e+02,
+            "area": 25244.0,
+            "minHeight": 170.0,
+            "minWidth": 180.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.5675946044921875e+02,
+            "area": 22193.0,
+            "minHeight": 162.0,
+            "minWidth": 165.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.7164675903320312e+02,
+            "area": 16041.0,
+            "minHeight": 130.0,
+            "minWidth": 148.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.3291882324218750e+02,
+            "area": 1.3473500000000000e+04,
+            "minHeight": 122.0,
+            "minWidth": 134.0
+        },
+        {
+            "class_id": 8,
+            "perimeter": 7.2458282470703125e+02,
+            "area": 37776.0,
+            "minHeight": 211.0,
+            "minWidth": 221.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.6825689697265625e+02,
+            "area": 3.0951500000000000e+04,
+            "minHeight": 193.0,
+            "minWidth": 200.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.4583050537109375e+02,
+            "area": 2.1521500000000000e+04,
+            "minHeight": 160.0,
+            "minWidth": 163.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.3134521484375000e+02,
+            "area": 2.0412500000000000e+04,
+            "minHeight": 153.0,
+            "minWidth": 161.0
+        },
+        {
+            "class_id": 8,
+            "perimeter": 7.1326910400390625e+02,
+            "area": 36718.0,
+            "minHeight": 209.0,
+            "minWidth": 215.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.3734521484375000e+02,
+            "area": 2.0731500000000000e+04,
+            "minHeight": 148.0,
+            "minWidth": 169.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.7819805908203125e+02,
+            "area": 3.3297500000000000e+04,
+            "minHeight": 198.0,
+            "minWidth": 207.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 5.9998986816406250e+02,
+            "area": 24129.0,
+            "minHeight": 153.0,
+            "minWidth": 188.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.9211480712890625e+02,
+            "area": 3.1242500000000000e+04,
+            "minHeight": 188.0,
+            "minWidth": 205.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.3671783447265625e+02,
+            "area": 2.0564500000000000e+04,
+            "minHeight": 1.5299996948242188e+02,
+            "minWidth": 1.5899996948242188e+02
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.5439904785156250e+02,
+            "area": 3.0745500000000000e+04,
+            "minHeight": 190.0,
+            "minWidth": 199.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.4114422607421875e+02,
+            "area": 2.9001500000000000e+04,
+            "minHeight": 171.0,
+            "minWidth": 202.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.6514422607421875e+02,
+            "area": 2.3065500000000000e+04,
+            "minHeight": 163.0,
+            "minWidth": 172.0
+        },
+        {
+            "class_id": 8,
+            "perimeter": 7.1644067382812500e+02,
+            "area": 37060.0,
+            "minHeight": 205.0,
+            "minWidth": 220.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 5.9738684082031250e+02,
+            "area": 25746.0,
+            "minHeight": 169.0,
+            "minWidth": 183.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 6.1397265625000000e+02,
+            "area": 2.7008500000000000e+04,
+            "minHeight": 176.0,
+            "minWidth": 184.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 6.1801428222656250e+02,
+            "area": 27651.0,
+            "minHeight": 176.0,
+            "minWidth": 191.0
+        },
+        {
+            "class_id": 8,
+            "perimeter": 7.0444067382812500e+02,
+            "area": 35572.0,
+            "minHeight": 205.0,
+            "minWidth": 214.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.8197265625000000e+02,
+            "area": 2.4409500000000000e+04,
+            "minHeight": 159.0,
+            "minWidth": 185.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.4677670288085938e+02,
+            "area": 1.4425500000000000e+04,
+            "minHeight": 124.0,
+            "minWidth": 136.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.3490161132812500e+02,
+            "area": 28564.0,
+            "minHeight": 179.0,
+            "minWidth": 190.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 7.1526910400390625e+02,
+            "area": 36762.0,
+            "minHeight": 197.0,
+            "minWidth": 228.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.7122747802734375e+02,
+            "area": 3.2391500000000000e+04,
+            "minHeight": 1.8999996948242188e+02,
+            "minWidth": 2.0799996948242188e+02
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.9839904785156250e+02,
+            "area": 3.4449500000000000e+04,
+            "minHeight": 207.0,
+            "minWidth": 204.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.7391375732421875e+02,
+            "area": 3.2618500000000000e+04,
+            "minHeight": 189.0,
+            "minWidth": 208.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.3930358886718750e+02,
+            "area": 20203.0,
+            "minHeight": 149.0,
+            "minWidth": 164.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.2661730957031250e+02,
+            "area": 20027.0,
+            "minHeight": 149.0,
+            "minWidth": 160.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.4243353271484375e+02,
+            "area": 1.3549500000000000e+04,
+            "minHeight": 127.0,
+            "minWidth": 132.0
+        },
+        {
+            "class_id": 8,
+            "perimeter": 7.3122747802734375e+02,
+            "area": 3.7756500000000000e+04,
+            "minHeight": 2.0999996948242188e+02,
+            "minWidth": 2.1799996948242188e+02
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.6798989868164062e+02,
+            "area": 15760.0,
+            "minHeight": 134.0,
+            "minWidth": 141.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.2494323730468750e+02,
+            "area": 2.8039500000000000e+04,
+            "minHeight": 1.8099996948242188e+02,
+            "minWidth": 1.8799996948242188e+02
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.5867617797851562e+02,
+            "area": 15193.0,
+            "minHeight": 129.0,
+            "minWidth": 139.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.1875946044921875e+02,
+            "area": 19406.0,
+            "minHeight": 149.0,
+            "minWidth": 159.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.5726196289062500e+02,
+            "area": 1.5050500000000000e+04,
+            "minHeight": 1.2699998474121094e+02,
+            "minWidth": 1.3999996948242188e+02
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.5049957275390625e+02,
+            "area": 30438.0,
+            "minHeight": 187.0,
+            "minWidth": 198.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 7.1304370117187500e+02,
+            "area": 27337.0,
+            "minHeight": 1.8099996948242188e+02,
+            "minWidth": 1.9499996948242188e+02
+        },
+        {
+            "class_id": 5,
+            "perimeter": 1.7656854629516602e+01,
+            "area": 11.0,
+            "minHeight": 6.0,
+            "minWidth": 4.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.4451678466796875e+02,
+            "area": 2.1403500000000000e+04,
+            "minHeight": 158.0,
+            "minWidth": 162.0
+        },
+        {
+            "class_id": 8,
+            "perimeter": 7.1385491943359375e+02,
+            "area": 3.6568500000000000e+04,
+            "minHeight": 206.0,
+            "minWidth": 218.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.6716146850585938e+02,
+            "area": 15743.0,
+            "minHeight": 124.0,
+            "minWidth": 150.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.2421527099609375e+02,
+            "area": 27790.0,
+            "minHeight": 175.0,
+            "minWidth": 191.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.6922747802734375e+02,
+            "area": 3.2149500000000000e+04,
+            "minHeight": 189.0,
+            "minWidth": 208.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.6067617797851562e+02,
+            "area": 15236.0,
+            "minHeight": 126.0,
+            "minWidth": 143.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.7684271240234375e+02,
+            "area": 29991.0,
+            "minHeight": 190.0,
+            "minWidth": 201.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.6855841064453125e+02,
+            "area": 23175.0,
+            "minHeight": 157.0,
+            "minWidth": 180.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.6124475097656250e+02,
+            "area": 22662.0,
+            "minHeight": 1.5999996948242188e+02,
+            "minWidth": 1.7099996948242188e+02
+        },
+        {
+            "class_id": 6,
+            "perimeter": 7.9801428222656250e+02,
+            "area": 27412.0,
+            "minHeight": 1.9162593078613281e+02,
+            "minWidth": 1.9374725341796875e+02
+        },
+        {
+            "class_id": 3,
+            "perimeter": 5.7855841064453125e+02,
+            "area": 24208.0,
+            "minHeight": 165.0,
+            "minWidth": 177.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 6.0845794677734375e+02,
+            "area": 2.6539500000000000e+04,
+            "minHeight": 171.0,
+            "minWidth": 188.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.5581329345703125e+02,
+            "area": 31069.0,
+            "minHeight": 192.0,
+            "minWidth": 198.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.6100207519531250e+02,
+            "area": 2.2346500000000000e+04,
+            "minHeight": 149.0,
+            "minWidth": 181.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 2.0842640686035156e+02,
+            "area": 2436.0,
+            "minHeight": 53.0,
+            "minWidth": 60.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.7881829833984375e+02,
+            "area": 22347.0,
+            "minHeight": 167.0,
+            "minWidth": 164.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.5100207519531250e+02,
+            "area": 2.1842500000000000e+04,
+            "minHeight": 1.6399996948242188e+02,
+            "minWidth": 1.6099996948242188e+02
+        },
+        {
+            "class_id": 8,
+            "perimeter": 7.0936962890625000e+02,
+            "area": 3.6098500000000000e+04,
+            "minHeight": 206.0,
+            "minWidth": 214.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.5698486328125000e+02,
+            "area": 30842.0,
+            "minHeight": 191.0,
+            "minWidth": 199.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.8081832885742188e+02,
+            "area": 16622.0,
+            "minHeight": 128.0,
+            "minWidth": 154.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.2300207519531250e+02,
+            "area": 1.9811500000000000e+04,
+            "minHeight": 151.0,
+            "minWidth": 160.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 5.9021527099609375e+02,
+            "area": 25085.0,
+            "minHeight": 168.0,
+            "minWidth": 181.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.6498486328125000e+02,
+            "area": 31897.0,
+            "minHeight": 188.0,
+            "minWidth": 206.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.3136248779296875e+02,
+            "area": 13417.0,
+            "minHeight": 120.0,
+            "minWidth": 132.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.4534521484375000e+02,
+            "area": 2.1487500000000000e+04,
+            "minHeight": 1.6499996948242188e+02,
+            "minWidth": 1.5599996948242188e+02
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.6516146850585938e+02,
+            "area": 15608.0,
+            "minHeight": 128.0,
+            "minWidth": 145.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 4.5556347656250000e+02,
+            "area": 13150.0,
+            "minHeight": 143.0,
+            "minWidth": 117.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.6952899169921875e+02,
+            "area": 29969.0,
+            "minHeight": 182.0,
+            "minWidth": 202.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.5358789062500000e+02,
+            "area": 21923.0,
+            "minHeight": 165.0,
+            "minWidth": 161.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.8278381347656250e+02,
+            "area": 33561.0,
+            "minHeight": 196.0,
+            "minWidth": 211.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.7397265625000000e+02,
+            "area": 2.3502500000000000e+04,
+            "minHeight": 157.0,
+            "minWidth": 183.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.4936248779296875e+02,
+            "area": 14352.0,
+            "minHeight": 1.2399998474121094e+02,
+            "minWidth": 1.3699996948242188e+02
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.5425689697265625e+02,
+            "area": 3.0798500000000000e+04,
+            "minHeight": 181.0,
+            "minWidth": 205.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.2853405761718750e+02,
+            "area": 13351.0,
+            "minHeight": 122.0,
+            "minWidth": 128.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.5783050537109375e+02,
+            "area": 2.2353500000000000e+04,
+            "minHeight": 157.0,
+            "minWidth": 172.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.8677670288085938e+02,
+            "area": 1.6550500000000000e+04,
+            "minHeight": 144.0,
+            "minWidth": 136.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.4398989868164062e+02,
+            "area": 14220.0,
+            "minHeight": 126.0,
+            "minWidth": 137.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 5.1958789062500000e+02,
+            "area": 19555.0,
+            "minHeight": 153.0,
+            "minWidth": 156.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 5.6578887939453125e+02,
+            "area": 21647.0,
+            "minHeight": 157.0,
+            "minWidth": 171.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.2978887939453125e+02,
+            "area": 20212.0,
+            "minHeight": 1.5199996948242188e+02,
+            "minWidth": 1.5799996948242188e+02
+        },
+        {
+            "class_id": 6,
+            "perimeter": 7.0936962890625000e+02,
+            "area": 3.6001500000000000e+04,
+            "minHeight": 2.0199996948242188e+02,
+            "minWidth": 2.1799996948242188e+02
+        },
+        {
+            "class_id": 3,
+            "perimeter": 5.8368835449218750e+02,
+            "area": 2.1292500000000000e+04,
+            "minHeight": 167.0,
+            "minWidth": 171.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 6.2449957275390625e+02,
+            "area": 28117.0,
+            "minHeight": 184.0,
+            "minWidth": 188.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 6.3791375732421875e+02,
+            "area": 2.9142500000000000e+04,
+            "minHeight": 173.0,
+            "minWidth": 206.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.3441632080078125e+02,
+            "area": 20673.0,
+            "minHeight": 155.0,
+            "minWidth": 162.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.2516143798828125e+02,
+            "area": 14442.0,
+            "minHeight": 1.2224853515625000e+02,
+            "minWidth": 1.8650389099121094e+02
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.0752899169921875e+02,
+            "area": 26623.0,
+            "minHeight": 177.0,
+            "minWidth": 183.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 5.7528637695312500e+02,
+            "area": 2.3937500000000000e+04,
+            "minHeight": 168.0,
+            "minWidth": 175.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.7512695312500000e+02,
+            "area": 32813.0,
+            "minHeight": 195.0,
+            "minWidth": 207.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.3407318115234375e+02,
+            "area": 20641.0,
+            "minHeight": 156.0,
+            "minWidth": 162.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.3813201904296875e+02,
+            "area": 20554.0,
+            "minHeight": 149.0,
+            "minWidth": 164.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.2520312500000000e+02,
+            "area": 1.9742500000000000e+04,
+            "minHeight": 146.0,
+            "minWidth": 162.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.6597265625000000e+02,
+            "area": 2.2171500000000000e+04,
+            "minHeight": 1.8589584350585938e+02,
+            "minWidth": 1.5131634521484375e+02
+        },
+        {
+            "class_id": 6,
+            "perimeter": 7.0312695312500000e+02,
+            "area": 35619.0,
+            "minHeight": 1.9499996948242188e+02,
+            "minWidth": 2.2099996948242188e+02
+        },
+        {
+            "class_id": 6,
+            "perimeter": 7.1171276855468750e+02,
+            "area": 3.6116500000000000e+04,
+            "minHeight": 204.0,
+            "minWidth": 216.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.4108532714843750e+02,
+            "area": 2.9727500000000000e+04,
+            "minHeight": 183.0,
+            "minWidth": 197.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.3660003662109375e+02,
+            "area": 2.9106500000000000e+04,
+            "minHeight": 178.0,
+            "minWidth": 198.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.3035742187500000e+02,
+            "area": 28434.0,
+            "minHeight": 184.0,
+            "minWidth": 188.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.7423254394531250e+02,
+            "area": 1.6183500000000000e+04,
+            "minHeight": 132.0,
+            "minWidth": 147.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.4417364501953125e+02,
+            "area": 2.1420500000000000e+04,
+            "minHeight": 157.0,
+            "minWidth": 164.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.5609039306640625e+02,
+            "area": 1.5066500000000000e+04,
+            "minHeight": 129.0,
+            "minWidth": 138.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.9971276855468750e+02,
+            "area": 3.5097500000000000e+04,
+            "minHeight": 1.9899996948242188e+02,
+            "minWidth": 2.1499996948242188e+02
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.7405590820312500e+02,
+            "area": 3.2665500000000000e+04,
+            "minHeight": 191.0,
+            "minWidth": 209.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.6191375732421875e+02,
+            "area": 3.1359500000000000e+04,
+            "minHeight": 187.0,
+            "minWidth": 204.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 26.0,
+            "area": 0.0,
+            "minHeight": 0.0,
+            "minWidth": 13.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.4441632080078125e+02,
+            "area": 21314.0,
+            "minHeight": 153.0,
+            "minWidth": 169.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.1224978637695312e+02,
+            "area": 9773.0,
+            "minHeight": 1.0670430755615234e+02,
+            "minWidth": 1.3001173400878906e+02
+        },
+        {
+            "class_id": 3,
+            "perimeter": 5.9334521484375000e+02,
+            "area": 2.3834500000000000e+04,
+            "minHeight": 165.0,
+            "minWidth": 180.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.6797265625000000e+02,
+            "area": 2.3341500000000000e+04,
+            "minHeight": 160.0,
+            "minWidth": 177.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 6.2284271240234375e+02,
+            "area": 28001.0,
+            "minHeight": 177.0,
+            "minWidth": 193.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.6391375732421875e+02,
+            "area": 3.1739500000000000e+04,
+            "minHeight": 185.0,
+            "minWidth": 207.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 7.0088433837890625e+02,
+            "area": 3.4201500000000000e+04,
+            "minHeight": 2.2430471801757812e+02,
+            "minWidth": 1.9037168884277344e+02
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.5311984252929688e+02,
+            "area": 1.4261500000000000e+04,
+            "minHeight": 1.1599998474121094e+02,
+            "minWidth": 1.4399996948242188e+02
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.5126196289062500e+02,
+            "area": 1.4763500000000000e+04,
+            "minHeight": 130.0,
+            "minWidth": 134.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 6.3270056152343750e+02,
+            "area": 27752.0,
+            "minHeight": 177.0,
+            "minWidth": 195.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.3560513305664062e+02,
+            "area": 1.3740500000000000e+04,
+            "minHeight": 121.0,
+            "minWidth": 134.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.5249957275390625e+02,
+            "area": 29469.0,
+            "minHeight": 187.0,
+            "minWidth": 199.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.5674218750000000e+02,
+            "area": 3.0999500000000000e+04,
+            "minHeight": 191.0,
+            "minWidth": 198.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 6.0787213134765625e+02,
+            "area": 26807.0,
+            "minHeight": 177.0,
+            "minWidth": 182.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.5383050537109375e+02,
+            "area": 2.2145500000000000e+04,
+            "minHeight": 161.0,
+            "minWidth": 166.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.7031579589843750e+02,
+            "area": 3.1360500000000000e+04,
+            "minHeight": 178.0,
+            "minWidth": 209.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.5409039306640625e+02,
+            "area": 1.4884500000000000e+04,
+            "minHeight": 130.0,
+            "minWidth": 136.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 7.1644067382812500e+02,
+            "area": 36976.0,
+            "minHeight": 209.0,
+            "minWidth": 216.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.6049957275390625e+02,
+            "area": 31278.0,
+            "minHeight": 194.0,
+            "minWidth": 196.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 7.3005590820312500e+02,
+            "area": 3.6039500000000000e+04,
+            "minHeight": 206.0,
+            "minWidth": 218.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.1313709259033203e+01,
+            "area": 94.0,
+            "minHeight": 8.0,
+            "minWidth": 20.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.6716146850585938e+02,
+            "area": 15764.0,
+            "minHeight": 1.2799998474121094e+02,
+            "minWidth": 1.4599996948242188e+02
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.3660003662109375e+02,
+            "area": 2.9174500000000000e+04,
+            "minHeight": 1.7599996948242188e+02,
+            "minWidth": 1.9999996948242188e+02
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.1271783447265625e+02,
+            "area": 1.9006500000000000e+04,
+            "minHeight": 148.0,
+            "minWidth": 152.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.6823254394531250e+02,
+            "area": 1.5705500000000000e+04,
+            "minHeight": 129.0,
+            "minWidth": 147.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.3778887939453125e+02,
+            "area": 24246.0,
+            "minHeight": 173.0,
+            "minWidth": 175.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.7215643310546875e+02,
+            "area": 32611.0,
+            "minHeight": 191.0,
+            "minWidth": 206.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.8747015380859375e+02,
+            "area": 34032.0,
+            "minHeight": 202.0,
+            "minWidth": 205.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.1178887939453125e+02,
+            "area": 18259.0,
+            "minHeight": 147.0,
+            "minWidth": 154.0
+        },
+        {
+            "class_id": 8,
+            "perimeter": 7.1561224365234375e+02,
+            "area": 36919.0,
+            "minHeight": 205.0,
+            "minWidth": 219.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.4952899169921875e+02,
+            "area": 28485.0,
+            "minHeight": 1.8599996948242188e+02,
+            "minWidth": 1.9099996948242188e+02
+        },
+        {
+            "class_id": 8,
+            "perimeter": 7.1185491943359375e+02,
+            "area": 3.6620500000000000e+04,
+            "minHeight": 2.0199996948242188e+02,
+            "minWidth": 2.2099996948242188e+02
+        },
+        {
+            "class_id": 1,
+            "perimeter": 5.2887719726562500e+02,
+            "area": 17726.0,
+            "minHeight": 154.0,
+            "minWidth": 144.0
+        },
+        {
+            "class_id": 8,
+            "perimeter": 7.2009753417968750e+02,
+            "area": 37355.0,
+            "minHeight": 207.0,
+            "minWidth": 221.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.5126196289062500e+02,
+            "area": 1.4710500000000000e+04,
+            "minHeight": 125.0,
+            "minWidth": 139.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.3401428222656250e+02,
+            "area": 28898.0,
+            "minHeight": 185.0,
+            "minWidth": 190.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.4158789062500000e+02,
+            "area": 23126.0,
+            "minHeight": 1.5299996948242188e+02,
+            "minWidth": 1.8899996948242188e+02
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.6142135620117188e+01,
+            "area": 123.0,
+            "minHeight": 21.0,
+            "minWidth": 10.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.0611480712890625e+02,
+            "area": 2.6486500000000000e+04,
+            "minHeight": 175.0,
+            "minWidth": 184.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.7906097412109375e+02,
+            "area": 1.6449500000000000e+04,
+            "minHeight": 127.0,
+            "minWidth": 155.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.5518585205078125e+02,
+            "area": 30659.0,
+            "minHeight": 182.0,
+            "minWidth": 203.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.2568835449218750e+02,
+            "area": 1.9976500000000000e+04,
+            "minHeight": 149.0,
+            "minWidth": 161.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.3271783447265625e+02,
+            "area": 2.0262500000000000e+04,
+            "minHeight": 1.4499996948242188e+02,
+            "minWidth": 1.6499996948242188e+02
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.1096044921875000e+02,
+            "area": 18828.0,
+            "minHeight": 149.0,
+            "minWidth": 151.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.6922747802734375e+02,
+            "area": 3.2195500000000000e+04,
+            "minHeight": 191.0,
+            "minWidth": 206.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.7455841064453125e+02,
+            "area": 23806.0,
+            "minHeight": 159.0,
+            "minWidth": 181.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.1651678466796875e+02,
+            "area": 1.9355500000000000e+04,
+            "minHeight": 148.0,
+            "minWidth": 158.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.4809039306640625e+02,
+            "area": 1.4585500000000000e+04,
+            "minHeight": 126.0,
+            "minWidth": 137.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.5491882324218750e+02,
+            "area": 1.4991500000000000e+04,
+            "minHeight": 126.0,
+            "minWidth": 141.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.4817364501953125e+02,
+            "area": 2.1525500000000000e+04,
+            "minHeight": 156.0,
+            "minWidth": 167.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.2279394531250000e+02,
+            "area": 11346.0,
+            "minHeight": 1.1099998474121094e+02,
+            "minWidth": 1.2499998474121094e+02
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.7995538330078125e+02,
+            "area": 33261.0,
+            "minHeight": 190.0,
+            "minWidth": 215.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.7140411376953125e+02,
+            "area": 1.6031500000000000e+04,
+            "minHeight": 132.0,
+            "minWidth": 145.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.5950460815429688e+02,
+            "area": 15257.0,
+            "minHeight": 128.0,
+            "minWidth": 141.0
+        },
+        {
+            "class_id": 8,
+            "perimeter": 7.0712695312500000e+02,
+            "area": 35991.0,
+            "minHeight": 2.0899996948242188e+02,
+            "minWidth": 2.0899996948242188e+02
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.6605590820312500e+02,
+            "area": 3.1987500000000000e+04,
+            "minHeight": 1.8799996948242188e+02,
+            "minWidth": 2.0799996948242188e+02
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.8957061767578125e+02,
+            "area": 3.4035500000000000e+04,
+            "minHeight": 203.0,
+            "minWidth": 203.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.3177166748046875e+02,
+            "area": 2.8702500000000000e+04,
+            "minHeight": 184.0,
+            "minWidth": 189.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 7.2078381347656250e+02,
+            "area": 36988.0,
+            "minHeight": 205.0,
+            "minWidth": 221.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.1803149414062500e+02,
+            "area": 1.9385500000000000e+04,
+            "minHeight": 1.4699996948242188e+02,
+            "minWidth": 1.5799996948242188e+02
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.7405590820312500e+02,
+            "area": 3.2728500000000000e+04,
+            "minHeight": 195.0,
+            "minWidth": 205.0
+        },
+        {
+            "class_id": 8,
+            "perimeter": 7.0516857910156250e+02,
+            "area": 3.6006500000000000e+04,
+            "minHeight": 208.0,
+            "minWidth": 214.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.9835742187500000e+02,
+            "area": 32328.0,
+            "minHeight": 188.0,
+            "minWidth": 218.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 6.2035742187500000e+02,
+            "area": 27718.0,
+            "minHeight": 171.0,
+            "minWidth": 196.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.6498486328125000e+02,
+            "area": 31738.0,
+            "minHeight": 186.0,
+            "minWidth": 208.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.6308532714843750e+02,
+            "area": 3.1655500000000000e+04,
+            "minHeight": 188.0,
+            "minWidth": 203.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 7.0185491943359375e+02,
+            "area": 3.5377500000000000e+04,
+            "minHeight": 199.0,
+            "minWidth": 219.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 6.1684271240234375e+02,
+            "area": 27515.0,
+            "minHeight": 174.0,
+            "minWidth": 193.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.6374725341796875e+02,
+            "area": 1.5454500000000000e+04,
+            "minHeight": 131.0,
+            "minWidth": 141.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.4049243164062500e+02,
+            "area": 1.3761500000000000e+04,
+            "minHeight": 116.0,
+            "minWidth": 135.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 7.0361224365234375e+02,
+            "area": 35768.0,
+            "minHeight": 198.0,
+            "minWidth": 220.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.6132800292968750e+02,
+            "area": 31602.0,
+            "minHeight": 193.0,
+            "minWidth": 198.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.6035742187500000e+02,
+            "area": 24958.0,
+            "minHeight": 186.0,
+            "minWidth": 184.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.7368835449218750e+02,
+            "area": 2.3329500000000000e+04,
+            "minHeight": 171.0,
+            "minWidth": 163.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.1601428222656250e+02,
+            "area": 27523.0,
+            "minHeight": 178.0,
+            "minWidth": 188.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.7821527099609375e+02,
+            "area": 24083.0,
+            "minHeight": 163.0,
+            "minWidth": 180.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.7162951660156250e+02,
+            "area": 2.3447500000000000e+04,
+            "minHeight": 153.0,
+            "minWidth": 187.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.5184774780273438e+02,
+            "area": 14646.0,
+            "minHeight": 127.0,
+            "minWidth": 137.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.4675946044921875e+02,
+            "area": 21506.0,
+            "minHeight": 154.0,
+            "minWidth": 168.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.5239904785156250e+02,
+            "area": 3.0563500000000000e+04,
+            "minHeight": 191.0,
+            "minWidth": 197.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.1197265625000000e+02,
+            "area": 2.6751500000000000e+04,
+            "minHeight": 177.0,
+            "minWidth": 182.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.3419091796875000e+02,
+            "area": 13592.0,
+            "minHeight": 1.1899998474121094e+02,
+            "minWidth": 1.3499996948242188e+02
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.3884271240234375e+02,
+            "area": 29378.0,
+            "minHeight": 1.8499996948242188e+02,
+            "minWidth": 1.9299996948242188e+02
+        },
+        {
+            "class_id": 3,
+            "perimeter": 6.0213201904296875e+02,
+            "area": 17422.0,
+            "minHeight": 1.4700933837890625e+02,
+            "minWidth": 1.6948001098632812e+02
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.5475946044921875e+02,
+            "area": 22038.0,
+            "minHeight": 165.0,
+            "minWidth": 161.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.6265893554687500e+02,
+            "area": 2.2676500000000000e+04,
+            "minHeight": 152.0,
+            "minWidth": 180.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 7.1078381347656250e+02,
+            "area": 36240.0,
+            "minHeight": 1.9599996948242188e+02,
+            "minWidth": 2.2499996948242188e+02
+        },
+        {
+            "class_id": 3,
+            "perimeter": 6.0584777832031250e+02,
+            "area": 21824.0,
+            "minHeight": 1.5799996948242188e+02,
+            "minWidth": 1.7099996948242188e+02
+        },
+        {
+            "class_id": 3,
+            "perimeter": 6.2377166748046875e+02,
+            "area": 2.7906500000000000e+04,
+            "minHeight": 1.7999996948242188e+02,
+            "minWidth": 1.8899996948242188e+02
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.0507821655273438e+02,
+            "area": 16918.0,
+            "minHeight": 121.0,
+            "minWidth": 162.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.2429138183593750e+02,
+            "area": 1.7837500000000000e+04,
+            "minHeight": 144.0,
+            "minWidth": 153.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.5698486328125000e+02,
+            "area": 31162.0,
+            "minHeight": 192.0,
+            "minWidth": 198.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.4967114257812500e+02,
+            "area": 30455.0,
+            "minHeight": 182.0,
+            "minWidth": 202.0
+        },
+        {
+            "class_id": 8,
+            "perimeter": 7.2009753417968750e+02,
+            "area": 37471.0,
+            "minHeight": 207.0,
+            "minWidth": 221.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 6.0694323730468750e+02,
+            "area": 2.6628500000000000e+04,
+            "minHeight": 1.7699996948242188e+02,
+            "minWidth": 1.8299996948242188e+02
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.8429141235351562e+02,
+            "area": 1.6365500000000000e+04,
+            "minHeight": 1.3599996948242188e+02,
+            "minWidth": 1.4099996948242188e+02
+        },
+        {
+            "class_id": 6,
+            "perimeter": 7.0805590820312500e+02,
+            "area": 3.4808500000000000e+04,
+            "minHeight": 193.0,
+            "minWidth": 224.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.2437469482421875e+02,
+            "area": 1.9818500000000000e+04,
+            "minHeight": 144.0,
+            "minWidth": 163.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.3304370117187500e+02,
+            "area": 28640.0,
+            "minHeight": 182.0,
+            "minWidth": 189.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.5906097412109375e+02,
+            "area": 1.5367500000000000e+04,
+            "minHeight": 132.0,
+            "minWidth": 140.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.9106097412109375e+02,
+            "area": 2.4082500000000000e+04,
+            "minHeight": 173.0,
+            "minWidth": 165.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.6391375732421875e+02,
+            "area": 3.1434500000000000e+04,
+            "minHeight": 1.8299996948242188e+02,
+            "minWidth": 2.0899996948242188e+02
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.0106097412109375e+02,
+            "area": 1.8128500000000000e+04,
+            "minHeight": 145.0,
+            "minWidth": 148.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 5.6865893554687500e+02,
+            "area": 2.3072500000000000e+04,
+            "minHeight": 152.0,
+            "minWidth": 183.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.4957061767578125e+02,
+            "area": 3.0293500000000000e+04,
+            "minHeight": 1.7899996948242188e+02,
+            "minWidth": 2.0699996948242188e+02
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.4411480712890625e+02,
+            "area": 2.7508500000000000e+04,
+            "minHeight": 184.0,
+            "minWidth": 190.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 5.7387213134765625e+02,
+            "area": 23701.0,
+            "minHeight": 162.0,
+            "minWidth": 180.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.1061730957031250e+02,
+            "area": 18671.0,
+            "minHeight": 1.4699996948242188e+02,
+            "minWidth": 1.5399996948242188e+02
+        },
+        {
+            "class_id": 8,
+            "perimeter": 7.1161224365234375e+02,
+            "area": 36596.0,
+            "minHeight": 207.0,
+            "minWidth": 215.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.2001428222656250e+02,
+            "area": 27817.0,
+            "minHeight": 178.0,
+            "minWidth": 190.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 5.3281829833984375e+02,
+            "area": 20150.0,
+            "minHeight": 143.0,
+            "minWidth": 165.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.5655841064453125e+02,
+            "area": 28860.0,
+            "minHeight": 186.0,
+            "minWidth": 195.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.3567114257812500e+02,
+            "area": 29096.0,
+            "minHeight": 186.0,
+            "minWidth": 191.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.5158789062500000e+02,
+            "area": 21631.0,
+            "minHeight": 148.0,
+            "minWidth": 177.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.6148736572265625e+02,
+            "area": 2.2672500000000000e+04,
+            "minHeight": 154.0,
+            "minWidth": 178.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.6298486328125000e+02,
+            "area": 31753.0,
+            "minHeight": 194.0,
+            "minWidth": 199.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.3461730957031250e+02,
+            "area": 20549.0,
+            "minHeight": 153.0,
+            "minWidth": 160.0
+        },
+        {
+            "class_id": 8,
+            "perimeter": 7.0551177978515625e+02,
+            "area": 3.5810500000000000e+04,
+            "minHeight": 2.0799996948242188e+02,
+            "minWidth": 2.1299996948242188e+02
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.5049957275390625e+02,
+            "area": 30202.0,
+            "minHeight": 1.7599996948242188e+02,
+            "minWidth": 2.0899996948242188e+02
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.4443353271484375e+02,
+            "area": 1.4310500000000000e+04,
+            "minHeight": 124.0,
+            "minWidth": 136.0
+        },
+        {
+            "class_id": 8,
+            "perimeter": 7.1419805908203125e+02,
+            "area": 3.6687500000000000e+04,
+            "minHeight": 2.0499996948242188e+02,
+            "minWidth": 2.1799996948242188e+02
+        },
+        {
+            "class_id": 3,
+            "perimeter": 5.7797265625000000e+02,
+            "area": 2.4161500000000000e+04,
+            "minHeight": 167.0,
+            "minWidth": 175.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.5441632080078125e+02,
+            "area": 22067.0,
+            "minHeight": 165.0,
+            "minWidth": 162.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.5888433837890625e+02,
+            "area": 3.1421500000000000e+04,
+            "minHeight": 192.0,
+            "minWidth": 201.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.4981329345703125e+02,
+            "area": 30597.0,
+            "minHeight": 1.9299996948242188e+02,
+            "minWidth": 1.9399996948242188e+02
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.6880108642578125e+02,
+            "area": 3.0363500000000000e+04,
+            "minHeight": 1.9099996948242188e+02,
+            "minWidth": 1.9699996948242188e+02
+        },
+        {
+            "class_id": 3,
+            "perimeter": 6.6465893554687500e+02,
+            "area": 2.8662500000000000e+04,
+            "minHeight": 177.0,
+            "minWidth": 206.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.5488433837890625e+02,
+            "area": 3.0635500000000000e+04,
+            "minHeight": 187.0,
+            "minWidth": 204.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.7807318115234375e+02,
+            "area": 24107.0,
+            "minHeight": 157.0,
+            "minWidth": 183.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.6714422607421875e+02,
+            "area": 2.2989500000000000e+04,
+            "minHeight": 159.0,
+            "minWidth": 177.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 6.3217364501953125e+02,
+            "area": 2.7777500000000000e+04,
+            "minHeight": 181.0,
+            "minWidth": 184.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.3037469482421875e+02,
+            "area": 1.9901500000000000e+04,
+            "minHeight": 158.0,
+            "minWidth": 152.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.7088433837890625e+02,
+            "area": 3.2291500000000000e+04,
+            "minHeight": 203.0,
+            "minWidth": 196.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.2118585205078125e+02,
+            "area": 27877.0,
+            "minHeight": 1.7799996948242188e+02,
+            "minWidth": 1.8999996948242188e+02
+        },
+        {
+            "class_id": 4,
+            "perimeter": 4.9477670288085938e+02,
+            "area": 1.4456500000000000e+04,
+            "minHeight": 1.2439952850341797e+02,
+            "minWidth": 1.5488746643066406e+02
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.7851678466796875e+02,
+            "area": 2.1892500000000000e+04,
+            "minHeight": 1.6399996948242188e+02,
+            "minWidth": 1.6299996948242188e+02
+        },
+        {
+            "class_id": 3,
+            "perimeter": 5.9906097412109375e+02,
+            "area": 1.8985500000000000e+04,
+            "minHeight": 1.5124450683593750e+02,
+            "minWidth": 1.6883792114257812e+02
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.6116146850585938e+02,
+            "area": 15411.0,
+            "minHeight": 130.0,
+            "minWidth": 141.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 4.7556350708007812e+01,
+            "area": 9.3500000000000000e+01,
+            "minHeight": 16.0,
+            "minWidth": 11.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 5.9280108642578125e+02,
+            "area": 2.4070500000000000e+04,
+            "minHeight": 171.0,
+            "minWidth": 179.0
+        },
+        {
+            "class_id": 8,
+            "perimeter": 7.1977166748046875e+02,
+            "area": 3.3858500000000000e+04,
+            "minHeight": 1.8799996948242188e+02,
+            "minWidth": 2.2099996948242188e+02
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.7247518920898438e+02,
+            "area": 16128.0,
+            "minHeight": 130.0,
+            "minWidth": 149.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 5.9397265625000000e+02,
+            "area": 2.5410500000000000e+04,
+            "minHeight": 168.0,
+            "minWidth": 182.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.4027416992187500e+02,
+            "area": 20984.0,
+            "minHeight": 157.0,
+            "minWidth": 160.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.0217364501953125e+02,
+            "area": 2.4999500000000000e+04,
+            "minHeight": 161.0,
+            "minWidth": 187.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 5.6641632080078125e+02,
+            "area": 22445.0,
+            "minHeight": 153.0,
+            "minWidth": 180.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.2701934814453125e+02,
+            "area": 19018.0,
+            "minHeight": 140.0,
+            "minWidth": 161.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.5698486328125000e+02,
+            "area": 31161.0,
+            "minHeight": 1.9199996948242188e+02,
+            "minWidth": 1.9799996948242188e+02
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.5674218750000000e+02,
+            "area": 3.0517500000000000e+04,
+            "minHeight": 1.8899996948242188e+02,
+            "minWidth": 1.9999996948242188e+02
+        },
+        {
+            "class_id": 3,
+            "perimeter": 6.0514422607421875e+02,
+            "area": 2.6303500000000000e+04,
+            "minHeight": 167.0,
+            "minWidth": 188.0
+        },
+        {
+            "class_id": 8,
+            "perimeter": 7.0785491943359375e+02,
+            "area": 3.6066500000000000e+04,
+            "minHeight": 211.0,
+            "minWidth": 210.0
+        },
+        {
+            "class_id": 8,
+            "perimeter": 7.1044067382812500e+02,
+            "area": 36411.0,
+            "minHeight": 208.0,
+            "minWidth": 214.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.5639904785156250e+02,
+            "area": 3.1114500000000000e+04,
+            "minHeight": 193.0,
+            "minWidth": 197.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.4651678466796875e+02,
+            "area": 2.1470500000000000e+04,
+            "minHeight": 151.0,
+            "minWidth": 170.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.6757061767578125e+02,
+            "area": 3.2141500000000000e+04,
+            "minHeight": 190.0,
+            "minWidth": 205.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.6241632080078125e+02,
+            "area": 22802.0,
+            "minHeight": 157.0,
+            "minWidth": 174.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 7.7201428222656250e+02,
+            "area": 29485.0,
+            "minHeight": 1.7799996948242188e+02,
+            "minWidth": 2.0599996948242188e+02
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.7797265625000000e+02,
+            "area": 2.3851500000000000e+04,
+            "minHeight": 155.0,
+            "minWidth": 187.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.3791375732421875e+02,
+            "area": 2.9203500000000000e+04,
+            "minHeight": 190.0,
+            "minWidth": 189.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 6.0811480712890625e+02,
+            "area": 2.6752500000000000e+04,
+            "minHeight": 178.0,
+            "minWidth": 182.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 5.9421527099609375e+02,
+            "area": 25505.0,
+            "minHeight": 170.0,
+            "minWidth": 181.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.7347015380859375e+02,
+            "area": 32567.0,
+            "minHeight": 191.0,
+            "minWidth": 209.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.8829852294921875e+02,
+            "area": 34043.0,
+            "minHeight": 192.0,
+            "minWidth": 216.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.2627416992187500e+02,
+            "area": 19990.0,
+            "minHeight": 1.4699996948242188e+02,
+            "minWidth": 1.6299996948242188e+02
+        },
+        {
+            "class_id": 3,
+            "perimeter": 5.8338684082031250e+02,
+            "area": 24609.0,
+            "minHeight": 167.0,
+            "minWidth": 178.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.9171276855468750e+02,
+            "area": 3.4227500000000000e+04,
+            "minHeight": 207.0,
+            "minWidth": 203.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.1906097412109375e+02,
+            "area": 1.8377500000000000e+04,
+            "minHeight": 140.0,
+            "minWidth": 160.0
+        },
+        {
+            "class_id": 8,
+            "perimeter": 7.2219805908203125e+02,
+            "area": 3.7411500000000000e+04,
+            "minHeight": 205.0,
+            "minWidth": 222.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.8464172363281250e+02,
+            "area": 33722.0,
+            "minHeight": 1.9999996948242188e+02,
+            "minWidth": 2.0499996948242188e+02
+        },
+        {
+            "class_id": 2,
+            "perimeter": 3.5899494171142578e+01,
+            "area": 5.3500000000000000e+01,
+            "minHeight": 13.0,
+            "minWidth": 7.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.2021527099609375e+02,
+            "area": 27467.0,
+            "minHeight": 173.0,
+            "minWidth": 191.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.5011480712890625e+02,
+            "area": 2.8576500000000000e+04,
+            "minHeight": 184.0,
+            "minWidth": 197.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.6147015380859375e+02,
+            "area": 31696.0,
+            "minHeight": 191.0,
+            "minWidth": 203.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.7791375732421875e+02,
+            "area": 3.2711500000000000e+04,
+            "minHeight": 193.0,
+            "minWidth": 206.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.3320312500000000e+02,
+            "area": 2.0527500000000000e+04,
+            "minHeight": 154.0,
+            "minWidth": 158.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.5722747802734375e+02,
+            "area": 3.1211500000000000e+04,
+            "minHeight": 192.0,
+            "minWidth": 199.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 6.2352899169921875e+02,
+            "area": 27877.0,
+            "minHeight": 169.0,
+            "minWidth": 199.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.3177166748046875e+02,
+            "area": 2.8854500000000000e+04,
+            "minHeight": 177.0,
+            "minWidth": 196.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.0457568359375000e+02,
+            "area": 2.4374500000000000e+04,
+            "minHeight": 157.0,
+            "minWidth": 185.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.5245794677734375e+02,
+            "area": 2.9728500000000000e+04,
+            "minHeight": 185.0,
+            "minWidth": 196.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.1954626464843750e+02,
+            "area": 1.9285500000000000e+04,
+            "minHeight": 142.0,
+            "minWidth": 162.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.5464172363281250e+02,
+            "area": 30875.0,
+            "minHeight": 190.0,
+            "minWidth": 200.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.1106097412109375e+02,
+            "area": 1.8850500000000000e+04,
+            "minHeight": 145.0,
+            "minWidth": 153.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.1494323730468750e+02,
+            "area": 2.7251500000000000e+04,
+            "minHeight": 176.0,
+            "minWidth": 188.0
+        },
+        {
+            "class_id": 8,
+            "perimeter": 7.1136962890625000e+02,
+            "area": 3.6307500000000000e+04,
+            "minHeight": 205.0,
+            "minWidth": 216.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 5.6831579589843750e+02,
+            "area": 2.3194500000000000e+04,
+            "minHeight": 154.0,
+            "minWidth": 182.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 7.0961224365234375e+02,
+            "area": 36123.0,
+            "minHeight": 193.0,
+            "minWidth": 228.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.3700207519531250e+02,
+            "area": 2.0807500000000000e+04,
+            "minHeight": 154.0,
+            "minWidth": 164.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.8795538330078125e+02,
+            "area": 34109.0,
+            "minHeight": 204.0,
+            "minWidth": 205.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.6060003662109375e+02,
+            "area": 3.1352500000000000e+04,
+            "minHeight": 1.8399996948242188e+02,
+            "minWidth": 2.0399996948242188e+02
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.5064172363281250e+02,
+            "area": 30821.0,
+            "minHeight": 192.0,
+            "minWidth": 196.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 5.9748736572265625e+02,
+            "area": 2.5426500000000000e+04,
+            "minHeight": 163.0,
+            "minWidth": 187.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 6.7219091796875000e+02,
+            "area": 27278.0,
+            "minHeight": 173.0,
+            "minWidth": 193.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.1944573974609375e+02,
+            "area": 19537.0,
+            "minHeight": 1.4699996948242188e+02,
+            "minWidth": 1.5899996948242188e+02
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.5841632080078125e+02,
+            "area": 22606.0,
+            "minHeight": 161.0,
+            "minWidth": 168.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.8864172363281250e+02,
+            "area": 34038.0,
+            "minHeight": 193.0,
+            "minWidth": 214.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 5.2619091796875000e+02,
+            "area": 17436.0,
+            "minHeight": 1.3299996948242188e+02,
+            "minWidth": 1.5899996948242188e+02
+        },
+        {
+            "class_id": 8,
+            "perimeter": 7.1444067382812500e+02,
+            "area": 36844.0,
+            "minHeight": 2.0699996948242188e+02,
+            "minWidth": 2.1699996948242188e+02
+        },
+        {
+            "class_id": 2,
+            "perimeter": 4.9798989868164062e+02,
+            "area": 17880.0,
+            "minHeight": 144.0,
+            "minWidth": 146.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 6.0411480712890625e+02,
+            "area": 2.6368500000000000e+04,
+            "minHeight": 172.0,
+            "minWidth": 186.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 6.1821527099609375e+02,
+            "area": 27369.0,
+            "minHeight": 175.0,
+            "minWidth": 188.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.4074218750000000e+02,
+            "area": 2.9645500000000000e+04,
+            "minHeight": 181.0,
+            "minWidth": 200.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.4726196289062500e+02,
+            "area": 1.4437500000000000e+04,
+            "minHeight": 125.0,
+            "minWidth": 137.0
+        },
+        {
+            "class_id": 8,
+            "perimeter": 7.3092596435546875e+02,
+            "area": 38496.0,
+            "minHeight": 208.0,
+            "minWidth": 226.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.3160513305664062e+02,
+            "area": 1.3484500000000000e+04,
+            "minHeight": 119.0,
+            "minWidth": 134.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 7.5284271240234375e+02,
+            "area": 26980.0,
+            "minHeight": 186.0,
+            "minWidth": 194.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.6598989868164062e+02,
+            "area": 15668.0,
+            "minHeight": 136.0,
+            "minWidth": 138.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.4411480712890625e+02,
+            "area": 2.9905500000000000e+04,
+            "minHeight": 178.0,
+            "minWidth": 200.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.1993103027343750e+02,
+            "area": 19532.0,
+            "minHeight": 148.0,
+            "minWidth": 160.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.6906097412109375e+02,
+            "area": 1.5852500000000000e+04,
+            "minHeight": 130.0,
+            "minWidth": 147.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 5.9651678466796875e+02,
+            "area": 2.5025500000000000e+04,
+            "minHeight": 1.6199996948242188e+02,
+            "minWidth": 1.8399996948242188e+02
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.5124475097656250e+02,
+            "area": 21941.0,
+            "minHeight": 159.0,
+            "minWidth": 167.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 6.0962951660156250e+02,
+            "area": 2.6702500000000000e+04,
+            "minHeight": 173.0,
+            "minWidth": 186.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.5724475097656250e+02,
+            "area": 22344.0,
+            "minHeight": 154.0,
+            "minWidth": 175.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 6.1138684082031250e+02,
+            "area": 26767.0,
+            "minHeight": 171.0,
+            "minWidth": 188.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 5.8797265625000000e+02,
+            "area": 2.4909500000000000e+04,
+            "minHeight": 169.0,
+            "minWidth": 178.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.5948736572265625e+02,
+            "area": 2.2470500000000000e+04,
+            "minHeight": 153.0,
+            "minWidth": 178.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.0744573974609375e+02,
+            "area": 24030.0,
+            "minHeight": 1.5399996948242188e+02,
+            "minWidth": 1.8599996948242188e+02
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.6184774780273438e+02,
+            "area": 15380.0,
+            "minHeight": 132.0,
+            "minWidth": 137.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.1660003662109375e+02,
+            "area": 2.7396500000000000e+04,
+            "minHeight": 177.0,
+            "minWidth": 189.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.5791375732421875e+02,
+            "area": 3.1138500000000000e+04,
+            "minHeight": 1.8499996948242188e+02,
+            "minWidth": 2.0399996948242188e+02
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.7449957275390625e+02,
+            "area": 32049.0,
+            "minHeight": 190.0,
+            "minWidth": 207.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.6041632080078125e+02,
+            "area": 22188.0,
+            "minHeight": 150.0,
+            "minWidth": 180.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.6191375732421875e+02,
+            "area": 3.1572500000000000e+04,
+            "minHeight": 195.0,
+            "minWidth": 196.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.1344573974609375e+02,
+            "area": 24647.0,
+            "minHeight": 164.0,
+            "minWidth": 185.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.1393103027343750e+02,
+            "area": 19160.0,
+            "minHeight": 147.0,
+            "minWidth": 158.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.2651678466796875e+02,
+            "area": 2.0096500000000000e+04,
+            "minHeight": 150.0,
+            "minWidth": 161.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.4167114257812500e+02,
+            "area": 29634.0,
+            "minHeight": 184.0,
+            "minWidth": 196.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.0637466430664062e+02,
+            "area": 1.8599500000000000e+04,
+            "minHeight": 142.0,
+            "minWidth": 156.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 6.1187213134765625e+02,
+            "area": 26902.0,
+            "minHeight": 1.6699996948242188e+02,
+            "minWidth": 1.9399996948242188e+02
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.4464172363281250e+02,
+            "area": 30027.0,
+            "minHeight": 1.8299996948242188e+02,
+            "minWidth": 2.0199996948242188e+02
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.1637469482421875e+02,
+            "area": 1.9195500000000000e+04,
+            "minHeight": 1.4599996948242188e+02,
+            "minWidth": 1.5699996948242188e+02
+        },
+        {
+            "class_id": 6,
+            "perimeter": 7.2702648925781250e+02,
+            "area": 3.7722500000000000e+04,
+            "minHeight": 198.0,
+            "minWidth": 232.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.0035742187500000e+02,
+            "area": 25906.0,
+            "minHeight": 176.0,
+            "minWidth": 181.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.5974725341796875e+02,
+            "area": 1.5245500000000000e+04,
+            "minHeight": 128.0,
+            "minWidth": 142.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.4508532714843750e+02,
+            "area": 2.9998500000000000e+04,
+            "minHeight": 184.0,
+            "minWidth": 198.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 6.1051678466796875e+02,
+            "area": 2.5285500000000000e+04,
+            "minHeight": 175.0,
+            "minWidth": 174.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.3201428222656250e+02,
+            "area": 28560.0,
+            "minHeight": 184.0,
+            "minWidth": 190.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.3265893554687500e+02,
+            "area": 2.7996500000000000e+04,
+            "minHeight": 181.0,
+            "minWidth": 186.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.6815643310546875e+02,
+            "area": 31821.0,
+            "minHeight": 188.0,
+            "minWidth": 207.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.6322747802734375e+02,
+            "area": 3.1599500000000000e+04,
+            "minHeight": 196.0,
+            "minWidth": 198.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 7.0536962890625000e+02,
+            "area": 3.5687500000000000e+04,
+            "minHeight": 198.0,
+            "minWidth": 220.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.5675946044921875e+02,
+            "area": 22150.0,
+            "minHeight": 148.0,
+            "minWidth": 179.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.1803155517578125e+02,
+            "area": 1.9344500000000000e+04,
+            "minHeight": 146.0,
+            "minWidth": 159.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.5948736572265625e+02,
+            "area": 2.2277500000000000e+04,
+            "minHeight": 1.5299996948242188e+02,
+            "minWidth": 1.7799996948242188e+02
+        },
+        {
+            "class_id": 6,
+            "perimeter": 7.0385491943359375e+02,
+            "area": 3.5784500000000000e+04,
+            "minHeight": 201.0,
+            "minWidth": 218.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.6815643310546875e+02,
+            "area": 31862.0,
+            "minHeight": 189.0,
+            "minWidth": 206.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.3544573974609375e+02,
+            "area": 20716.0,
+            "minHeight": 153.0,
+            "minWidth": 161.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.7604876708984375e+02,
+            "area": 15801.0,
+            "minHeight": 133.0,
+            "minWidth": 139.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.2401428222656250e+02,
+            "area": 28078.0,
+            "minHeight": 179.0,
+            "minWidth": 191.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.6314422607421875e+02,
+            "area": 2.7991500000000000e+04,
+            "minHeight": 170.0,
+            "minWidth": 200.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.6548736572265625e+02,
+            "area": 2.2950500000000000e+04,
+            "minHeight": 153.0,
+            "minWidth": 181.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.4126196289062500e+02,
+            "area": 1.4077500000000000e+04,
+            "minHeight": 126.0,
+            "minWidth": 133.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.1221527099609375e+02,
+            "area": 27014.0,
+            "minHeight": 176.0,
+            "minWidth": 184.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.4653405761718750e+02,
+            "area": 14346.0,
+            "minHeight": 123.0,
+            "minWidth": 136.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.5227416992187500e+02,
+            "area": 21468.0,
+            "minHeight": 154.0,
+            "minWidth": 169.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.4387213134765625e+02,
+            "area": 28427.0,
+            "minHeight": 184.0,
+            "minWidth": 193.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.4926196289062500e+02,
+            "area": 1.4535500000000000e+04,
+            "minHeight": 125.0,
+            "minWidth": 138.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 6.1552899169921875e+02,
+            "area": 27385.0,
+            "minHeight": 1.7099996948242188e+02,
+            "minWidth": 1.9299996948242188e+02
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.5439904785156250e+02,
+            "area": 3.0356500000000000e+04,
+            "minHeight": 189.0,
+            "minWidth": 200.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.5587213134765625e+02,
+            "area": 22273.0,
+            "minHeight": 167.0,
+            "minWidth": 166.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.4619091796875000e+02,
+            "area": 14242.0,
+            "minHeight": 122.0,
+            "minWidth": 138.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.3084271240234375e+02,
+            "area": 28757.0,
+            "minHeight": 184.0,
+            "minWidth": 190.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.4617364501953125e+02,
+            "area": 2.1567500000000000e+04,
+            "minHeight": 160.0,
+            "minWidth": 162.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.5633303833007812e+02,
+            "area": 15047.0,
+            "minHeight": 129.0,
+            "minWidth": 139.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.0188940429687500e+02,
+            "area": 1.8185500000000000e+04,
+            "minHeight": 137.0,
+            "minWidth": 157.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.5039904785156250e+02,
+            "area": 3.0502500000000000e+04,
+            "minHeight": 181.0,
+            "minWidth": 206.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 7.2068334960937500e+02,
+            "area": 3.6834500000000000e+04,
+            "minHeight": 201.0,
+            "minWidth": 227.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.7791375732421875e+02,
+            "area": 3.1881500000000000e+04,
+            "minHeight": 205.0,
+            "minWidth": 194.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.5526196289062500e+02,
+            "area": 1.4901500000000000e+04,
+            "minHeight": 126.0,
+            "minWidth": 140.0
+        },
+        {
+            "class_id": 8,
+            "perimeter": 7.2104370117187500e+02,
+            "area": 36319.0,
+            "minHeight": 1.9799996948242188e+02,
+            "minWidth": 2.1699996948242188e+02
+        },
+        {
+            "class_id": 8,
+            "perimeter": 7.2375439453125000e+02,
+            "area": 37857.0,
+            "minHeight": 2.1299996948242188e+02,
+            "minWidth": 2.1799996948242188e+02
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.1710260009765625e+02,
+            "area": 19379.0,
+            "minHeight": 148.0,
+            "minWidth": 158.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 1.5272792053222656e+02,
+            "area": 1.4305000000000000e+03,
+            "minHeight": 49.0,
+            "minWidth": 30.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 7.8435742187500000e+02,
+            "area": 26751.0,
+            "minHeight": 184.0,
+            "minWidth": 195.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.4649957275390625e+02,
+            "area": 30108.0,
+            "minHeight": 184.0,
+            "minWidth": 199.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.5184774780273438e+02,
+            "area": 14736.0,
+            "minHeight": 1.2499998474121094e+02,
+            "minWidth": 1.3899996948242188e+02
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.6457568359375000e+02,
+            "area": 1.5479500000000000e+04,
+            "minHeight": 128.0,
+            "minWidth": 145.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.8756347656250000e+02,
+            "area": 16424.0,
+            "minHeight": 136.0,
+            "minWidth": 140.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.1475946044921875e+02,
+            "area": 19206.0,
+            "minHeight": 148.0,
+            "minWidth": 158.0
+        },
+        {
+            "class_id": 8,
+            "perimeter": 7.0726910400390625e+02,
+            "area": 36152.0,
+            "minHeight": 204.0,
+            "minWidth": 217.0
+        },
+        {
+            "class_id": 8,
+            "perimeter": 7.2385491943359375e+02,
+            "area": 3.7801500000000000e+04,
+            "minHeight": 206.0,
+            "minWidth": 223.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.5219091796875000e+02,
+            "area": 14655.0,
+            "minHeight": 121.0,
+            "minWidth": 142.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.4598986816406250e+02,
+            "area": 17461.0,
+            "minHeight": 1.3699996948242188e+02,
+            "minWidth": 1.5299996948242188e+02
+        },
+        {
+            "class_id": 3,
+            "perimeter": 6.0197265625000000e+02,
+            "area": 2.6031500000000000e+04,
+            "minHeight": 167.0,
+            "minWidth": 187.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.7009039306640625e+02,
+            "area": 1.5780500000000000e+04,
+            "minHeight": 133.0,
+            "minWidth": 141.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.3742846679687500e+02,
+            "area": 2.9014500000000000e+04,
+            "minHeight": 1.7999996948242188e+02,
+            "minWidth": 1.9699996948242188e+02
+        },
+        {
+            "class_id": 8,
+            "perimeter": 7.2219805908203125e+02,
+            "area": 3.7602500000000000e+04,
+            "minHeight": 206.0,
+            "minWidth": 221.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 6.3649957275390625e+02,
+            "area": 29002.0,
+            "minHeight": 174.0,
+            "minWidth": 204.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.2613201904296875e+02,
+            "area": 19983.0,
+            "minHeight": 1.5099996948242188e+02,
+            "minWidth": 1.5599996948242188e+02
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.4867617797851562e+02,
+            "area": 14561.0,
+            "minHeight": 126.0,
+            "minWidth": 137.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.8157061767578125e+02,
+            "area": 3.3421500000000000e+04,
+            "minHeight": 197.0,
+            "minWidth": 205.0
+        },
+        {
+            "class_id": 8,
+            "perimeter": 7.3385491943359375e+02,
+            "area": 3.8759500000000000e+04,
+            "minHeight": 2.1899996948242188e+02,
+            "minWidth": 2.1499996948242188e+02
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.5621527099609375e+02,
+            "area": 26437.0,
+            "minHeight": 186.0,
+            "minWidth": 178.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 4.3414215087890625e+01,
+            "area": 2.0500000000000000e+01,
+            "minHeight": 21.0,
+            "minWidth": 1.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.3168835449218750e+02,
+            "area": 2.0335500000000000e+04,
+            "minHeight": 154.0,
+            "minWidth": 159.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.2861730957031250e+02,
+            "area": 26688.0,
+            "minHeight": 1.8399996948242188e+02,
+            "minWidth": 1.7599996948242188e+02
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.4500207519531250e+02,
+            "area": 2.1363500000000000e+04,
+            "minHeight": 153.0,
+            "minWidth": 169.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.7564675903320312e+02,
+            "area": 16331.0,
+            "minHeight": 131.0,
+            "minWidth": 149.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.6417364501953125e+02,
+            "area": 2.2549500000000000e+04,
+            "minHeight": 1.6999996948242188e+02,
+            "minWidth": 1.6099996948242188e+02
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.1211480712890625e+02,
+            "area": 2.7093500000000000e+04,
+            "minHeight": 177.0,
+            "minWidth": 185.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.5609039306640625e+02,
+            "area": 1.4971500000000000e+04,
+            "minHeight": 127.0,
+            "minWidth": 140.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.6439904785156250e+02,
+            "area": 3.1644500000000000e+04,
+            "minHeight": 185.0,
+            "minWidth": 209.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.5128637695312500e+02,
+            "area": 2.8712500000000000e+04,
+            "minHeight": 182.0,
+            "minWidth": 199.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.4823254394531250e+02,
+            "area": 1.4603500000000000e+04,
+            "minHeight": 130.0,
+            "minWidth": 136.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.5784774780273438e+02,
+            "area": 15084.0,
+            "minHeight": 1.2699998474121094e+02,
+            "minWidth": 1.3999996948242188e+02
+        },
+        {
+            "class_id": 3,
+            "perimeter": 5.8880108642578125e+02,
+            "area": 2.4991500000000000e+04,
+            "minHeight": 168.0,
+            "minWidth": 180.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.6890161132812500e+02,
+            "area": 23199.0,
+            "minHeight": 153.0,
+            "minWidth": 183.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.3025689697265625e+02,
+            "area": 2.8607500000000000e+04,
+            "minHeight": 186.0,
+            "minWidth": 188.0
+        },
+        {
+            "class_id": 8,
+            "perimeter": 7.1185491943359375e+02,
+            "area": 3.6751500000000000e+04,
+            "minHeight": 2.0699996948242188e+02,
+            "minWidth": 2.1599996948242188e+02
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.0496044921875000e+02,
+            "area": 18496.0,
+            "minHeight": 1.4299996948242188e+02,
+            "minWidth": 1.5399996948242188e+02
+        },
+        {
+            "class_id": 3,
+            "perimeter": 5.8397265625000000e+02,
+            "area": 2.4465500000000000e+04,
+            "minHeight": 170.0,
+            "minWidth": 175.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.3978887939453125e+02,
+            "area": 20538.0,
+            "minHeight": 1.4599996948242188e+02,
+            "minWidth": 1.6899996948242188e+02
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.6167114257812500e+02,
+            "area": 30591.0,
+            "minHeight": 190.0,
+            "minWidth": 200.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.3310260009765625e+02,
+            "area": 20530.0,
+            "minHeight": 153.0,
+            "minWidth": 161.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 5.8294323730468750e+02,
+            "area": 2.4633500000000000e+04,
+            "minHeight": 1.7099996948242188e+02,
+            "minWidth": 1.7699996948242188e+02
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.4843353271484375e+02,
+            "area": 1.4512500000000000e+04,
+            "minHeight": 125.0,
+            "minWidth": 137.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.1661730957031250e+02,
+            "area": 19338.0,
+            "minHeight": 1.4599996948242188e+02,
+            "minWidth": 1.5799996948242188e+02
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.4328637695312500e+02,
+            "area": 2.9564500000000000e+04,
+            "minHeight": 177.0,
+            "minWidth": 200.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.6049957275390625e+02,
+            "area": 31438.0,
+            "minHeight": 186.0,
+            "minWidth": 204.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.3063455200195312e+02,
+            "area": 1.3280500000000000e+04,
+            "minHeight": 114.0,
+            "minWidth": 135.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.5874218750000000e+02,
+            "area": 3.1250500000000000e+04,
+            "minHeight": 185.0,
+            "minWidth": 205.0
+        },
+        {
+            "class_id": 8,
+            "perimeter": 7.1302648925781250e+02,
+            "area": 3.6821500000000000e+04,
+            "minHeight": 2.0299996948242188e+02,
+            "minWidth": 2.1999996948242188e+02
+        },
+        {
+            "class_id": 3,
+            "perimeter": 6.0670056152343750e+02,
+            "area": 26510.0,
+            "minHeight": 173.0,
+            "minWidth": 186.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.2752185058593750e+02,
+            "area": 1.2180500000000000e+04,
+            "minHeight": 107.0,
+            "minWidth": 134.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.6025689697265625e+02,
+            "area": 3.1244500000000000e+04,
+            "minHeight": 185.0,
+            "minWidth": 204.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 7.0411480712890625e+02,
+            "area": 3.1351500000000000e+04,
+            "minHeight": 190.0,
+            "minWidth": 209.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.3576449584960938e+02,
+            "area": 12281.0,
+            "minHeight": 1.1699998474121094e+02,
+            "minWidth": 1.2899996948242188e+02
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.5809039306640625e+02,
+            "area": 1.5144500000000000e+04,
+            "minHeight": 128.0,
+            "minWidth": 140.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.6633303833007812e+02,
+            "area": 15627.0,
+            "minHeight": 129.0,
+            "minWidth": 144.0
+        },
+        {
+            "class_id": 8,
+            "perimeter": 7.3185491943359375e+02,
+            "area": 3.8451500000000000e+04,
+            "minHeight": 207.0,
+            "minWidth": 226.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.4837469482421875e+02,
+            "area": 2.1468500000000000e+04,
+            "minHeight": 1.9528971862792969e+02,
+            "minWidth": 1.6292506408691406e+02
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.4704370117187500e+02,
+            "area": 28676.0,
+            "minHeight": 184.0,
+            "minWidth": 194.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.4134521484375000e+02,
+            "area": 2.1002500000000000e+04,
+            "minHeight": 163.0,
+            "minWidth": 156.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 6.0011480712890625e+02,
+            "area": 2.6024500000000000e+04,
+            "minHeight": 171.0,
+            "minWidth": 185.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.6855841064453125e+02,
+            "area": 23330.0,
+            "minHeight": 1.5899996948242188e+02,
+            "minWidth": 1.7799996948242188e+02
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.6433303833007812e+02,
+            "area": 15620.0,
+            "minHeight": 131.0,
+            "minWidth": 141.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.5732800292968750e+02,
+            "area": 30857.0,
+            "minHeight": 179.0,
+            "minWidth": 210.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.4334521484375000e+02,
+            "area": 2.1212500000000000e+04,
+            "minHeight": 158.0,
+            "minWidth": 162.0
+        },
+        {
+            "class_id": 8,
+            "perimeter": 7.3585491943359375e+02,
+            "area": 3.8871500000000000e+04,
+            "minHeight": 218.0,
+            "minWidth": 217.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.3742846679687500e+02,
+            "area": 2.9140500000000000e+04,
+            "minHeight": 1.7499996948242188e+02,
+            "minWidth": 2.0199996948242188e+02
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.3417364501953125e+02,
+            "area": 2.0569500000000000e+04,
+            "minHeight": 1.5199996948242188e+02,
+            "minWidth": 1.6399996948242188e+02
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.5108532714843750e+02,
+            "area": 3.0423500000000000e+04,
+            "minHeight": 182.0,
+            "minWidth": 203.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.5084271240234375e+02,
+            "area": 30291.0,
+            "minHeight": 1.7699996948242188e+02,
+            "minWidth": 2.0699996948242188e+02
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.7207318115234375e+02,
+            "area": 22076.0,
+            "minHeight": 1.7699996948242188e+02,
+            "minWidth": 1.5999996948242188e+02
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.3494323730468750e+02,
+            "area": 2.8665500000000000e+04,
+            "minHeight": 176.0,
+            "minWidth": 198.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.1861730957031250e+02,
+            "area": 19358.0,
+            "minHeight": 146.0,
+            "minWidth": 159.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.4639904785156250e+02,
+            "area": 3.0284500000000000e+04,
+            "minHeight": 1.8999996948242188e+02,
+            "minWidth": 1.9499996948242188e+02
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.7118585205078125e+02,
+            "area": 32381.0,
+            "minHeight": 1.8699996948242188e+02,
+            "minWidth": 2.0599996948242188e+02
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.9547009277343750e+02,
+            "area": 34454.0,
+            "minHeight": 210.0,
+            "minWidth": 201.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 5.9128637695312500e+02,
+            "area": 2.5276500000000000e+04,
+            "minHeight": 170.0,
+            "minWidth": 181.0
+        },
+        {
+            "class_id": 8,
+            "perimeter": 7.1126910400390625e+02,
+            "area": 36413.0,
+            "minHeight": 204.0,
+            "minWidth": 219.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.1177166748046875e+02,
+            "area": 2.7014500000000000e+04,
+            "minHeight": 179.0,
+            "minWidth": 184.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 5.9514422607421875e+02,
+            "area": 2.5557500000000000e+04,
+            "minHeight": 1.6699996948242188e+02,
+            "minWidth": 1.8299996948242188e+02
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.0445794677734375e+02,
+            "area": 2.6306500000000000e+04,
+            "minHeight": 174.0,
+            "minWidth": 183.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.2259292602539062e+02,
+            "area": 12007.0,
+            "minHeight": 104.0,
+            "minWidth": 136.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.4861730957031250e+02,
+            "area": 20301.0,
+            "minHeight": 1.4999996948242188e+02,
+            "minWidth": 1.6999996948242188e+02
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.4322033691406250e+02,
+            "area": 12577.0,
+            "minHeight": 110.0,
+            "minWidth": 134.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.7023254394531250e+02,
+            "area": 1.5946500000000000e+04,
+            "minHeight": 134.0,
+            "minWidth": 143.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.1623254394531250e+02,
+            "area": 1.9177500000000000e+04,
+            "minHeight": 148.0,
+            "minWidth": 152.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.3841632080078125e+02,
+            "area": 20805.0,
+            "minHeight": 155.0,
+            "minWidth": 164.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.5898486328125000e+02,
+            "area": 31349.0,
+            "minHeight": 184.0,
+            "minWidth": 207.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.5617364501953125e+02,
+            "area": 2.2284500000000000e+04,
+            "minHeight": 1.6499996948242188e+02,
+            "minWidth": 1.6199996948242188e+02
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.3898486328125000e+02,
+            "area": 29419.0,
+            "minHeight": 1.8599996948242188e+02,
+            "minWidth": 1.9499996948242188e+02
+        },
+        {
+            "class_id": 3,
+            "perimeter": 6.2177166748046875e+02,
+            "area": 2.7709500000000000e+04,
+            "minHeight": 176.0,
+            "minWidth": 192.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.2177166748046875e+02,
+            "area": 2.7873500000000000e+04,
+            "minHeight": 1.7799996948242188e+02,
+            "minWidth": 1.8999996948242188e+02
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.6839904785156250e+02,
+            "area": 3.2145500000000000e+04,
+            "minHeight": 189.0,
+            "minWidth": 207.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 6.2787213134765625e+02,
+            "area": 28285.0,
+            "minHeight": 171.0,
+            "minWidth": 198.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.2871783447265625e+02,
+            "area": 2.0412500000000000e+04,
+            "minHeight": 156.0,
+            "minWidth": 180.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.1094323730468750e+02,
+            "area": 2.6966500000000000e+04,
+            "minHeight": 176.0,
+            "minWidth": 186.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.6916146850585938e+02,
+            "area": 15914.0,
+            "minHeight": 1.2599998474121094e+02,
+            "minWidth": 1.4899996948242188e+02
+        },
+        {
+            "class_id": 6,
+            "perimeter": 7.0391375732421875e+02,
+            "area": 3.3967500000000000e+04,
+            "minHeight": 193.0,
+            "minWidth": 211.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.6573004150390625e+02,
+            "area": 23046.0,
+            "minHeight": 158.0,
+            "minWidth": 177.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 7.6485282897949219e+01,
+            "area": 139.0,
+            "minHeight": 6.0,
+            "minWidth": 34.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.7140411376953125e+02,
+            "area": 1.6072500000000000e+04,
+            "minHeight": 128.0,
+            "minWidth": 149.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.2823254394531250e+02,
+            "area": 1.9919500000000000e+04,
+            "minHeight": 143.0,
+            "minWidth": 163.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.4627416992187500e+02,
+            "area": 21464.0,
+            "minHeight": 155.0,
+            "minWidth": 165.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.7445794677734375e+02,
+            "area": 2.3781500000000000e+04,
+            "minHeight": 163.0,
+            "minWidth": 179.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.2884271240234375e+02,
+            "area": 28429.0,
+            "minHeight": 183.0,
+            "minWidth": 190.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.8447518920898438e+02,
+            "area": 16695.0,
+            "minHeight": 135.0,
+            "minWidth": 150.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.6120312500000000e+02,
+            "area": 2.2272500000000000e+04,
+            "minHeight": 155.0,
+            "minWidth": 171.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.1918585205078125e+02,
+            "area": 27688.0,
+            "minHeight": 177.0,
+            "minWidth": 190.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.5081832885742188e+02,
+            "area": 14717.0,
+            "minHeight": 131.0,
+            "minWidth": 136.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.5674218750000000e+02,
+            "area": 3.1149500000000000e+04,
+            "minHeight": 192.0,
+            "minWidth": 197.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.1144573974609375e+02,
+            "area": 18870.0,
+            "minHeight": 148.0,
+            "minWidth": 154.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 5.9197265625000000e+02,
+            "area": 2.5295500000000000e+04,
+            "minHeight": 167.0,
+            "minWidth": 182.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.3213203430175781e+01,
+            "area": 1.2550000000000000e+02,
+            "minHeight": 15.0,
+            "minWidth": 16.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 6.1235742187500000e+02,
+            "area": 27080.0,
+            "minHeight": 178.0,
+            "minWidth": 185.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.0280108642578125e+02,
+            "area": 2.6331500000000000e+04,
+            "minHeight": 175.0,
+            "minWidth": 180.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.5726196289062500e+02,
+            "area": 1.5034500000000000e+04,
+            "minHeight": 129.0,
+            "minWidth": 138.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 6.0031579589843750e+02,
+            "area": 2.5492500000000000e+04,
+            "minHeight": 171.0,
+            "minWidth": 181.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 6.2791375732421875e+02,
+            "area": 2.8313500000000000e+04,
+            "minHeight": 178.0,
+            "minWidth": 196.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.3958789062500000e+02,
+            "area": 20847.0,
+            "minHeight": 156.0,
+            "minWidth": 163.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.6184774780273438e+02,
+            "area": 15322.0,
+            "minHeight": 127.0,
+            "minWidth": 142.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.3758789062500000e+02,
+            "area": 20637.0,
+            "minHeight": 150.0,
+            "minWidth": 168.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.2336248779296875e+02,
+            "area": 18745.0,
+            "minHeight": 1.3199996948242188e+02,
+            "minWidth": 1.6599996948242188e+02
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.2178887939453125e+02,
+            "area": 19605.0,
+            "minHeight": 149.0,
+            "minWidth": 157.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.1906097412109375e+02,
+            "area": 1.7313500000000000e+04,
+            "minHeight": 148.0,
+            "minWidth": 154.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.4768835449218750e+02,
+            "area": 2.1454500000000000e+04,
+            "minHeight": 159.0,
+            "minWidth": 162.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 7.0492596435546875e+02,
+            "area": 35642.0,
+            "minHeight": 201.0,
+            "minWidth": 220.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.5581329345703125e+02,
+            "area": 30919.0,
+            "minHeight": 185.0,
+            "minWidth": 205.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.9844067382812500e+02,
+            "area": 35188.0,
+            "minHeight": 199.0,
+            "minWidth": 217.0
+        },
+        {
+            "class_id": 8,
+            "perimeter": 7.0502648925781250e+02,
+            "area": 3.5896500000000000e+04,
+            "minHeight": 209.0,
+            "minWidth": 210.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 5.8148736572265625e+02,
+            "area": 2.4301500000000000e+04,
+            "minHeight": 168.0,
+            "minWidth": 174.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.7106097412109375e+02,
+            "area": 1.5984500000000000e+04,
+            "minHeight": 130.0,
+            "minWidth": 148.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.1974725341796875e+02,
+            "area": 1.6461500000000000e+04,
+            "minHeight": 142.0,
+            "minWidth": 156.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 7.1318585205078125e+02,
+            "area": 34054.0,
+            "minHeight": 189.0,
+            "minWidth": 225.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.2393103027343750e+02,
+            "area": 19835.0,
+            "minHeight": 150.0,
+            "minWidth": 160.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.9221527099609375e+02,
+            "area": 33197.0,
+            "minHeight": 200.0,
+            "minWidth": 200.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 5.9987213134765625e+02,
+            "area": 25982.0,
+            "minHeight": 171.0,
+            "minWidth": 184.0
+        },
+        {
+            "class_id": 8,
+            "perimeter": 7.1326910400390625e+02,
+            "area": 36316.0,
+            "minHeight": 205.0,
+            "minWidth": 219.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.3037469482421875e+02,
+            "area": 2.0205500000000000e+04,
+            "minHeight": 145.0,
+            "minWidth": 165.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.5391375732421875e+02,
+            "area": 3.0591500000000000e+04,
+            "minHeight": 181.0,
+            "minWidth": 206.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.6098486328125000e+02,
+            "area": 31322.0,
+            "minHeight": 1.8299996948242188e+02,
+            "minWidth": 2.0899996948242188e+02
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.2851678466796875e+02,
+            "area": 2.0137500000000000e+04,
+            "minHeight": 151.0,
+            "minWidth": 161.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.3577166748046875e+02,
+            "area": 2.9113500000000000e+04,
+            "minHeight": 186.0,
+            "minWidth": 189.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.8284271240234375e+02,
+            "area": 32090.0,
+            "minHeight": 190.0,
+            "minWidth": 209.0
+        },
+        {
+            "class_id": 8,
+            "perimeter": 7.1834020996093750e+02,
+            "area": 3.7299500000000000e+04,
+            "minHeight": 207.0,
+            "minWidth": 221.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.6998989868164062e+02,
+            "area": 15930.0,
+            "minHeight": 128.0,
+            "minWidth": 148.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.3142846679687500e+02,
+            "area": 2.8628500000000000e+04,
+            "minHeight": 182.0,
+            "minWidth": 192.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.6855841064453125e+02,
+            "area": 23294.0,
+            "minHeight": 158.0,
+            "minWidth": 179.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.3193103027343750e+02,
+            "area": 20323.0,
+            "minHeight": 162.0,
+            "minWidth": 152.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.8688433837890625e+02,
+            "area": 3.3907500000000000e+04,
+            "minHeight": 195.0,
+            "minWidth": 212.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 6.0187213134765625e+02,
+            "area": 26224.0,
+            "minHeight": 172.0,
+            "minWidth": 184.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.4061730957031250e+02,
+            "area": 19975.0,
+            "minHeight": 154.0,
+            "minWidth": 162.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.4827416992187500e+02,
+            "area": 20245.0,
+            "minHeight": 154.0,
+            "minWidth": 167.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.3280108642578125e+02,
+            "area": 2.8545500000000000e+04,
+            "minHeight": 1.8599996948242188e+02,
+            "minWidth": 1.8399996948242188e+02
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.5904370117187500e+02,
+            "area": 30088.0,
+            "minHeight": 1.7999996948242188e+02,
+            "minWidth": 2.0399996948242188e+02
+        },
+        {
+            "class_id": 2,
+            "perimeter": 6.8328637695312500e+02,
+            "area": 2.5707500000000000e+04,
+            "minHeight": 2.0060000610351562e+02,
+            "minWidth": 176.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.7257568359375000e+02,
+            "area": 1.5955500000000000e+04,
+            "minHeight": 124.0,
+            "minWidth": 153.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.4358789062500000e+02,
+            "area": 21334.0,
+            "minHeight": 147.0,
+            "minWidth": 174.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.4251678466796875e+02,
+            "area": 2.1193500000000000e+04,
+            "minHeight": 153.0,
+            "minWidth": 166.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.3819091796875000e+02,
+            "area": 13947.0,
+            "minHeight": 1.2499998474121094e+02,
+            "minWidth": 1.3099996948242188e+02
+        },
+        {
+            "class_id": 7,
+            "perimeter": 7.0629852294921875e+02,
+            "area": 34529.0,
+            "minHeight": 187.0,
+            "minWidth": 230.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.5231579589843750e+02,
+            "area": 2.1898500000000000e+04,
+            "minHeight": 155.0,
+            "minWidth": 173.0
+        },
+        {
+            "class_id": 8,
+            "perimeter": 7.2044067382812500e+02,
+            "area": 37319.0,
+            "minHeight": 2.0499996948242188e+02,
+            "minWidth": 2.2199996948242188e+02
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.2944573974609375e+02,
+            "area": 20290.0,
+            "minHeight": 149.0,
+            "minWidth": 162.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.3518585205078125e+02,
+            "area": 28752.0,
+            "minHeight": 1.8099996948242188e+02,
+            "minWidth": 1.9399996948242188e+02
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.4803155517578125e+02,
+            "area": 2.1061500000000000e+04,
+            "minHeight": 155.0,
+            "minWidth": 165.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.6635742187500000e+02,
+            "area": 31644.0,
+            "minHeight": 1.9299996948242188e+02,
+            "minWidth": 1.9699996948242188e+02
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.5409039306640625e+02,
+            "area": 1.4900500000000000e+04,
+            "minHeight": 127.0,
+            "minWidth": 139.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 7.0660009765625000e+02,
+            "area": 2.8389500000000000e+04,
+            "minHeight": 186.0,
+            "minWidth": 193.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.1251678466796875e+02,
+            "area": 1.9105500000000000e+04,
+            "minHeight": 147.0,
+            "minWidth": 157.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.4387213134765625e+02,
+            "area": 29137.0,
+            "minHeight": 181.0,
+            "minWidth": 196.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.4174725341796875e+02,
+            "area": 2.0556500000000000e+04,
+            "minHeight": 140.0,
+            "minWidth": 171.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.7122747802734375e+02,
+            "area": 3.2493500000000000e+04,
+            "minHeight": 194.0,
+            "minWidth": 204.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.4403155517578125e+02,
+            "area": 2.1222500000000000e+04,
+            "minHeight": 160.0,
+            "minWidth": 158.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.3441632080078125e+02,
+            "area": 20073.0,
+            "minHeight": 150.0,
+            "minWidth": 167.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 6.4215643310546875e+02,
+            "area": 29600.0,
+            "minHeight": 179.0,
+            "minWidth": 203.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.4415643310546875e+02,
+            "area": 29908.0,
+            "minHeight": 181.0,
+            "minWidth": 202.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.1368835449218750e+02,
+            "area": 1.9120500000000000e+04,
+            "minHeight": 1.4599996948242188e+02,
+            "minWidth": 1.5799996948242188e+02
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.3013201904296875e+02,
+            "area": 20154.0,
+            "minHeight": 159.0,
+            "minWidth": 150.0
+        },
+        {
+            "class_id": 8,
+            "perimeter": 7.2785491943359375e+02,
+            "area": 3.8214500000000000e+04,
+            "minHeight": 207.0,
+            "minWidth": 224.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.5183050537109375e+02,
+            "area": 2.1772500000000000e+04,
+            "minHeight": 152.0,
+            "minWidth": 174.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.4827416992187500e+02,
+            "area": 21104.0,
+            "minHeight": 1.4799996948242188e+02,
+            "minWidth": 1.7299996948242188e+02
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.4984774780273438e+02,
+            "area": 14622.0,
+            "minHeight": 129.0,
+            "minWidth": 134.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 6.1070056152343750e+02,
+            "area": 26812.0,
+            "minHeight": 178.0,
+            "minWidth": 183.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.6698486328125000e+02,
+            "area": 31834.0,
+            "minHeight": 198.0,
+            "minWidth": 197.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 5.9655841064453125e+02,
+            "area": 25717.0,
+            "minHeight": 167.0,
+            "minWidth": 184.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.3734521484375000e+02,
+            "area": 2.0724500000000000e+04,
+            "minHeight": 153.0,
+            "minWidth": 164.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.4900207519531250e+02,
+            "area": 2.1688500000000000e+04,
+            "minHeight": 160.0,
+            "minWidth": 164.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.5698486328125000e+02,
+            "area": 30966.0,
+            "minHeight": 179.0,
+            "minWidth": 211.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.6855841064453125e+02,
+            "area": 23215.0,
+            "minHeight": 161.0,
+            "minWidth": 176.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.6265893554687500e+02,
+            "area": 2.2400500000000000e+04,
+            "minHeight": 1.5199996948242188e+02,
+            "minWidth": 1.7999996948242188e+02
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.3647515869140625e+02,
+            "area": 20031.0,
+            "minHeight": 143.0,
+            "minWidth": 167.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.5942846679687500e+02,
+            "area": 2.9846500000000000e+04,
+            "minHeight": 188.0,
+            "minWidth": 200.0
+        },
+        {
+            "class_id": 8,
+            "perimeter": 7.1702648925781250e+02,
+            "area": 3.7112500000000000e+04,
+            "minHeight": 205.0,
+            "minWidth": 220.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 7.1235742187500000e+02,
+            "area": 26255.0,
+            "minHeight": 1.6999996948242188e+02,
+            "minWidth": 1.9899996948242188e+02
+        },
+        {
+            "class_id": 8,
+            "perimeter": 7.1195538330078125e+02,
+            "area": 36499.0,
+            "minHeight": 203.0,
+            "minWidth": 218.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.9591375732421875e+02,
+            "area": 3.4423500000000000e+04,
+            "minHeight": 198.0,
+            "minWidth": 210.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 5.9168835449218750e+02,
+            "area": 2.1260500000000000e+04,
+            "minHeight": 165.0,
+            "minWidth": 167.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 6.4128637695312500e+02,
+            "area": 2.8241500000000000e+04,
+            "minHeight": 174.0,
+            "minWidth": 202.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.1657568359375000e+02,
+            "area": 1.8342500000000000e+04,
+            "minHeight": 144.0,
+            "minWidth": 155.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 7.1844067382812500e+02,
+            "area": 36875.0,
+            "minHeight": 198.0,
+            "minWidth": 228.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.5390664672851562e+02,
+            "area": 13914.0,
+            "minHeight": 1.2299998474121094e+02,
+            "minWidth": 1.3499996948242188e+02
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.3603155517578125e+02,
+            "area": 2.0468500000000000e+04,
+            "minHeight": 146.0,
+            "minWidth": 168.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.5578887939453125e+02,
+            "area": 22097.0,
+            "minHeight": 152.0,
+            "minWidth": 171.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.9912695312500000e+02,
+            "area": 32727.0,
+            "minHeight": 1.8065747070312500e+02,
+            "minWidth": 2.3544003295898438e+02
+        },
+        {
+            "class_id": 3,
+            "perimeter": 6.1235742187500000e+02,
+            "area": 26900.0,
+            "minHeight": 170.0,
+            "minWidth": 193.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.6391375732421875e+02,
+            "area": 3.1611500000000000e+04,
+            "minHeight": 190.0,
+            "minWidth": 202.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.5677670288085938e+02,
+            "area": 1.4946500000000000e+04,
+            "minHeight": 126.0,
+            "minWidth": 139.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 4.6117871093750000e+02,
+            "area": 1.1143500000000000e+04,
+            "minHeight": 9.1559684753417969e+01,
+            "minWidth": 1.5773159790039062e+02
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.1138684082031250e+02,
+            "area": 26932.0,
+            "minHeight": 177.0,
+            "minWidth": 182.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.6340411376953125e+02,
+            "area": 1.5495500000000000e+04,
+            "minHeight": 131.0,
+            "minWidth": 142.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.4784774780273438e+02,
+            "area": 14545.0,
+            "minHeight": 127.0,
+            "minWidth": 135.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.6821527099609375e+02,
+            "area": 23294.0,
+            "minHeight": 160.0,
+            "minWidth": 178.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.4675946044921875e+02,
+            "area": 21534.0,
+            "minHeight": 162.0,
+            "minWidth": 160.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.3342846679687500e+02,
+            "area": 2.8757500000000000e+04,
+            "minHeight": 185.0,
+            "minWidth": 190.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.0918585205078125e+02,
+            "area": 26783.0,
+            "minHeight": 177.0,
+            "minWidth": 185.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.3778887939453125e+02,
+            "area": 20719.0,
+            "minHeight": 147.0,
+            "minWidth": 167.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.1778887939453125e+02,
+            "area": 19325.0,
+            "minHeight": 146.0,
+            "minWidth": 158.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.1013201904296875e+02,
+            "area": 18495.0,
+            "minHeight": 138.0,
+            "minWidth": 161.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 5.7871783447265625e+02,
+            "area": 1.8900500000000000e+04,
+            "minHeight": 1.3687535095214844e+02,
+            "minWidth": 1.8848495483398438e+02
+        },
+        {
+            "class_id": 3,
+            "perimeter": 6.0952899169921875e+02,
+            "area": 26693.0,
+            "minHeight": 174.0,
+            "minWidth": 187.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.6431579589843750e+02,
+            "area": 2.2687500000000000e+04,
+            "minHeight": 171.0,
+            "minWidth": 163.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.1003152465820312e+02,
+            "area": 1.8631500000000000e+04,
+            "minHeight": 149.0,
+            "minWidth": 152.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 6.1035742187500000e+02,
+            "area": 26974.0,
+            "minHeight": 178.0,
+            "minWidth": 184.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.7560513305664062e+02,
+            "area": 1.6162500000000000e+04,
+            "minHeight": 137.0,
+            "minWidth": 138.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 6.2542846679687500e+02,
+            "area": 2.7364500000000000e+04,
+            "minHeight": 175.0,
+            "minWidth": 196.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.5132800292968750e+02,
+            "area": 30674.0,
+            "minHeight": 188.0,
+            "minWidth": 198.0
+        },
+        {
+            "class_id": 8,
+            "perimeter": 7.1468334960937500e+02,
+            "area": 3.6869500000000000e+04,
+            "minHeight": 209.0,
+            "minWidth": 216.0
+        },
+        {
+            "class_id": 8,
+            "perimeter": 7.1629852294921875e+02,
+            "area": 36694.0,
+            "minHeight": 208.0,
+            "minWidth": 214.0
+        },
+        {
+            "class_id": 8,
+            "perimeter": 7.1302648925781250e+02,
+            "area": 3.6734500000000000e+04,
+            "minHeight": 208.0,
+            "minWidth": 215.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.5357061767578125e+02,
+            "area": 3.0686500000000000e+04,
+            "minHeight": 185.0,
+            "minWidth": 203.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.6607318115234375e+02,
+            "area": 23134.0,
+            "minHeight": 166.0,
+            "minWidth": 168.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.5726196289062500e+02,
+            "area": 1.5037500000000000e+04,
+            "minHeight": 125.0,
+            "minWidth": 142.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.5419091796875000e+02,
+            "area": 14799.0,
+            "minHeight": 131.0,
+            "minWidth": 133.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 96.0,
+            "area": 432.0,
+            "minHeight": 36.0,
+            "minWidth": 12.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.4948736572265625e+02,
+            "area": 2.1837500000000000e+04,
+            "minHeight": 157.0,
+            "minWidth": 169.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.5130358886718750e+02,
+            "area": 21388.0,
+            "minHeight": 161.0,
+            "minWidth": 158.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.2768835449218750e+02,
+            "area": 2.0147500000000000e+04,
+            "minHeight": 1.4999996948242188e+02,
+            "minWidth": 1.6099996948242188e+02
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.3991375732421875e+02,
+            "area": 2.9280500000000000e+04,
+            "minHeight": 185.0,
+            "minWidth": 195.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.6691882324218750e+02,
+            "area": 1.5677500000000000e+04,
+            "minHeight": 129.0,
+            "minWidth": 144.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.5767114257812500e+02,
+            "area": 29965.0,
+            "minHeight": 188.0,
+            "minWidth": 200.0
+        },
+        {
+            "class_id": 8,
+            "perimeter": 7.2575439453125000e+02,
+            "area": 38168.0,
+            "minHeight": 207.0,
+            "minWidth": 225.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.6407318115234375e+02,
+            "area": 22832.0,
+            "minHeight": 1.6399996948242188e+02,
+            "minWidth": 1.6899996948242188e+02
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.1710260009765625e+02,
+            "area": 19369.0,
+            "minHeight": 1.4799996948242188e+02,
+            "minWidth": 1.5799996948242188e+02
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.1443353271484375e+02,
+            "area": 1.7487500000000000e+04,
+            "minHeight": 1.4699996948242188e+02,
+            "minWidth": 1.4799996948242188e+02
+        },
+        {
+            "class_id": 3,
+            "perimeter": 5.8158789062500000e+02,
+            "area": 24132.0,
+            "minHeight": 162.0,
+            "minWidth": 178.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 5.2600714111328125e+02,
+            "area": 1.2895500000000000e+04,
+            "minHeight": 1.7102174377441406e+02,
+            "minWidth": 1.0120248413085938e+02
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.3603155517578125e+02,
+            "area": 2.0676500000000000e+04,
+            "minHeight": 153.0,
+            "minWidth": 161.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.1465893554687500e+02,
+            "area": 2.3885500000000000e+04,
+            "minHeight": 1.7181231689453125e+02,
+            "minWidth": 1.8196157836914062e+02
+        },
+        {
+            "class_id": 8,
+            "perimeter": 7.2268334960937500e+02,
+            "area": 3.7691500000000000e+04,
+            "minHeight": 210.0,
+            "minWidth": 219.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.2730358886718750e+02,
+            "area": 19889.0,
+            "minHeight": 146.0,
+            "minWidth": 161.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.2168835449218750e+02,
+            "area": 1.9438500000000000e+04,
+            "minHeight": 146.0,
+            "minWidth": 162.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.9498486328125000e+02,
+            "area": 33286.0,
+            "minHeight": 2.2512408447265625e+02,
+            "minWidth": 1.8364212036132812e+02
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.2041632080078125e+02,
+            "area": 23398.0,
+            "minHeight": 183.0,
+            "minWidth": 163.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 5.8611480712890625e+02,
+            "area": 2.4945500000000000e+04,
+            "minHeight": 1.7099996948242188e+02,
+            "minWidth": 1.7799996948242188e+02
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.5716146850585938e+02,
+            "area": 15123.0,
+            "minHeight": 132.0,
+            "minWidth": 137.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.4015643310546875e+02,
+            "area": 29620.0,
+            "minHeight": 185.0,
+            "minWidth": 196.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.4017364501953125e+02,
+            "area": 2.0874500000000000e+04,
+            "minHeight": 149.0,
+            "minWidth": 170.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 4.3293606567382812e+02,
+            "area": 9513.0,
+            "minHeight": 136.0,
+            "minWidth": 89.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.6265893554687500e+02,
+            "area": 2.2673500000000000e+04,
+            "minHeight": 163.0,
+            "minWidth": 169.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.5772998046875000e+02,
+            "area": 22486.0,
+            "minHeight": 1.6399996948242188e+02,
+            "minWidth": 1.6699996948242188e+02
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.5132800292968750e+02,
+            "area": 29833.0,
+            "minHeight": 198.0,
+            "minWidth": 188.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.4328637695312500e+02,
+            "area": 2.7253500000000000e+04,
+            "minHeight": 184.0,
+            "minWidth": 188.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.6398989868164062e+02,
+            "area": 15484.0,
+            "minHeight": 126.0,
+            "minWidth": 147.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.4494323730468750e+02,
+            "area": 2.9175500000000000e+04,
+            "minHeight": 182.0,
+            "minWidth": 197.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 6.0528637695312500e+02,
+            "area": 2.6406500000000000e+04,
+            "minHeight": 170.0,
+            "minWidth": 188.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.5433303833007812e+02,
+            "area": 14919.0,
+            "minHeight": 129.0,
+            "minWidth": 138.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.6401428222656250e+02,
+            "area": 31304.0,
+            "minHeight": 191.0,
+            "minWidth": 199.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.2423254394531250e+02,
+            "area": 1.9069500000000000e+04,
+            "minHeight": 141.0,
+            "minWidth": 163.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.2285992431640625e+02,
+            "area": 1.9821500000000000e+04,
+            "minHeight": 148.0,
+            "minWidth": 160.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.8698486328125000e+02,
+            "area": 33970.0,
+            "minHeight": 198.0,
+            "minWidth": 207.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.3930358886718750e+02,
+            "area": 20203.0,
+            "minHeight": 149.0,
+            "minWidth": 164.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.2178887939453125e+02,
+            "area": 19643.0,
+            "minHeight": 147.0,
+            "minWidth": 159.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.9205590820312500e+02,
+            "area": 3.4099500000000000e+04,
+            "minHeight": 194.0,
+            "minWidth": 215.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.4425689697265625e+02,
+            "area": 3.0066500000000000e+04,
+            "minHeight": 184.0,
+            "minWidth": 197.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.7977166748046875e+02,
+            "area": 3.2783500000000000e+04,
+            "minHeight": 186.0,
+            "minWidth": 211.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.3047515869140625e+02,
+            "area": 19930.0,
+            "minHeight": 142.0,
+            "minWidth": 166.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.4546298217773438e+02,
+            "area": 1.4160500000000000e+04,
+            "minHeight": 1.1899998474121094e+02,
+            "minWidth": 1.3799996948242188e+02
+        },
+        {
+            "class_id": 8,
+            "perimeter": 7.2044067382812500e+02,
+            "area": 37415.0,
+            "minHeight": 208.0,
+            "minWidth": 219.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 7.1742846679687500e+02,
+            "area": 2.9754500000000000e+04,
+            "minHeight": 181.0,
+            "minWidth": 203.0
+        },
+        {
+            "class_id": 8,
+            "perimeter": 7.2244067382812500e+02,
+            "area": 37658.0,
+            "minHeight": 2.0699996948242188e+02,
+            "minWidth": 2.2099996948242188e+02
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.6714422607421875e+02,
+            "area": 2.3091500000000000e+04,
+            "minHeight": 157.0,
+            "minWidth": 179.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 7.2451678466796875e+02,
+            "area": 2.2610500000000000e+04,
+            "minHeight": 166.0,
+            "minWidth": 180.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.3183050537109375e+02,
+            "area": 2.0335500000000000e+04,
+            "minHeight": 152.0,
+            "minWidth": 164.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.5748736572265625e+02,
+            "area": 2.2195500000000000e+04,
+            "minHeight": 165.0,
+            "minWidth": 165.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.3049957275390625e+02,
+            "area": 28540.0,
+            "minHeight": 185.0,
+            "minWidth": 190.0
+        },
+        {
+            "class_id": 8,
+            "perimeter": 7.3126910400390625e+02,
+            "area": 38553.0,
+            "minHeight": 210.0,
+            "minWidth": 223.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.9429852294921875e+02,
+            "area": 34782.0,
+            "minHeight": 1.9599996948242188e+02,
+            "minWidth": 2.1499996948242188e+02
+        },
+        {
+            "class_id": 8,
+            "perimeter": 7.1995538330078125e+02,
+            "area": 37391.0,
+            "minHeight": 206.0,
+            "minWidth": 219.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 5.8997265625000000e+02,
+            "area": 2.5078500000000000e+04,
+            "minHeight": 168.0,
+            "minWidth": 180.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 6.2811480712890625e+02,
+            "area": 2.8260500000000000e+04,
+            "minHeight": 171.0,
+            "minWidth": 199.0
+        },
+        {
+            "class_id": 8,
+            "perimeter": 7.1892596435546875e+02,
+            "area": 37311.0,
+            "minHeight": 208.0,
+            "minWidth": 220.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.5932800292968750e+02,
+            "area": 31554.0,
+            "minHeight": 1.8599996948242188e+02,
+            "minWidth": 2.0399996948242188e+02
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.7281832885742188e+02,
+            "area": 15833.0,
+            "minHeight": 130.0,
+            "minWidth": 148.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.3096044921875000e+02,
+            "area": 20323.0,
+            "minHeight": 152.0,
+            "minWidth": 158.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.1958789062500000e+02,
+            "area": 19689.0,
+            "minHeight": 149.0,
+            "minWidth": 160.0
+        },
+        {
+            "class_id": 8,
+            "perimeter": 7.1112695312500000e+02,
+            "area": 36316.0,
+            "minHeight": 209.0,
+            "minWidth": 211.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.5708532714843750e+02,
+            "area": 3.1247500000000000e+04,
+            "minHeight": 184.0,
+            "minWidth": 204.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.4803155517578125e+02,
+            "area": 2.1127500000000000e+04,
+            "minHeight": 156.0,
+            "minWidth": 164.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.5041632080078125e+02,
+            "area": 21879.0,
+            "minHeight": 149.0,
+            "minWidth": 176.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.7306097412109375e+02,
+            "area": 1.6180500000000000e+04,
+            "minHeight": 130.0,
+            "minWidth": 149.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.5085992431640625e+02,
+            "area": 2.1519500000000000e+04,
+            "minHeight": 167.0,
+            "minWidth": 155.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.6265893554687500e+02,
+            "area": 2.2652500000000000e+04,
+            "minHeight": 151.0,
+            "minWidth": 181.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.4874218750000000e+02,
+            "area": 3.0427500000000000e+04,
+            "minHeight": 1.8199996948242188e+02,
+            "minWidth": 2.0299996948242188e+02
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.2865179443359375e+02,
+            "area": 10431.0,
+            "minHeight": 9.4999984741210938e+01,
+            "minWidth": 1.2399998474121094e+02
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.5107821655273438e+02,
+            "area": 13101.0,
+            "minHeight": 1.2099998474121094e+02,
+            "minWidth": 1.3099996948242188e+02
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.8771276855468750e+02,
+            "area": 3.3958500000000000e+04,
+            "minHeight": 202.0,
+            "minWidth": 206.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.1451678466796875e+02,
+            "area": 2.2592500000000000e+04,
+            "minHeight": 193.0,
+            "minWidth": 150.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.2660009765625000e+02,
+            "area": 2.8317500000000000e+04,
+            "minHeight": 179.0,
+            "minWidth": 192.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.8254119873046875e+02,
+            "area": 3.3453500000000000e+04,
+            "minHeight": 199.0,
+            "minWidth": 207.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.1342846679687500e+02,
+            "area": 2.7186500000000000e+04,
+            "minHeight": 177.0,
+            "minWidth": 188.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.1368835449218750e+02,
+            "area": 1.9120500000000000e+04,
+            "minHeight": 1.4599996948242188e+02,
+            "minWidth": 1.5799996948242188e+02
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.4815643310546875e+02,
+            "area": 30168.0,
+            "minHeight": 179.0,
+            "minWidth": 206.0
+        },
+        {
+            "class_id": 8,
+            "perimeter": 7.4682543945312500e+02,
+            "area": 3.9961500000000000e+04,
+            "minHeight": 212.0,
+            "minWidth": 232.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.6609039306640625e+02,
+            "area": 1.5549500000000000e+04,
+            "minHeight": 132.0,
+            "minWidth": 140.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.3370562744140625e+02,
+            "area": 12268.0,
+            "minHeight": 125.0,
+            "minWidth": 125.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 5.8855841064453125e+02,
+            "area": 24989.0,
+            "minHeight": 167.0,
+            "minWidth": 180.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.6815643310546875e+02,
+            "area": 32142.0,
+            "minHeight": 189.0,
+            "minWidth": 206.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.5500207519531250e+02,
+            "area": 2.2235500000000000e+04,
+            "minHeight": 151.0,
+            "minWidth": 176.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 6.0898486328125000e+02,
+            "area": 26673.0,
+            "minHeight": 184.0,
+            "minWidth": 182.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.7681832885742188e+02,
+            "area": 16226.0,
+            "minHeight": 128.0,
+            "minWidth": 152.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.2510260009765625e+02,
+            "area": 19897.0,
+            "minHeight": 151.0,
+            "minWidth": 159.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.6312695312500000e+02,
+            "area": 31746.0,
+            "minHeight": 194.0,
+            "minWidth": 202.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.8987213134765625e+02,
+            "area": 24890.0,
+            "minHeight": 159.0,
+            "minWidth": 191.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.5421527099609375e+02,
+            "area": 26930.0,
+            "minHeight": 168.0,
+            "minWidth": 199.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.1768835449218750e+02,
+            "area": 1.9434500000000000e+04,
+            "minHeight": 147.0,
+            "minWidth": 159.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.4849957275390625e+02,
+            "area": 30322.0,
+            "minHeight": 186.0,
+            "minWidth": 198.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.5334521484375000e+02,
+            "area": 2.1950500000000000e+04,
+            "minHeight": 151.0,
+            "minWidth": 174.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.6947015380859375e+02,
+            "area": 32421.0,
+            "minHeight": 192.0,
+            "minWidth": 206.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.2128637695312500e+02,
+            "area": 2.7864500000000000e+04,
+            "minHeight": 177.0,
+            "minWidth": 189.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.0494323730468750e+02,
+            "area": 2.6563500000000000e+04,
+            "minHeight": 176.0,
+            "minWidth": 183.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.3567114257812500e+02,
+            "area": 28941.0,
+            "minHeight": 187.0,
+            "minWidth": 190.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.3901931762695312e+02,
+            "area": 13813.0,
+            "minHeight": 1.1999998474121094e+02,
+            "minWidth": 1.3699996948242188e+02
+        },
+        {
+            "class_id": 3,
+            "perimeter": 5.8831579589843750e+02,
+            "area": 2.4877500000000000e+04,
+            "minHeight": 163.0,
+            "minWidth": 183.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.4019091796875000e+02,
+            "area": 13764.0,
+            "minHeight": 119.0,
+            "minWidth": 138.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.4108532714843750e+02,
+            "area": 2.9673500000000000e+04,
+            "minHeight": 183.0,
+            "minWidth": 197.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.1952899169921875e+02,
+            "area": 27711.0,
+            "minHeight": 177.0,
+            "minWidth": 189.0
+        },
+        {
+            "class_id": 8,
+            "perimeter": 7.1809753417968750e+02,
+            "area": 37307.0,
+            "minHeight": 208.0,
+            "minWidth": 219.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.7798989868164062e+02,
+            "area": 16448.0,
+            "minHeight": 133.0,
+            "minWidth": 147.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.6791375732421875e+02,
+            "area": 3.1775500000000000e+04,
+            "minHeight": 189.0,
+            "minWidth": 205.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 6.1819091796875000e+02,
+            "area": 18601.0,
+            "minHeight": 133.0,
+            "minWidth": 197.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.5467617797851562e+02,
+            "area": 14784.0,
+            "minHeight": 131.0,
+            "minWidth": 135.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 5.9904370117187500e+02,
+            "area": 26010.0,
+            "minHeight": 168.0,
+            "minWidth": 186.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 5.9403149414062500e+02,
+            "area": 2.1852500000000000e+04,
+            "minHeight": 1.6735758972167969e+02,
+            "minWidth": 1.7438882446289062e+02
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.1977166748046875e+02,
+            "area": 2.7744500000000000e+04,
+            "minHeight": 178.0,
+            "minWidth": 189.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.1320312500000000e+02,
+            "area": 1.8752500000000000e+04,
+            "minHeight": 1.3899996948242188e+02,
+            "minWidth": 1.6299996948242188e+02
+        },
+        {
+            "class_id": 2,
+            "perimeter": 4.5126196289062500e+02,
+            "area": 1.4697500000000000e+04,
+            "minHeight": 127.0,
+            "minWidth": 137.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 7.1161224365234375e+02,
+            "area": 36352.0,
+            "minHeight": 195.0,
+            "minWidth": 227.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.5609039306640625e+02,
+            "area": 1.4941500000000000e+04,
+            "minHeight": 126.0,
+            "minWidth": 141.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.6191375732421875e+02,
+            "area": 3.0739500000000000e+04,
+            "minHeight": 189.0,
+            "minWidth": 202.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.7181329345703125e+02,
+            "area": 32448.0,
+            "minHeight": 191.0,
+            "minWidth": 207.0
+        },
+        {
+            "class_id": 8,
+            "perimeter": 4.3836752319335938e+02,
+            "area": 9735.0,
+            "minHeight": 94.0,
+            "minWidth": 141.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.1860009765625000e+02,
+            "area": 2.7628500000000000e+04,
+            "minHeight": 178.0,
+            "minWidth": 189.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.8288433837890625e+02,
+            "area": 3.3406500000000000e+04,
+            "minHeight": 196.0,
+            "minWidth": 209.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.6031579589843750e+02,
+            "area": 2.2705500000000000e+04,
+            "minHeight": 157.0,
+            "minWidth": 175.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.3851678466796875e+02,
+            "area": 2.0980500000000000e+04,
+            "minHeight": 156.0,
+            "minWidth": 161.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.3831579589843750e+02,
+            "area": 2.1059500000000000e+04,
+            "minHeight": 156.0,
+            "minWidth": 165.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 6.4772998046875000e+02,
+            "area": 28159.0,
+            "minHeight": 1.8599996948242188e+02,
+            "minWidth": 1.8099996948242188e+02
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.7547015380859375e+02,
+            "area": 32887.0,
+            "minHeight": 192.0,
+            "minWidth": 209.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.8049957275390625e+02,
+            "area": 33106.0,
+            "minHeight": 203.0,
+            "minWidth": 197.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.6714422607421875e+02,
+            "area": 2.3168500000000000e+04,
+            "minHeight": 158.0,
+            "minWidth": 178.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.6003155517578125e+02,
+            "area": 2.2258500000000000e+04,
+            "minHeight": 157.0,
+            "minWidth": 169.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.6433303833007812e+02,
+            "area": 15578.0,
+            "minHeight": 128.0,
+            "minWidth": 144.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.3843353271484375e+02,
+            "area": 1.3832500000000000e+04,
+            "minHeight": 122.0,
+            "minWidth": 135.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.3993103027343750e+02,
+            "area": 26642.0,
+            "minHeight": 166.0,
+            "minWidth": 202.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.4360513305664062e+02,
+            "area": 1.4187500000000000e+04,
+            "minHeight": 124.0,
+            "minWidth": 135.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.5558789062500000e+02,
+            "area": 22209.0,
+            "minHeight": 1.5099996948242188e+02,
+            "minWidth": 1.7599996948242188e+02
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.4557061767578125e+02,
+            "area": 3.0012500000000000e+04,
+            "minHeight": 187.0,
+            "minWidth": 197.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.6098486328125000e+02,
+            "area": 31447.0,
+            "minHeight": 1.8699996948242188e+02,
+            "minWidth": 2.0499996948242188e+02
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.2918585205078125e+02,
+            "area": 28540.0,
+            "minHeight": 183.0,
+            "minWidth": 189.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.6581329345703125e+02,
+            "area": 31958.0,
+            "minHeight": 189.0,
+            "minWidth": 206.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 5.8744573974609375e+02,
+            "area": 23474.0,
+            "minHeight": 166.0,
+            "minWidth": 174.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 6.3225689697265625e+02,
+            "area": 2.8627500000000000e+04,
+            "minHeight": 172.0,
+            "minWidth": 203.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.5881832885742188e+02,
+            "area": 15269.0,
+            "minHeight": 132.0,
+            "minWidth": 139.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 6.2801428222656250e+02,
+            "area": 28458.0,
+            "minHeight": 173.0,
+            "minWidth": 199.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.8561224365234375e+02,
+            "area": 33529.0,
+            "minHeight": 1.9499996948242188e+02,
+            "minWidth": 2.1399996948242188e+02
+        },
+        {
+            "class_id": 8,
+            "perimeter": 7.2199700927734375e+02,
+            "area": 3.7599500000000000e+04,
+            "minHeight": 213.0,
+            "minWidth": 218.0
+        },
+        {
+            "class_id": 8,
+            "perimeter": 7.1219805908203125e+02,
+            "area": 3.6572500000000000e+04,
+            "minHeight": 203.0,
+            "minWidth": 219.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 5.6265893554687500e+02,
+            "area": 2.2652500000000000e+04,
+            "minHeight": 151.0,
+            "minWidth": 181.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 6.0738684082031250e+02,
+            "area": 26479.0,
+            "minHeight": 168.0,
+            "minWidth": 189.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.4100207519531250e+02,
+            "area": 2.1089500000000000e+04,
+            "minHeight": 1.5399996948242188e+02,
+            "minWidth": 1.6599996948242188e+02
+        },
+        {
+            "class_id": 6,
+            "perimeter": 7.3172998046875000e+02,
+            "area": 21406.0,
+            "minHeight": 1.5675782775878906e+02,
+            "minWidth": 1.9442628479003906e+02
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.0152899169921875e+02,
+            "area": 26132.0,
+            "minHeight": 175.0,
+            "minWidth": 182.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 5.9611480712890625e+02,
+            "area": 2.5749500000000000e+04,
+            "minHeight": 174.0,
+            "minWidth": 180.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.6332800292968750e+02,
+            "area": 31609.0,
+            "minHeight": 1.9499996948242188e+02,
+            "minWidth": 1.9699996948242188e+02
+        },
+        {
+            "class_id": 3,
+            "perimeter": 6.1045794677734375e+02,
+            "area": 2.6744500000000000e+04,
+            "minHeight": 171.0,
+            "minWidth": 189.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.3591375732421875e+02,
+            "area": 2.9134500000000000e+04,
+            "minHeight": 186.0,
+            "minWidth": 192.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.5051678466796875e+02,
+            "area": 2.1756500000000000e+04,
+            "minHeight": 152.0,
+            "minWidth": 171.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.1294323730468750e+02,
+            "area": 2.7164500000000000e+04,
+            "minHeight": 1.7699996948242188e+02,
+            "minWidth": 1.8599996948242188e+02
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.3817364501953125e+02,
+            "area": 2.0892500000000000e+04,
+            "minHeight": 151.0,
+            "minWidth": 167.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.1697772216796875e+02,
+            "area": 1.7749500000000000e+04,
+            "minHeight": 1.3099996948242188e+02,
+            "minWidth": 1.5999996948242188e+02
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.1861730957031250e+02,
+            "area": 19511.0,
+            "minHeight": 1.4799996948242188e+02,
+            "minWidth": 1.5699996948242188e+02
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.3881832885742188e+02,
+            "area": 14063.0,
+            "minHeight": 127.0,
+            "minWidth": 134.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 5.9221527099609375e+02,
+            "area": 25348.0,
+            "minHeight": 169.0,
+            "minWidth": 181.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 6.2070056152343750e+02,
+            "area": 27567.0,
+            "minHeight": 183.0,
+            "minWidth": 183.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.6888433837890625e+02,
+            "area": 3.2220500000000000e+04,
+            "minHeight": 1.9399996948242188e+02,
+            "minWidth": 2.0399996948242188e+02
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.4075946044921875e+02,
+            "area": 20280.0,
+            "minHeight": 155.0,
+            "minWidth": 164.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.7347015380859375e+02,
+            "area": 32696.0,
+            "minHeight": 197.0,
+            "minWidth": 203.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.6942846679687500e+02,
+            "area": 3.0796500000000000e+04,
+            "minHeight": 1.9599996948242188e+02,
+            "minWidth": 1.9699996948242188e+02
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.6629858398437500e+02,
+            "area": 32243.0,
+            "minHeight": 195.0,
+            "minWidth": 202.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.5865893554687500e+02,
+            "area": 2.2510500000000000e+04,
+            "minHeight": 162.0,
+            "minWidth": 168.0
+        },
+        {
+            "class_id": 8,
+            "perimeter": 6.9114422607421875e+02,
+            "area": 3.3594500000000000e+04,
+            "minHeight": 175.0,
+            "minWidth": 221.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.2603155517578125e+02,
+            "area": 1.9967500000000000e+04,
+            "minHeight": 151.0,
+            "minWidth": 158.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.6126196289062500e+02,
+            "area": 1.5292500000000000e+04,
+            "minHeight": 1.2599998474121094e+02,
+            "minWidth": 1.4299996948242188e+02
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.6938684082031250e+02,
+            "area": 23416.0,
+            "minHeight": 161.0,
+            "minWidth": 177.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 1.1595533447265625e+03,
+            "area": 33031.0,
+            "minHeight": 268.0,
+            "minWidth": 192.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.5783050537109375e+02,
+            "area": 2.2286500000000000e+04,
+            "minHeight": 151.0,
+            "minWidth": 178.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.7374725341796875e+02,
+            "area": 1.5960500000000000e+04,
+            "minHeight": 1.2499998474121094e+02,
+            "minWidth": 1.5199996948242188e+02
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.6065893554687500e+02,
+            "area": 2.2518500000000000e+04,
+            "minHeight": 154.0,
+            "minWidth": 177.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.0577166748046875e+02,
+            "area": 2.6525500000000000e+04,
+            "minHeight": 177.0,
+            "minWidth": 183.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.4300207519531250e+02,
+            "area": 2.1233500000000000e+04,
+            "minHeight": 153.0,
+            "minWidth": 168.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.4932800292968750e+02,
+            "area": 30331.0,
+            "minHeight": 181.0,
+            "minWidth": 204.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.1411480712890625e+02,
+            "area": 2.7135500000000000e+04,
+            "minHeight": 175.0,
+            "minWidth": 188.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 5.9183050537109375e+02,
+            "area": 2.5319500000000000e+04,
+            "minHeight": 1.6099996948242188e+02,
+            "minWidth": 1.8499996948242188e+02
+        },
+        {
+            "class_id": 1,
+            "perimeter": 5.4033306884765625e+02,
+            "area": 17546.0,
+            "minHeight": 134.0,
+            "minWidth": 176.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.2649243164062500e+02,
+            "area": 1.2595500000000000e+04,
+            "minHeight": 114.0,
+            "minWidth": 130.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.6740411376953125e+02,
+            "area": 1.5813500000000000e+04,
+            "minHeight": 129.0,
+            "minWidth": 146.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.4152899169921875e+02,
+            "area": 28607.0,
+            "minHeight": 1.8499996948242188e+02,
+            "minWidth": 1.9199996948242188e+02
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.7322747802734375e+02,
+            "area": 3.2557500000000000e+04,
+            "minHeight": 191.0,
+            "minWidth": 208.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.3710260009765625e+02,
+            "area": 20864.0,
+            "minHeight": 152.0,
+            "minWidth": 164.0
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.8405590820312500e+02,
+            "area": 3.3683500000000000e+04,
+            "minHeight": 195.0,
+            "minWidth": 210.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.5264172363281250e+02,
+            "area": 30501.0,
+            "minHeight": 187.0,
+            "minWidth": 202.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.5605590820312500e+02,
+            "area": 3.0797500000000000e+04,
+            "minHeight": 187.0,
+            "minWidth": 204.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.0388940429687500e+02,
+            "area": 1.8293500000000000e+04,
+            "minHeight": 1.3599996948242188e+02,
+            "minWidth": 1.5899996948242188e+02
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.7447518920898438e+02,
+            "area": 16118.0,
+            "minHeight": 130.0,
+            "minWidth": 150.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.5301931762695312e+02,
+            "area": 14737.0,
+            "minHeight": 1.2499998474121094e+02,
+            "minWidth": 1.3899996948242188e+02
+        },
+        {
+            "class_id": 6,
+            "perimeter": 6.7322747802734375e+02,
+            "area": 3.2736500000000000e+04,
+            "minHeight": 192.0,
+            "minWidth": 207.0
+        },
+        {
+            "class_id": 7,
+            "perimeter": 6.5874218750000000e+02,
+            "area": 3.1365500000000000e+04,
+            "minHeight": 184.0,
+            "minWidth": 206.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.7290161132812500e+02,
+            "area": 23614.0,
+            "minHeight": 158.0,
+            "minWidth": 180.0
+        },
+        {
+            "class_id": 3,
+            "perimeter": 5.9104370117187500e+02,
+            "area": 25179.0,
+            "minHeight": 168.0,
+            "minWidth": 182.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.6372998046875000e+02,
+            "area": 22859.0,
+            "minHeight": 156.0,
+            "minWidth": 178.0
+        },
+        {
+            "class_id": 4,
+            "perimeter": 5.5807318115234375e+02,
+            "area": 22463.0,
+            "minHeight": 158.0,
+            "minWidth": 172.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.4047515869140625e+02,
+            "area": 20879.0,
+            "minHeight": 1.6199996948242188e+02,
+            "minWidth": 1.5099996948242188e+02
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.3231579589843750e+02,
+            "area": 2.8203500000000000e+04,
+            "minHeight": 1.8099996948242188e+02,
+            "minWidth": 1.8699996948242188e+02
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.7447518920898438e+02,
+            "area": 16281.0,
+            "minHeight": 129.0,
+            "minWidth": 151.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.0138684082031250e+02,
+            "area": 25968.0,
+            "minHeight": 169.0,
+            "minWidth": 185.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.6065893554687500e+02,
+            "area": 2.2504500000000000e+04,
+            "minHeight": 150.0,
+            "minWidth": 181.0
+        },
+        {
+            "class_id": 5,
+            "perimeter": 6.0552899169921875e+02,
+            "area": 26410.0,
+            "minHeight": 1.7599996948242188e+02,
+            "minWidth": 1.8299996948242188e+02
+        },
+        {
+            "class_id": 6,
+            "perimeter": 7.1326910400390625e+02,
+            "area": 36574.0,
+            "minHeight": 198.0,
+            "minWidth": 226.0
+        },
+        {
+            "class_id": 1,
+            "perimeter": 4.6077670288085938e+02,
+            "area": 1.5014500000000000e+04,
+            "minHeight": 127.0,
+            "minWidth": 140.0
+        },
+        {
+            "class_id": 2,
+            "perimeter": 5.1168838500976562e+02,
+            "area": 1.8982500000000000e+04,
+            "minHeight": 146.0,
+            "minWidth": 157.0
+        }
+    ]
+}

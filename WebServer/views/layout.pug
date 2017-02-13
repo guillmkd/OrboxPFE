@@ -1,0 +1,23 @@
+doctype html
+html
+    head
+        title= title
+        link(rel='stylesheet', href='/static/css/w3.css')
+        link(rel='stylesheet', href='/static/css/mystyle.css')
+        link(rel='stylesheet', href='/static/css/font-awesome-4.7.0/css/font-awesome.min.css')
+
+    body.w3-light-grey
+        header
+            ul.w3-navbar.w3-teal
+                li: a(href='/home').w3-xlarge.w3-text-shadow: b Orbox App
+                li: a(href='/objects').w3-xlarge
+                    i.fa.fa-cubes
+                    span &nbsp Objects
+                li: a(href='#').w3-xlarge
+                    i.fa.fa-camera-retro
+                    span &nbsp Screenshots
+                li: a(href='/stats').w3-xlarge
+                    i.fa.fa-bar-chart
+                    span &nbsp Stats
+        div(style='margin-right: 7%; margin-left: 7%;').w3-card-16.w3-padding-large.w3-white
+                block content

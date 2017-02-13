@@ -1,0 +1,13 @@
+{
+    "self_id": 18205126,
+    "raw_lightOn": "pics/18205126RO.jpg",
+    "raw_lightOff": "pics/18205126RF.jpg",
+    "undist_lightOn": "pics/18205126UO.jpg",
+    "undist_lightOff": "pics/18205126UF.jpg",
+    "mask_bin": "pics/18205126MB.jpg",
+    "rois_id": [
+        45127886,
+        69273868,
+        72356950
+    ]
+}

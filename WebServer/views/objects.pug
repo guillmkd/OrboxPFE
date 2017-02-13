@@ -1,0 +1,40 @@
+extends layout.pug
+
+block content
+    h2 Create new object
+    form(action='/objects', method='POST').w3-container
+        p
+            label.w3-label.w3-text-teal(for='unin') Name :
+            input.w3-input.w3-border.w3-light-grey(name='name' id='unin' type="text")
+        p
+            label.w3-label.w3-text-teal(for='aufrin') Audio message :
+            input.w3-input.w3-border.w3-light-grey(name='audiofr' id='aufrin' type="text")
+        p
+            button.w3-btn.w3-round.w3-teal(type="submit")
+                i.fa.fa-plus-circle
+                span &nbsp Submit
+
+    h2 Edit existing ones
+    each obj in objs
+        div.w3-card-4.w3-margin-bottom
+            header.w3-container.w3-teal
+                h4 #{obj.name}
+            div.w3-display-container.w3-padding-large
+                p
+                    strong Id :
+                    span &nbsp#{obj.self_id}
+                p
+                    strong Name :
+                    span &nbsp#{obj.name}
+                p
+                    strong Audio message :
+                    span &nbsp#{obj.audio_fr}
+                p
+                    strong Number of samples :
+                    span &nbsp#{obj.rois.length}
+
+                div.w3-display-bottomright.w3-margin-right
+                    - var urlEdit = '/objects/' + obj.self_id;
+                    a(href=urlEdit).w3-btn-floating.w3-teal
+                        i.fa.fa-pencil
+

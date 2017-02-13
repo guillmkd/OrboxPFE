@@ -1,0 +1,12 @@
+{
+    "self_id": 41960143,
+    "parent_id": 27096282,
+    "bound_rect_height": 195,
+    "bound_rect_width": 205,
+    "bound_rect_x": 336,
+    "bound_rect_y": 611,
+    "color_pic_path": "pics/41960143CL.png",
+    "mask_pic_path": "pics/41960143MK.png",
+    "class_id": 7,
+    "class_name": "1 euro"
+}

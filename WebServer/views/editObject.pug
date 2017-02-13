@@ -1,0 +1,33 @@
+extends layout.pug
+
+block content
+    h1 Edition of "#{obj.name}"
+
+    - deleteUrl = '/objects/' + obj.self_id + '/delete'
+    form(action=deleteUrl, method='POST')
+        p
+            button(type="submit").w3-btn.w3-red.w3-round
+                i.fa.fa-times-circle
+                span &nbsp Delete
+
+    - updateUrl = '/objects/' + obj.self_id + '/update'
+    form(action=updateUrl, method='POST')
+        p
+            label.w3-label.w3-text-teal(for='unin') Name :
+            input.w3-input.w3-border.w3-light-grey(name='name' id='unin' type="text" value=obj.name)
+        p
+            label.w3-label.w3-text-teal(for='aufrin') Audio message :
+            input.w3-input.w3-border.w3-light-grey(name='audiofr' id='aufrin' type="text" value=obj.audio_fr)
+        each roi in obj.rois
+                div(style='display: inline-block').w3-card-2.w3-margin-right.w3-margin-bottom
+                    - var srcImg = '/data/' + roi.color_pic_path
+                    div(style='height:180px; width: 150px;')
+                        img(src=srcImg).w3-image
+                    - var roiValue = roi.self_id
+                    p.w3-margin
+                        input(type="checkbox" name="suppressedrois" value=roiValue).w3-check
+                        label.w3-text-red Suppress
+        p
+            button(type="submit").w3-btn.w3-teal.w3-round
+                i.fa.fa-floppy-o
+                span &nbsp Apply changes
