@@ -60,14 +60,18 @@ void ClassificationTest::runSimpleSVM(ml::SVM::Types type, ml::SVM::KernelTypes 
     }
     calcMeanAndStDev(rslts, mean, stdev);
     cout << "\tSVM testing with " << SVM_KFOLD << "-fold cross validation" <<
-            "\n\tMean error " << mean << endl;
+         "\n\tMean error " << mean << endl;
 }
 
 ClassificationTest::ClassificationTest() {
-    FileStorage inFs("./data/indexRois.json", FileStorage::READ);
+    FileStorage configFs("../config.json", FileStorage::READ);
+    configFs["dataPath"] >> dataPath;
+    configFs.release();
+
+    FileStorage inFs("indexRois.json", FileStorage::READ);
     FileNodeIterator it = inFs["index"].begin();
     while (it != inFs["index"].end()) {
-        Rois currentRoi("./data/rois/" + to_string((int) *it) + ".json");
+        Rois currentRoi(dataPath + "rois/" + to_string((int) *it) + ".json", dataPath);
         data[(currentRoi.getClassId() - 1)].push_back(currentRoi);
         it++;
     }
@@ -104,21 +108,13 @@ void ClassificationTest::createDataSet(
             float p(roi.getPerimeter()), a(roi.getArea()), h(roi.getMinRectHeight()), w(roi.getMinRectWidth());
             int i = 0;
             if (enPerimeter)
-                currentRow(0, i++) = (normalize ? normValue(p, *minMaxP.first,
-                                                            /*(float) min((3 * meanP + stDevP), (double)*/ *minMaxP.second)/*)*/
-                                                : p);
+                currentRow(0, i++) = (normalize ? normValue(p, *minMaxP.first, *minMaxP.second) : p);
             if (enArea)
-                currentRow(0, i++) = (normalize ? normValue(a, *minMaxA.first,
-                                                            /*(float) min((3 * meanA + stDevA), (double)*/ *minMaxA.second)/*)*/
-                                                : a);
+                currentRow(0, i++) = (normalize ? normValue(a, *minMaxA.first, *minMaxA.second) : a);
             if (enMinH)
-                currentRow(0, i++) = (normalize ? normValue(h, *minMaxH.first,
-                                                            /*(float) min((3 * meanH + stDevH), (double)*/ *minMaxH.second)/*)*/
-                                                : h);
+                currentRow(0, i++) = (normalize ? normValue(h, *minMaxH.first, *minMaxH.second) : h);
             if (enMinW)
-                currentRow(0, i++) = (normalize ? normValue(w, *minMaxW.first,
-                                                            /*(float) min((3 * meanW + stDevW), (double)*/ *minMaxW.second)/*)*/
-                                                : w);
+                currentRow(0, i++) = (normalize ? normValue(w, *minMaxW.first, *minMaxW.second) : w);
             for (float beam : roi.calcHueHist(totalHistBeam, 1.0))
                 currentRow(0, i++) = beam;
             vecSamples.push_back(make_tuple(currentRow, roi.getClassId()));

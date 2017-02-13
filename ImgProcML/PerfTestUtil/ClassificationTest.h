@@ -22,6 +22,8 @@ private:
 
     cv::Ptr<cv::ml::TrainData> fullDataSet;
 
+    std::string dataPath;
+
     std::array<cv::Ptr<cv::ml::TrainData>, KNN_KFOLD> knnTrainData;
     std::array<cv::Ptr<cv::ml::TrainData>, SVM_KFOLD> svmTrainData;
     std::array<cv::Ptr<cv::ml::TrainData>, KNN_KFOLD> knnTestData;

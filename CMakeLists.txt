@@ -1,9 +1,8 @@
-cmake_minimum_required(VERSION 3.5)
+cmake_minimum_required(VERSION 3.2)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++1y")
 
-add_subdirectory(Common)
-# add_subdirectory(RoisUtil)
-add_subdirectory(StatUtil)
-add_subdirectory(PerfTestUtil)
-add_subdirectory(ScreenshotUtil)
+add_subdirectory(ImgProcML/Common)
+add_subdirectory(ImgProcML/StatUtil)
+add_subdirectory(ImgProcML/PerfTestUtil)
+# add_subdirectory(ScreenshotUtil)
