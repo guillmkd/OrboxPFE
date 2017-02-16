@@ -1,0 +1,32 @@
+extends layout.pug
+
+block content
+    p.
+        You can control the camera and the light of the Orbox remotely by
+        clicking on the button below. All the pics will be saved and
+        available later for labelling.
+
+    a.w3-btn.w3-round.w3-teal(href='/screenshots/snap')
+        i.fa.fa-database
+        span &nbsp New pics for training set
+
+    p.
+        All the pics previously saved can be labelled with the corresponding
+        class or can be dismiss.
+
+    a.w3-btn.w3-round.w3-teal(href='/screenshots/review')
+        i.fa.fa-eye
+        span &nbsp Review unclassiffied object
+
+    p.
+        You can also take the control of the Orbox remotely, but this time
+        the pictures won't be saved. Instead the Orbox will try to identify
+        the objects laid on the glass and predict to which class they belong.
+
+    a.w3-btn.w3-round.w3-teal(href='/screenshots/predict')
+        i.fa.fa-magic
+        span &nbsp Test the prediction
+
+    div(style='max-width: 50%; max-height: 50%; text-align: center;').w3-margin
+        - var screenUrl = '/data/' + screenPicPath;
+        img(src=screenUrl).w3-image

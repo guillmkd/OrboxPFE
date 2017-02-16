@@ -1,0 +1,637 @@
+\begin{appendices}
+\chapter{API des Web Services}
+\label{annexe_api}
+
+\section{Objects}
+
+
+\begin{absolutelynopagebreak}
+\paragraph{Lister les objets}
+
+Permet d'obtenir la liste des ressources \emph{objects} pouvant servir à l'apprentissage.
+
+\begin{tabular}{@{}p{2cm}p{11.5cm}@{}}
+    \toprule
+    \textbf{Verbe}                        & GET \hspace{2.5cm} \textbf{URI} \hspace{0.25cm} /api/objects   \\ \midrule
+    \midrule
+    \textbf{Réponses}                     &        \\
+    \multicolumn{1}{r}{\textit{Code}}   & 200 OK \\
+    \multicolumn{1}{r}{\textit{Body}}   & \begin{minted}{JSON}
+{
+  "_links": {
+    "self": {"href": "http://orbox.io/api/objects"},
+    "objects": [
+      {"href": "http://orbox.io/api/objects/1a2b3c"},
+      {"href": "http://orbox.io/api/objects/d4e5f6"}
+    ]
+  }
+}
+    \end{minted}
+    \\ \bottomrule
+\end{tabular}
+\end{absolutelynopagebreak}
+ 
+\begin{absolutelynopagebreak}
+\paragraph{Obtenir un objet}
+
+Permet d'obtenir les informations relatives à une classe d'objets.
+
+\begin{tabular}{@{}p{2cm}p{11.5cm}@{}}
+    \toprule
+    \textbf{Verbe}                        & GET \hspace{2.5cm} \textbf{URI} \hspace{0.25cm} /api/objects/:id   \\ \midrule
+    \midrule
+    \textbf{Réponses}                     &        \\
+    \multicolumn{1}{r}{\textit{Code}}   & 200 OK \\
+    \multicolumn{1}{r}{\textit{Body}}   & \begin{minted}{JSON}
+{
+  "_links": {
+    "self": {"href": "http://orbox.io/api/objects/1a2b3c"},
+    "rois": [
+      {"href": "http://orbox.io/api/rois/12az3e4r"},
+      {"href": "http://orbox.io/api/rois/qs78d9e1"}
+    ]
+  },
+  "name": "Pièce 2€ face FR",
+  "description": "Coté face (national - FR) des pièces de 2€",
+  "audio_fr": "pièce de 2€",
+  "is_male_fr": true,
+  "audio_en": "2€ coin"
+}
+    \end{minted}
+    \label{jsonHalObjects}
+    \\ \bottomrule
+\end{tabular}
+\end{absolutelynopagebreak}
+
+\begin{absolutelynopagebreak}
+\paragraph{Créer un objet}
+
+Si un objet a deux ou plusieurs faces bien distinctes alors plusieurs ressources \emph{objects}  devront être crée avec une même description audio associé --- par exemple, dans le cas d'une pièce d'euro on doit être créer une ressource \emph{objects} pour la face internationale et une ressource \emph{objects} pour chaque face nationale.
+
+\begin{tabular}{@{}p{2cm}p{11.5cm}@{}}
+    \toprule
+    \textbf{Verbe}                        & POST \hspace{2.5cm} \textbf{URI} \hspace{0.25cm} /api/objects   \\ \midrule
+    \textbf{Paramètres}                   &        \\
+    \multicolumn{1}{r}{\textit{name}} & [string] nom de la classe  \\ 
+    \multicolumn{1}{r}{\textit{description}} & [string] (optionnelle) description supplémentaire sur l'objet  \\ 
+    \multicolumn{1}{r}{\textit{audio\_fr}} & [string]  (optionnelle) message audio délivré quand le profile est en français \\ 
+    \multicolumn{1}{r}{\textit{is\_male\_fr}} & [boolean] (optionnelle) permet d'accorder le pronom déterminé du singulier (un ou une) lors du message audio --- par défaut le masculin sera utilisé.   \\
+    \multicolumn{1}{r}{\textit{audio\_en}} & [string] (optionnelle) message audio délivré quand le profile est en anglais~---~par défaut le texte français sera lu.  \\
+    \multicolumn{1}{r}{\textit{rois}} & [array of string] (optionnelle) Passer en paramètre la liste des id des ressources \emph{ROIs} associés à l'objet. \\ \midrule
+    \textbf{Réponses}                     &        \\
+    \multicolumn{1}{r}{\textit{Code}}   & 201 Created \\
+    \multicolumn{1}{r}{\textit{Location}}   & http://orbox.io/api/objects/1a2b3c \\\multicolumn{1}{r}{\textit{Body}}   & Voir \emph{Body} de la méthode GET /api/objects/:id pour le format du JSON retourné (p.\pageref{jsonHalObjects}). \\ \bottomrule
+\end{tabular}
+\end{absolutelynopagebreak}
+
+\begin{absolutelynopagebreak}
+\paragraph{Mettre à jour un objet}
+
+Permet de mettre à jour les données d'un \emph{objects}, notamment d'associer des \emph{ROIs}.
+
+\begin{tabular}{@{}p{2cm}p{11.5cm}@{}}
+    \toprule
+    \textbf{Verbe}                        & PUT \hspace{2.5cm} \textbf{URI} \hspace{0.25cm} /api/objects/:id   \\ \midrule
+    \textbf{Paramètres}                   &        \\
+    \multicolumn{1}{r}{\textit{name}} & [string] nom de la classe  \\ 
+    \multicolumn{1}{r}{\textit{description}} & [string] description supplémentaire sur l'objet  \\ 
+    \multicolumn{1}{r}{\textit{audio\_fr}} & [string] message audio délivré quand le profile est en français \\ 
+    \multicolumn{1}{r}{\textit{is\_male\_fr}} & [boolean] permet d'accorder en genre le pronom indéterminé au singulier lors du message audio.   \\
+    \multicolumn{1}{r}{\textit{audio\_en}} & [string] message audio délivré quand le profile est en anglais.  \\
+    \multicolumn{1}{r}{\textit{rois}} & [array of string] Passer en paramètre un tableau vide pour effacer toutes les ressources \emph{ROIs} associées à l'objet, sinon envoyer la liste des id associés. \\ \midrule
+    \textbf{Réponses}                     &        \\
+    \multicolumn{1}{r}{\textit{Code}}   & 200 OK \\
+    \multicolumn{1}{r}{\textit{Body}}   & Voir \emph{Body} de la méthode GET /api/objects/:id pour le format du JSON retourné (p.\pageref{jsonHalObjects}).
+    \\ \bottomrule
+\end{tabular}
+\end{absolutelynopagebreak}
+
+\begin{absolutelynopagebreak}
+\paragraph{Supprimer un objet}
+
+Supprime la ressource objet, les \emph{ROIs} associées à cet objet ne seront pas supprimés.
+
+\begin{tabular}{@{}p{2cm}p{11.5cm}@{}}
+    \toprule
+    \textbf{Verbe}                        & DELETE \hspace{2.5cm} \textbf{URI} \hspace{0.25cm} /api/objects/:id   \\ \midrule
+    \textbf{Réponses}                     &        \\
+    \multicolumn{1}{r}{\textit{Code}}   & 204 No Content \\ \bottomrule
+\end{tabular}
+\end{absolutelynopagebreak}
+
+%section apiobjects (end)
+
+\begin{absolutelynopagebreak}
+\section{Screenshots}
+
+\paragraph{Lister les screenshots}
+
+Permet d'obtenir la liste des ressources \emph{screenshots}.
+
+\begin{tabular}{@{}p{2cm}p{11.5cm}@{}}
+    \toprule
+    \textbf{Verbe}                        & GET \hspace{2.5cm} \textbf{URI} \hspace{0.25cm} /api/screenshots   \\ \midrule
+    \textbf{Paramètres}                   &        \\ \midrule
+    \textbf{Réponses}                     &        \\
+    \multicolumn{1}{r}{\textit{Code}}   & 200 OK \\
+    \multicolumn{1}{r}{\textit{Body}}   & \begin{minted}{JSON}
+{
+  "_links": {
+    "self": {"href": "http://orbox.io/api/screenshots"},
+    "screenshots": [
+      {"href": "http://orbox.io/api/screenshots/1a2b3c"},
+      {"href": "http://orbox.io/api/screenshots/d4e5f6"}
+    ]
+  }
+}
+\end{minted}
+    \\ \bottomrule
+\end{tabular}
+\end{absolutelynopagebreak}
+  
+\begin{absolutelynopagebreak}
+\paragraph{Obtenir un screenshot}
+
+Permet d'obtenir les informations relatives à une ressource \emph{screenshots}.
+Ces informations sont :
+\begin{labeling}[~--]{thumbnail}
+    \item [raw\_lit] lien vers l'image brute (sans traitement) capturé avec l'éclairage.
+    \item [raw\_dark] lien vers l'image brute (sans traitement) capturé sans éclairage.
+    \item [und\_lit] lien vers l'image réaplani et filtré résultant des étapes de pré-processing, capturé avec l'éclairage.
+    \item [und\_dark] lien vers l'image réaplani et filtré résultant des étapes de pré-processing, capturé sans l'éclairage. 
+    \item [thumbnail] lien vers la miniature de l'image \emph{und\_lit}.
+    \item [timestamp] horodatage des images capturées.
+    \item [rois] la liste des régions d'intérêts trouvés dans le screenshot, c'est-à-dire le résultat de l'étape de segmentation.
+\end{labeling}
+
+
+\begin{tabular}{@{}p{2cm}p{11.5cm}@{}}
+    \toprule
+    \textbf{Verbe}                        & GET \hspace{2.5cm} \textbf{URI} \hspace{0.25cm} /api/screenshots/:id   \\ \midrule
+    \textbf{Réponses}                     &        \\
+    \multicolumn{1}{r}{\textit{Code}}   & 200 OK \\
+    \multicolumn{1}{r}{\textit{Body}}   & \begin{minted}{JSON}
+{
+  "_links": {
+    "self": {"href": "http://orbox.io/api/screenshots/1a2b3c"},
+    "raw_lit": {"href": "http://orbox.io/api/img/14qa7d"},
+    "raw_dark": {"href": "http://orbox.io/api/img/89de5f"},
+    "und_lit": {"href": "http://orbox.io/api/img/47de9f"},
+    "und_dark": {"href": "http://orbox.io/api/img/68dea8"},
+    "thumbnail": {"href": "http://orbox.io/api/img/48dgr3"},
+    "rois" : [
+      {"href": "http://orbox.io/api/rois/4d7gt5"},
+      {"href": "http://orbox.io/api/rois/64adcs"},
+      {"href": "http://orbox.io/api/rois/fr8qfr"}
+    ]
+  },
+  "timestamp": "2016-04-23T18:25:43.511Z"
+}
+    \end{minted}
+    \label{jsonHalScreenshots}
+    \\ \bottomrule
+\end{tabular}
+\end{absolutelynopagebreak}
+
+\begin{absolutelynopagebreak}
+\paragraph{Créer un screenshots}
+Cette action fait appel à la caméra de la OrBox ; deux photos sont prises, les étapes de pré-processing et de segmentation sont effectuées.
+
+\begin{tabular}{@{}p{2cm}p{11.5cm}@{}}
+    \toprule
+    \textbf{Verbe}                        & POST \hspace{2.5cm} \textbf{URI} \hspace{0.25cm} /api/screenshots   \\ \midrule
+    \textbf{Réponses}                     &        \\
+    \multicolumn{1}{r}{\textit{Code}}   & 201 Created \\
+    \multicolumn{1}{r}{\textit{Location}}   & http://orbox.io/api/screenshots/1a2b3c \\\multicolumn{1}{r}{\textit{Body}}   & Voir \emph{Body} de la méthode GET /api/screenshots/:id pour le format du JSON retourné (p.\pageref{jsonHalScreenshots}). \\ \bottomrule
+\end{tabular}
+\end{absolutelynopagebreak}
+
+\begin{absolutelynopagebreak}
+\paragraph{Mettre à jour un screenshot}
+
+Permet de mettre à jour les donnés d'un \emph{screenshots}.
+Cette action est à utiliser en cas de changement d'algorithme de segmentation ou de pré-processing.
+
+\begin{tabular}{@{}p{2cm}p{11.5cm}@{}}
+    \toprule
+    \textbf{Verbe}                        & PUT \hspace{2.5cm} \textbf{URI} \hspace{0.25cm} /api/screenshots/:id   \\ \midrule
+    \textbf{Paramètres}                   &        \\
+    \multicolumn{1}{r}{\textit{und\_lit}} & [string] id de l'image réaplani et filtré résultant des étapes de pré-processing, capturée avec l'éclairage  \\ 
+    \multicolumn{1}{r}{\textit{und\_dark}} & [string] id de l'image réaplani et filtré résultant des étapes de pré-processing, capturée sans l'éclairage  \\ 
+    \multicolumn{1}{r}{\textit{thumbnail}} & [string] id de la miniature de la nouvelle image \emph{und\_lit} \\ 
+    \multicolumn{1}{r}{\textit{rois}} & [array of string] Passer en paramètre un tableau vide pour effacer toutes les ressources \emph{ROIs} associées au screenshots, sinon envoyer la liste des id associés. \\ \midrule
+    \textbf{Réponses}                     &        \\
+    \multicolumn{1}{r}{\textit{Code}}   & 200 OK \\
+    \multicolumn{1}{r}{\textit{Body}}   & Voir \emph{Body} de la méthode GET /api/screenshots/:id pour le format du JSON retourné (p.\pageref{jsonHalScreenshots}).
+    \\ \bottomrule
+\end{tabular}
+\end{absolutelynopagebreak}
+
+\begin{absolutelynopagebreak}
+\paragraph{Supprimer un screenshots}
+Toutes les images associées seront aussi supprimées, mais pas les \emph{ROIs}.
+
+\begin{tabular}{@{}p{2cm}p{11.5cm}@{}}
+    \toprule
+    \textbf{Verbe}                        & DELETE \hspace{2.5cm} \textbf{URI} \hspace{0.25cm} /api/objects/:id   \\ \midrule
+    \textbf{Réponses}                     &        \\
+    \multicolumn{1}{r}{\textit{Code}}   & 204 No Content \\ \bottomrule
+\end{tabular}
+\end{absolutelynopagebreak}
+ 
+%section apiscreenshots (end)
+
+\begin{absolutelynopagebreak}
+\section{ROIs}
+
+\paragraph{Lister les régions d'intéréts}
+
+Permet d'obtenir la liste des ressources \emph{ROIs}.
+
+\begin{tabular}{@{}p{2cm}p{11.5cm}@{}}
+    \toprule
+    \textbf{Verbe}                        & GET \hspace{2.5cm} \textbf{URI} \hspace{0.25cm} /api/rois   \\ \midrule
+    \textbf{Réponses}                     &        \\
+    \multicolumn{1}{r}{\textit{Code}}   & 200 OK \\
+    \multicolumn{1}{r}{\textit{Body}}   & \begin{minted}{JSON}
+{
+  "_links": {
+    "self": {"href": "http://orbox.io/api/rois"},
+    "rois": [
+      {"href": "http://orbox.io/api/rois/1a2b3c"},
+      {"href": "http://orbox.io/api/rois/d4e5f6"}
+    ]
+  }
+}
+    \end{minted}
+    \\ \bottomrule
+\end{tabular}
+\end{absolutelynopagebreak}
+  
+\begin{absolutelynopagebreak}
+\paragraph{Obtenir une région d'intérêt}
+
+Permet d'obtenir les informations relatives à une ressource \emph{rois}.
+Il s'agit d'une image et de ses métadonnées résultant de l'opération de segmentation.
+Ces informations sont :
+\begin{labeling}[~--]{top\_left\_x, top\_left\_y}
+    \item [parent] lien vers le \emph{screenshots} à partir duquel la région d'intérêt a été calculée.
+    \item [img] lien vers l'image --- cette image est réalisée à partir de l'image \emph{und\_lit} de parent.
+    \item [width, height] largeur et hauteur de la région d'intérêt.
+    \item [top\_left\_x, top\_left\_y] coordonné du coin supérieur gauche de la région d'intérêt dans l'image du \emph{parent}.
+\end{labeling}
+
+\begin{tabular}{@{}p{2cm}p{11.5cm}@{}}
+    \toprule
+    \textbf{Verbe}                        & GET \hspace{2.5cm} \textbf{URI} \hspace{0.25cm} /api/rois/:id   \\ \midrule
+    \textbf{Réponses}                     &        \\
+    \multicolumn{1}{r}{\textit{Code}}   & 200 OK \\
+    \multicolumn{1}{r}{\textit{Body}}   & \begin{minted}{JSON}
+{
+  "_links": {
+    "self": {"href": "http://orbox.io/api/rois/1a2b3c"},
+    "img": {"href": "http://orbox.io/api/img/48dgr3"},
+    "parent": {"href": "http://orbox.io/api/screenshots/89de5f"}
+  },
+  "top_left_x": 249,
+  "top_left_y": 725,
+  "width": 64,
+  "height": 58,
+  "descriptors": [
+    { "ORB": OpenCV_Mat_parsedInJSON }, 
+    { "BRISK": OpenCV_Mat_parsedInJSON }
+  ]
+}
+    \end{minted}
+    \label{jsonHalROIs}
+    \\ \bottomrule
+\end{tabular}
+\end{absolutelynopagebreak}
+
+\begin{absolutelynopagebreak}
+\paragraph{Créer un ROI}
+Créer une ressource \emph{ROIs} --- cette action n'est censée être appelée que par l'algorithme de segmentation.
+
+\begin{tabular}{@{}p{2cm}p{11.5cm}@{}}
+    \toprule
+    \textbf{Verbe}                        & POST \hspace{2.5cm} \textbf{URI} \hspace{0.25cm} /api/rois   \\ \midrule
+    \textbf{Paramètres}                   &        \\
+    \multicolumn{1}{r}{\textit{parent}}  & [string] id de la ressource \emph{screenshots} à partir duquel la région d'intérêt a été calculé. \\ 
+    \multicolumn{1}{r}{\textit{img}}  & [string] id de la ressource \emph{image} associée. \\
+    \multicolumn{1}{r}{\textit{topLeftX}}  & [integer] coordonnée horizontale du coin supérieur gauche.  \\ 
+    \multicolumn{1}{r}{\textit{topLeftY}}  & [integer] coordonnée verticale du coin supérieur gauche. \\ 
+    \multicolumn{1}{r}{\textit{width}}  & [integer] largeur de la région d'intérêt.\\ 
+    \multicolumn{1}{r}{\textit{height}}  & [integer] hauteur de la région d'intérêt. \\
+    \multicolumn{1}{r}{\textit{descriptors}} & [array of string] (optionnelle) 
+    Passer le nom des descripteurs à calculer.
+    La liste des noms valides sera déterminée plus tard lors du développement. \\
+    \midrule
+    \textbf{Réponses}                     &        \\
+    \multicolumn{1}{r}{\textit{Code}}   & 201 Created \\
+    \multicolumn{1}{r}{\textit{Location}}   & http://orbox.io/api/rois/1a2b3c \\\multicolumn{1}{r}{\textit{Body}}   & Voir \emph{Body} de la méthode GET /api/rois/:id pour le format du JSON retourné (p.\pageref{jsonHalROIs}). \\ \bottomrule
+    \end{tabular}
+\end{absolutelynopagebreak}
+
+\begin{absolutelynopagebreak}
+\paragraph{Mettre à jour un ROI}
+
+Permet de mettre à jour les donnés d'un \emph{roi}, seuls les descripteurs sont mis à jour.
+
+\begin{tabular}{@{}p{2cm}p{11.5cm}@{}}
+    \toprule
+    \textbf{Verbe}                        & PUT \hspace{2.5cm} \textbf{URI} \hspace{0.25cm} /api/rois/:id   \\ \midrule
+    \textbf{Paramètres}                   &        \\
+    \multicolumn{1}{r}{\textit{descriptors}} & [array of string] Passer en paramètre un tableau vide pour effacer tous les descripteurs associés.
+    Sinon, passer le nom des descripteurs à calculer.
+    La liste des noms valides sera déterminée plus tard lors du développement. \\\midrule
+    \textbf{Réponses}                     &        \\
+    \multicolumn{1}{r}{\textit{Code}}   & 200 OK \\
+    \multicolumn{1}{r}{\textit{Body}}   & Voir \emph{Body} de la méthode GET /api/rois/:id pour le format du JSON retourné (p.\pageref{jsonHalROIs}).
+    \\ \bottomrule
+\end{tabular}
+\end{absolutelynopagebreak}
+
+\begin{absolutelynopagebreak}
+\paragraph{Supprimer un ROI}
+~
+
+\begin{tabular}{@{}p{2cm}p{11.5cm}@{}}
+    \toprule
+    \textbf{Verbe}                        & DELETE \hspace{2.5cm} \textbf{URI} \hspace{0.25cm} /api/rois/:id   \\ \midrule
+    \textbf{Réponses}                     &        \\
+    \multicolumn{1}{r}{\textit{Code}}   & 204 No Content \\ \bottomrule
+\end{tabular}
+\end{absolutelynopagebreak}
+
+% section apiROIs (end)
+
+\begin{absolutelynopagebreak}
+\section{Profiles}
+
+\paragraph{Lister les profils}
+
+Permet d'obtenir la liste des ressources \emph{profiles}.
+
+\begin{tabular}{@{}p{2cm}p{11.5cm}@{}}
+    \toprule
+    \textbf{Verbe}                        & GET \hspace{2.5cm} \textbf{URI} \hspace{0.25cm} /api/profiles   \\ \midrule
+    \textbf{Paramètres}                   &        \\
+    \multicolumn{1}{r}{\textit{actived}} & [boolean] si "true" répond par un 303, si "false" répond par un 200.  \\
+    \midrule
+    \textbf{Réponses}                     &        \\
+    \multicolumn{1}{r}{\textit{Code}}   & 200 OK \\
+    \multicolumn{1}{r}{\textit{Body}}   & \begin{minted}{JSON}
+{
+  "_links": {
+    "self": {"href": "http://orbox.io/api/profiles"},
+    "profiles": [
+      {"href": "http://orbox.io/api/profiles/1a2b3c"},
+      {"href": "http://orbox.io/api/profiles/d4e5f6"}
+    ]
+  }
+}
+    \end{minted}
+    \\ \midrule
+    \multicolumn{1}{r}{\textit{Code}}   & 303 See Other \\
+    \multicolumn{1}{r}{\textit{Location}}   & http://orbox.io/api/profiles/1a2b3c \\
+    \bottomrule
+\end{tabular}
+\end{absolutelynopagebreak}
+  
+\begin{absolutelynopagebreak}
+\paragraph{Obtenir un profil}
+
+Permet d'obtenir les informations relatives à une ressource \emph{profiles}.
+Il s'agit d'une ressource regroupant les options de configuration de la OrBox.
+Les options paramétrables par profil sont :
+\begin{labeling}[~--]{classificator\_used}
+    \item[active] indique si le profil est le profil utilisé par la Orbox lors des prédictions.
+    \item[audio\_langage] La langue à utiliser pour le message audio lors des prédictions.
+    \item[descriptor\_used] Descripteur à utiliser. 
+    La liste des descripteurs sera détermineée plus tard lors du développement.
+    \item[classificator\_used] Algorithme de classification à utiliser.
+    La liste des valeurs acceptable n'est pas fixée, mais se limitera probablement à "1NN", "FLANN" et "SVM".
+    \item[last\_trained] Horodatage du dernier entrainement.
+    \item[last\_updated] Horodatage de la dernière modification faite au training set.
+    \item[config\_file] Lien vers le fichier de configuration, résultat de la dernière opération d'entraînement.
+    \item[result\_file] Lien vers le fichier des résultats (taux de reconnaissance, nombre d'itérations...) de la dernière opération d'entraînement.
+    \item [training\_set] Un ensemble de ressource \emph{objects} sur lesquelles sera entraîné l'algorithme de classification.
+    On pourra avoir, par exemple, un profil entrainé sur tous les \emph{objects} relatifs au cas d'utilisation des pièces, un deuxième contenant tous les \emph{objects} relatifs au cas d'utilisation et un troisième regroupant les deux.
+\end{labeling}
+
+\begin{tabular}{@{}p{2cm}p{11.5cm}@{}}
+    \toprule
+    \textbf{Verbe}                        & GET \hspace{2.5cm} \textbf{URI} \hspace{0.25cm} /api/profiles/:id   \\ \midrule
+    \textbf{Réponses}                     &        \\
+    \multicolumn{1}{r}{\textit{Code}}   & 200 OK \\
+    \multicolumn{1}{r}{\textit{Body}}   & \begin{minted}{JSON}
+{
+  "_links": {
+    "self": {"href": "http://orbox.io/api/profiles/48dgr3"},
+    "config_file": {"href": "http://orbox.io/api/xml/d4e5f6"},
+    "result_file": {"href": "http://orbox.io/api/xml/47de9f"},
+    "training_set": [
+      {"href": "http://orbox.io/api/objects/1a2b3c"},
+      {"href": "http://orbox.io/api/objects/d4e5f6"}
+    ]
+  },
+  "active": true,
+  "audio_language": "FR",
+  "descriptor_used": "BRISK+COLORHIST64",
+  "classificator_used": "SVM",
+  "last_trained": "2017-02-21T14:25:43.511Z",
+  "last_updated": "2017-04-13T09:45:23.319Z"
+}
+    \end{minted}
+    \label{jsonHalProfiles}
+    \\ \bottomrule
+\end{tabular}
+\end{absolutelynopagebreak}
+
+\begin{absolutelynopagebreak}
+\paragraph{Créer un profile}
+Créer une ressource \emph{profiles}.
+
+\begin{tabular}{@{}p{2cm}p{11.5cm}@{}}
+    \toprule
+    \textbf{Verbe}                        & POST \hspace{2.5cm} \textbf{URI} \hspace{0.25cm} /api/rois   \\ \midrule
+    \textbf{Paramètres}                   &        \\
+    \multicolumn{1}{r}{\textit{active}}  & [boolean] (optionnelle) false par défaut. \\
+    \multicolumn{1}{r}{\textit{audio\_language}}  & [string] (optionnelle) Valeurs acceptées "FR" ou "EN".
+    Par défaut "FR". \\
+    \multicolumn{1}{r}{\textit{descriptor\_used}}  & [string] Nom du descripteur utilisé.
+    Les valeurs acceptés ne sont pas encore définies.\\
+    \multicolumn{1}{r}{\textit{classificator\_used}}  & [string] Nom du classificateur utilisé.
+    Les valeurs acceptées ne sont pas encore définies.\\
+    \multicolumn{1}{r}{\textit{training\_set}}  & [array of string] (optionnelles) ids des ressources \emph{objects} constituant le training set.\\
+    \midrule
+    \textbf{Réponses}                     &        \\
+    \multicolumn{1}{r}{\textit{Code}}   & 201 Created \\
+    \multicolumn{1}{r}{\textit{Location}}   & http://orbox.io/api/profiles/1a2b3c \\\multicolumn{1}{r}{\textit{Body}}   & Voir \emph{Body} de la méthode GET /api/rois/:id pour le format du JSON retourné (p.\pageref{jsonHalProfiles}). \\ \bottomrule
+\end{tabular}
+\end{absolutelynopagebreak}
+
+\begin{absolutelynopagebreak}
+\paragraph{Mettre à jour un profil}
+
+Permet de mettre à jour les donnés d'un \emph{profiles}.
+
+\begin{tabular}{@{}p{2cm}p{11.5cm}@{}}
+    \toprule
+    \textbf{Verbe}                        & PUT \hspace{2.5cm} \textbf{URI} \hspace{0.25cm} /api/profiles/:id   \\ \midrule
+    \textbf{Paramètres}                   &        \\
+    \multicolumn{1}{r}{\textit{active}}  & [boolean] \\
+    \multicolumn{1}{r}{\textit{audio\_language}}  & [string] Valeurs acceptées "FR" ou "EN". \\
+    \multicolumn{1}{r}{\textit{descriptor\_used}}  & [string] Nom du descripteur utilisé.
+    Les valeurs acceptées ne sont pas encore définies.\\
+    \multicolumn{1}{r}{\textit{classificator\_used}}  & [string] Nom du classificateur utilisé.
+    Les valeurs acceptées ne sont pas encore définies.\\
+    \multicolumn{1}{r}{\textit{training\_set}}  & [array of string] Passer en paramètre un tableau vide pour effacer toutes les ressources \emph{objects} constituant le training set du profile, sinon envoyer la liste des id associés. \\
+    \midrule
+    \textbf{Réponses}                     &        \\
+    \multicolumn{1}{r}{\textit{Code}}   & 200 OK \\
+    \multicolumn{1}{r}{\textit{Body}}   & Voir \emph{Body} de la méthode GET /api/rois/:id pour le format du JSON retourné (p.\pageref{jsonHalProfiles}).
+    \\ \bottomrule
+\end{tabular}
+\end{absolutelynopagebreak}
+
+\begin{absolutelynopagebreak}
+\paragraph{Supprimer un profil}
+~
+
+\begin{tabular}{@{}p{2cm}p{11.5cm}@{}}
+    \toprule
+    \textbf{Verbe}                        & DELETE \hspace{2.5cm} \textbf{URI} \hspace{0.25cm} /api/profiles/:id   \\ \midrule
+    \textbf{Réponses}                     &        \\
+    \multicolumn{1}{r}{\textit{Code}}   & 204 No Content \\ \bottomrule
+\end{tabular}
+\end{absolutelynopagebreak}
+
+\begin{absolutelynopagebreak}
+\paragraph{Effectuer l'entraînement d'un profil}
+\label{ApiProfilesTrain}
+Suivant l'algorithme de classification utilisé et la taille du training set, l'entraînement peut prendre beaucoup de temps.
+Afin de ne pas bloquer le client, une ressource \emph{queue} est créée; il pourra grâce à elle vérifier périodiquement l'avancement de l'entraînement.
+À la fin de l'entraînement les champs "last\_trained", "config\_file" et "result\_file" la ressource \emph{profile} associé seront mis à jour.
+
+\begin{tabular}{@{}p{2cm}p{11.5cm}@{}}
+    \toprule
+    \textbf{Verbe}                        & GET \hspace{2.5cm} \textbf{URI} \hspace{0.25cm} /api/profiles/:id/train   \\ \midrule
+    \textbf{Réponses}                     &        \\
+    \multicolumn{1}{r}{\textit{Code}}   & 202 Accepted \\
+    \multicolumn{1}{r}{\textit{Location}}   &  http://orbox.io/api/profiles/12ab3c/queue \\
+    \bottomrule
+\end{tabular}
+\end{absolutelynopagebreak}
+
+\begin{absolutelynopagebreak}
+\paragraph{Vérifier l'avancement d'un entraînement}
+~
+
+\begin{tabular}{@{}p{2cm}p{11.5cm}@{}}
+    \toprule
+    \textbf{Verbe}                        & GET \hspace{2.5cm} \textbf{URI} \hspace{0.25cm} /api/profiles/:id/queue   \\ \midrule
+    \textbf{Réponses}                     &        \\
+    \multicolumn{1}{r}{\textit{Code}}   & 200 OK \\
+    \multicolumn{1}{r}{\textit{Body}}   & \begin{minted}{JSON}
+{
+  "_links": {
+    "self": {"href": "/api/profiles/d4e5f6/queue"},
+    "cancel": {
+      "method": "DELETE",
+      "href": "/api/profiles/d4e5f6/queue"
+    }
+  },
+  "status": "PENDING"
+}
+    \end{minted}
+    \\ \midrule
+    \multicolumn{1}{r}{\textit{Code}}   & 303 See Other \\
+    \multicolumn{1}{r}{\textit{Location}}   &  http://orbox.io/api/profiles/12ab3c \\
+    \bottomrule
+\end{tabular}
+\end{absolutelynopagebreak}
+
+\begin{absolutelynopagebreak}
+\paragraph{Annuler un entraînement en cours}
+~
+
+\begin{tabular}{@{}p{2cm}p{11.5cm}@{}}
+    \toprule
+    \textbf{Verbe}                        & GET \hspace{2.5cm} \textbf{URI} \hspace{0.25cm} /api/profiles/:id/queue   \\ \midrule
+    \textbf{Réponses}                     &        \\
+    \multicolumn{1}{r}{\textit{Code}}   & 204 No Content \\
+    \bottomrule
+\end{tabular}
+\end{absolutelynopagebreak}
+
+
+\begin{absolutelynopagebreak}
+\paragraph{Faire une prédiction}
+Cette action utilise l'algorithme et le fichier de configuration renseigné dans le profil pour effectuer une prédiction sur l'objet à laquelle appartient chaque région d'intérêts passés en paramètre.
+
+\begin{tabular}{@{}p{2cm}p{11.5cm}@{}}
+    \toprule
+    \textbf{Verbe}                        & GET \hspace{2.5cm} \textbf{URI} \hspace{0.25cm} /api/profiles/:id/predict   \\ \midrule
+    \textbf{Paramètres}                   &        \\
+    \multicolumn{1}{r}{\textit{rois}} & [array of string] ids des différentes régions d'intérêts sur lesquelles une prédiction doit être faite.  \\
+    \midrule
+    \textbf{Réponses}                     &        \\
+    \multicolumn{1}{r}{\textit{Code}}   & 200 OK \\
+    \multicolumn{1}{r}{\textit{Body}}   & \begin{minted}{JSON}
+{
+  "_links": {
+    "self": {"href": "/api/profiles/d4e5f6/predict"}
+  },
+  "results": [
+    {
+      "roi" : {"href": "/api/rois/48dgr3"},
+      "prediction":  {"href": "/api/objects/47de9f"}
+    },
+    {
+      "roi" : {"href": "/api/rois/1a2b3c"},
+      "prediction":  {"href": "/api/objects/47de9f"}
+    }
+  ]
+}
+    \end{minted}
+    \\
+    \bottomrule
+\end{tabular}
+\end{absolutelynopagebreak}
+
+%section profiles (end)
+
+\begin{absolutelynopagebreak}
+\section{Text to speech}
+
+\paragraph{Obtenir la synthèse vocale d'un texte}
+~
+
+\begin{tabular}{@{}p{2cm}p{11.5cm}@{}}
+    \toprule
+    \textbf{Verbe}                        & GET \hspace{2.5cm} \textbf{URI} \hspace{0.25cm} /api/tts   \\ \midrule
+    \textbf{Paramètres}                   &        \\
+    \multicolumn{1}{r}{\textit{lang}} & [string] "FR" ou "EN"  \\
+    \multicolumn{1}{r}{\textit{text}} & [string] la phrase à synthétisé  \\ \midrule
+    \textbf{Réponses}                     &        \\
+    \multicolumn{1}{r}{\textit{Code}}   & 200 OK \\
+    \multicolumn{1}{r}{\textit{type}}   & audio/wav \\
+    \\ \bottomrule
+\end{tabular}
+\end{absolutelynopagebreak}
+
+\begin{absolutelynopagebreak}
+\section{Static}
+Un certain nombre de fichiers doivent être manipulés, ils seront stockés soit sur le système de fichier soit sur une base de données --- par exemple \emph{MongoDB} avec \emph{GridFS}.
+
+\begin{tabular}{@{}p{2cm}p{11.5cm}@{}}
+    \toprule
+    \textbf{Verbe}                        & GET, PUT, DELETE \hspace{2.5cm} \textbf{URI} \hspace{0.25cm} /api/\{img/xml/...\}/:id  \\
+    \textbf{Réponses}                     &        \\
+    \multicolumn{1}{r}{\textit{Code}}   & 200 OK \\ \bottomrule
+\end{tabular}
+\end{absolutelynopagebreak}
+
+
+\end{appendices}

@@ -1,12 +1,10 @@
 #include <iostream>
-#include <chrono>
 #include <thread>
 #include <string>
 #include <math.h>
 #include "App.h"
 #include "../Common/InputParser.h"
 #include "../Common/Screenshots.h"
-#include "../Common/Rois.h"
 
 using namespace std;
 using namespace cv;
@@ -48,7 +46,12 @@ int main(int argc, char **argv) {
         t.join();
     });
 
-    Screenshots screenshot(rawLitOn, rawLitOn, undistOn, undistOff, dataPath, id);
+ /*   rawLitOn = imread(dataPath + "pics/10502060RO.jpg");
+    rawLitOff = imread(dataPath + "pics/10502060RF.jpg");
+    undistOn = imread(dataPath + "pics/10502060UO.jpg");
+    undistOff = imread(dataPath + "pics/10502060UF.jpg");*/
+
+    Screenshots screenshot(rawLitOn, rawLitOff, undistOn, undistOff, dataPath, id);
     screenshot.segmentation();
     screenshot.writeToFile(true);
 

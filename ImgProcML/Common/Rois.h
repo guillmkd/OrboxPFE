@@ -27,8 +27,7 @@ private:
     std::vector<cv::Point> contour;
 
     // objects class attributes
-    int classId;
-    std::string className;
+    int classId = -1;
 
     // contour features attributes
     float contourPerimeter = -1;

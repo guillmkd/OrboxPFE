@@ -1,0 +1,110 @@
+\documentclass[a4paper]{report}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{numprint}
+\usepackage{enumitem}
+\usepackage{scrextend}
+\usepackage{a4wide}
+\usepackage{float}
+\usepackage{textcomp, gensymb}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{minted}
+\usepackage[toc,page]{appendix}
+
+\usepackage[footnote]{acronym}
+
+\renewcommand{\labelenumii}{\theenumii}
+\renewcommand{\theenumii}{\theenumi.\arabic{enumii}.}
+
+\let\EndItemize\enditemize
+\def\enditemize{\EndItemize\bigskip}
+
+\newenvironment{absolutelynopagebreak}
+  {\par\nobreak\vfil\penalty0\vfilneg
+   \vtop\bgroup}
+  {\par\xdef\tpd{\the\prevdepth}\egroup
+   \prevdepth=\tpd}
+
+\setlength{\parindent}{2em}
+\setlength{\parskip}{1em}
+\addtokomafont{labelinglabel}{\bf}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%
+%%% First page %%%
+%%%%%%%%%%%%%%%%%%
+
+\begin{titlepage}
+\begin{center}
+
+\includegraphics[width=0.6\textwidth]{img/logo_polytech.png}\\[1cm]
+
+{\large Informatique Industrielle en apprentissage}\\[0.5cm]
+
+{\large Projet de Fin d'Étude}\\[0.5cm]
+
+% Title
+\rule{\linewidth}{0.5mm} \\[0.4cm]
+{ \huge \bfseries Or-Box - Cahier de spécification \\[0.4cm] }
+\rule{\linewidth}{0.5mm} \\[1.5cm]
+
+% Author and supervisor
+\noindent
+\begin{minipage}{0.4\textwidth}
+  \begin{flushleft} \large
+    \emph{Auteur :}\\
+    M.~Pierre \textsc{Robillard}\\
+  \end{flushleft}
+\end{minipage}%
+\begin{minipage}{0.4\textwidth}
+  \begin{flushright} \large
+    \emph{Encadrant :} \\
+    M.~Frédéric \textsc{Rayar}\\
+  \end{flushright}
+\end{minipage}
+
+\vfill
+
+% Bottom of the page
+{\large Version 0.1 du\\ \today}
+
+\end{center}
+\end{titlepage}
+
+\tableofcontents
+\listoffigures
+
+\chapter*{Liste des sigles et acronymes}
+\begin{acronym}[CP-OFDMX] % Give the longest acronym here
+
+\acro{CEM}{Compabilité Électro-Magnétique}
+\acro{COTS}{\emph{Component Off the Shelf}}
+\acro{CMS}{Composant Monté Surface}
+\acro{CRUD}{\emph{Create Read Update Delete}}
+\acro{DAC}{\emph{Digital to Analog Converter}}
+\acro{DII}{Département Informatique Industrielle}
+\acro{HATEAOS}{\emph{Hypermedia As The Engine Of Application State}}
+\acro{MOA}{Maître (\emph{ou Maîtrise}) d'Ouvrage}
+\acro{MOE}{Maître (\emph{ou Maîtrise}) d'\OE{}uvre}
+\acro{PCB}{\emph{Printend Circuit Board}}
+\acro{PFE}{Projet de Fin d'étude}
+\acro{REST}{\emph{REpresentational State Transfer}}
+\acro{SVM}{\emph{Support Vector Machine}}
+\acro{UX}{\emph{User Experience}}
+\acro{V4L}{\emph{Video for Linux}}
+\end{acronym}
+
+\include{cahier_spec}
+
+\include{plan_dev}
+
+\include{annexes}
+
+\end{document}

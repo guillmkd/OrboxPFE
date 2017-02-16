@@ -3,6 +3,18 @@ const fs = require('fs');
 
 module.exports = class ScreenshotsUtil {
   /**
+   * 
+   * @returns {*}
+   */
+  static getNewId() {
+    let rslt;
+    do {
+      rslt = Math.floor(Math.random() * 10000000) + 10000000 ;
+    } while (this._idExists(rslt));
+    return rslt;
+  }
+
+  /**
    *
    * @returns {[Number]}
    */

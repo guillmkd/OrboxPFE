@@ -25,6 +25,7 @@ app.get('/', (req, res) => {
 app.use('/home', require('./src/routes/home'));
 app.use('/stats', require('./src/routes/stats'));
 app.use('/objects', require('./src/routes/objects'));
+app.use('/screenshots', require('./src/routes/screenshots'));
 
 // Last level error handler
 app.use((err, req, res, next) => {

@@ -8,7 +8,7 @@ using namespace std;
 using namespace cv;
 
 void Rois::readFromFile() {
-    FileStorage fs(dataPath + 'rois/' + to_string(selfId) + '.json', FileStorage::READ);
+    FileStorage fs(dataPath + "rois/" + to_string(selfId) + ".json", FileStorage::READ);
     fs["self_id"] >> selfId;
     fs["parent_id"] >> parentId;
     fs["bound_rect_height"] >> boundRectHeight;
@@ -18,7 +18,6 @@ void Rois::readFromFile() {
     fs["color_pic_path"] >> colorPicPath;
     fs["mask_pic_path"] >> maskPicPath;
     fs["class_id"] >> classId;
-    fs["class_name"] >> className;
     fs.release();
 
     colorMat = imread(dataPath + colorPicPath, IMREAD_COLOR);
@@ -26,7 +25,7 @@ void Rois::readFromFile() {
 }
 
 void Rois::writeToFile(bool overwritePics) {
-    FileStorage fs(dataPath + 'rois/' + to_string(selfId) + '.json', FileStorage::WRITE);
+    FileStorage fs(dataPath + "rois/" + to_string(selfId) + ".json", FileStorage::WRITE);
     fs << "self_id" << selfId;
     fs << "parent_id" << parentId;
     fs << "bound_rect_height" << boundRectHeight;
@@ -36,7 +35,6 @@ void Rois::writeToFile(bool overwritePics) {
     fs << "color_pic_path" << colorPicPath;
     fs << "mask_pic_path" << maskPicPath;
     fs << "class_id" << classId;
-    fs << "class_name" << className;
     fs.release();
     if (overwritePics) {
         imwrite(dataPath + colorPicPath, colorMat);

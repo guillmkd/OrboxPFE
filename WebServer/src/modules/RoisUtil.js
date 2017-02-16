@@ -1,6 +1,7 @@
 const config = require('../../config'),
   fs = require('fs'),
-  ScreenshotsUtil = require('../modules/ScreenshotsUtil');
+  ScreenshotsUtil = require('../modules/ScreenshotsUtil'),
+  ObjectsUtil = require('../modules/ObjectsUtil');
 
 module.exports = class RoisUtil {
   /**
@@ -48,6 +49,41 @@ module.exports = class RoisUtil {
     return rslt;
   }
 
+  /**
+   *
+   * @param roiData
+   * @param classId
+   * @returns {*}
+   */
+  static setClass(roiData, classId) {
+    let intClassId = parseInt(classId)
+    roiData["class_id"] = intClassId;
+    let objData = ObjectsUtil.getData(classId);
+    if(objData["rois"].indexOf(roiData.self_id) < 0) {
+      objData["rois"].push(roiData.self_id);
+      ObjectsUtil.serializeData(objData);
+    }
+    if (!this._idExists(roiData.self_id)) {
+      let indexData = JSON.parse(fs.readFileSync(config.dataPath + 'indexRois.json'));
+      indexData["index"].push(roiData.self_id);
+      fs.writeFileSync(config.dataPath + 'indexRois.json', JSON.stringify(indexData, null, 2));
+    }
+    return roiData;
+  }
+
+  /**
+   *
+   * @param roiData
+   */
+  static serializeData(roiData) {
+    fs.writeFileSync(config.dataPath + 'rois/' + roiData.self_id + '.json',
+      JSON.stringify(roiData, null, 2));
+  }
+
+  /**
+   *
+   * @param id
+   */
   static deleteRoi(id) {
     if (this._idExists(id)) {
       let roiData = this.getData(id);

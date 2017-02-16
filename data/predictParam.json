@@ -1,0 +1,17 @@
+{
+    "useSVM": 1,
+    "usePerimeter": 1,
+    "useArea": 1,
+    "useMinH": 1,
+    "useMinW": 1,
+    "minPerimeter": 4.1224978637695312e+02,
+    "maxPerimeter": 8.5019805908203125e+02,
+    "minArea": 9773.0,
+    "maxArea": 3.9961500000000000e+04,
+    "minHeight": 9.4999984741210938e+01,
+    "maxHeight": 2.2512408447265625e+02,
+    "minWidth": 117.0,
+    "mawWidth": 232.0,
+    "totalHistBeam": 60,
+    "truncHistBeam": 15
+}
