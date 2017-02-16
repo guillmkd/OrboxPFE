@@ -1,12 +1,12 @@
 {
-    "self_id": 57006802,
-    "parent_id": 45079894,
-    "bound_rect_height": 164,
-    "bound_rect_width": 162,
-    "bound_rect_x": 544,
-    "bound_rect_y": 482,
-    "color_pic_path": "pics/57006802CL.png",
-    "mask_pic_path": "pics/57006802MK.png",
-    "class_id": 4,
-    "class_name": "10 cents"
+  "self_id": 57006802,
+  "parent_id": 45079894,
+  "bound_rect_height": 164,
+  "bound_rect_width": 162,
+  "bound_rect_x": 544,
+  "bound_rect_y": 482,
+  "color_pic_path": "pics/57006802CL.png",
+  "mask_pic_path": "pics/57006802MK.png",
+  "class_id": "4",
+  "class_name": "10 cents"
 }

@@ -8,14 +8,19 @@ project(ScreenshotUtil)
 find_package(OpenCV REQUIRED)
 find_package(WiringPi REQUIRED)
 find_package(Threads REQUIRED)
+add_subdirectory(../Common shared_lib)
 
 include_directories(${WIRINGPI_INCLUDE_DIRS})
 include_directories(${OpenCV_INCLUDE_DIRS})
+include_directories(${SHARED_LIB_INCLUDE_DIR})
 
-set(SOURCE_FILES main.cpp App.cpp App.h ../Common/InputParser.h ../Common/Timer.h ../Common/Logger.h)
 
-add_executable(screenshotutil ${SOURCE_FILES})
+set(SOURCE_FILES main.cpp App.cpp App.h)
+# set(SOURCE_FILES main.cpp)
 
-target_link_libraries(screenshotutil ${OpenCV_LIBS})
-target_link_libraries(screenshotutil ${WIRINGPI_LIBRARIES})
-target_link_libraries(screenshotutil ${CMAKE_THREAD_LIBS_INIT})
+add_executable(screenshotUtil ${SOURCE_FILES})
+
+target_link_libraries(screenshotUtil shared_lib)
+target_link_libraries(screenshotUtil ${OpenCV_LIBS})
+target_link_libraries(screenshotUtil ${WIRINGPI_LIBRARIES})
+target_link_libraries(screenshotUtil ${CMAKE_THREAD_LIBS_INIT})

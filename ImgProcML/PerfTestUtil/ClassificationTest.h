@@ -32,22 +32,28 @@ private:
     std::vector<float> vecP, vecA, vecH, vecW;
 
     double meanA, meanP, meanH, meanW, stDevA, stDevP, stDevH, stDevW;
+    bool enA, enP, enH, enW;
+    int pTot, pTrun;
 
     std::pair<std::vector<float>::iterator, std::vector<float>::iterator> minMaxA, minMaxP, minMaxH, minMaxW;
 
     float normValue(float val, float lowerBound, float upperBound);
 
-public:
-    ClassificationTest();
+    void saveParams(bool useSvm);
 
-    void createDataSet(
+public:
+    ClassificationTest(
             bool enPerimeter, bool enArea, bool enMinH, bool enMinW,
             int totalHistBeam, int truncHistBeam, bool normalize
     );
 
-    void runSimpleKnn(int K);
+    double testKnn(int K);
 
-    void runSimpleSVM(cv::ml::SVM::Types val, cv::ml::SVM::KernelTypes kernelType);
+    void setKnn(int K);
+
+    double testSvm(cv::ml::SVM::Types val, cv::ml::SVM::KernelTypes kernelType);
+
+    void setSvm(cv::ml::SVM::Types val, cv::ml::SVM::KernelTypes kernelType);
 
 };
 

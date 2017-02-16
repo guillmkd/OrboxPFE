@@ -56,7 +56,7 @@ void App::calibrateCamera() {
     Mat cameraMatrix, distortionCoefficients, map1, map2, newCamMat;
     int croppingWidth, croppingHeight, squareSide, croppingX, croppingY;
 
-    FileStorage fs("./CalibrationCOnfig.xml", FileStorage::READ);
+    FileStorage fs("../CalibrationConfig.xml", FileStorage::READ);
     if (!fs.isOpened())
         return;
     if (fs["map_1"].empty() || fs["map_2"].empty()) {

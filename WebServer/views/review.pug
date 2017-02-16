@@ -1,0 +1,31 @@
+extends layout.pug
+
+block content
+    h2 Labelling of fresh sample !
+
+    form(action='/screenshots/review', method='POST')
+        div(style='display: inline-block')
+            each roi in rois
+                div(style='display: inline-block').w3-card-4.w3-margin-bottom.w3-margin-right
+                    - var srcImg = '/data/' + roi.color_pic_path
+                    div(style='height:180px; width: 150px; display: inline-block;').w3-margin
+                        img(src=srcImg).w3-image
+                    div(style='display: inline-block')
+                        - var radioGroup = roi.self_id
+                        input(type='radio' name=radioGroup value='todo' checked).w3-radio
+                        label Leave it for later
+                        br
+                        input(type='radio' name=radioGroup value='dismiss').w3-radio
+                        label Dismiss
+                        br
+                        each obj in objs
+                            - var objValue = obj.self_id
+                            input(type='radio' name=radioGroup value=objValue).w3-radio
+                            label #{obj.name}
+                            br
+        p
+            button(type="submit").w3-btn.w3-teal.w3-round
+                i.fa.fa-floppy-o
+                span &nbsp Apply changes
+
+

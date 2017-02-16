@@ -11,7 +11,7 @@ using namespace std;
 using namespace cv;
 
 void Screenshots::writeToFile(bool overwritePics) {
-    FileStorage fs(dataPath + '/screenshots/' + to_string(selfID) + '.json', FileStorage::WRITE);
+    FileStorage fs(dataPath + "/screenshots/" + to_string(selfID) + ".json", FileStorage::WRITE);
     fs << "self_id" << selfID;
     fs << "raw_lightOn" << pathRawLightOn;
     fs << "raw_lightOff" << pathRawLightOff;
@@ -33,7 +33,7 @@ void Screenshots::writeToFile(bool overwritePics) {
 }
 
 void Screenshots::readFromFile() {
-    FileStorage fs(dataPath + '/screenshots/' + to_string(selfID) + '.json',
+    FileStorage fs(dataPath + "/screenshots/" + to_string(selfID) + ".json",
                    FileStorage::READ);
     fs["self_id"] >> selfID;
     fs["raw_lightOn"] >> pathRawLightOn;
@@ -57,7 +57,7 @@ void Screenshots::readFromFile() {
 Screenshots::Screenshots(std::string path, int id) {
     selfID = id;
     dataPath = path;
-    readFromFile;
+    readFromFile();
 }
 
 Screenshots::Screenshots(cv::Mat rawLitOn, cv::Mat rawLitOff,
@@ -82,7 +82,7 @@ std::vector<Rois> Screenshots::segmentation() {
     vector<Mat> hsv_split;
     vector<Rois> out;
     // subtract the two images, only objects lit by the LEDs will appear
-    absdiff(lightOn, lightOff, diff);
+    absdiff(undistLightOn, undistLightOff, diff);
 
     // once converted to HSV, only the value channel will be used
     // as it contained information on how much light a pixel get
@@ -100,8 +100,9 @@ std::vector<Rois> Screenshots::segmentation() {
     dilate(bin, bin, getStructuringElement(MORPH_RECT, Size(30, 30)));
     maskBin = bin;
 
+
     //find the bounding rectangle of each white spot and calculate outputs
-    vector<vector<Point>> contours;
+    std::vector<std::vector<cv::Point>> contours;
     findContours(bin(Rect(29, 37, 1035, 1006)), contours, RETR_EXTERNAL, CHAIN_APPROX_SIMPLE);
 
     IdProvider idProvider(dataPath + "indexRois.json");

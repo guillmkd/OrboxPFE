@@ -1,8 +1,8 @@
 /**
  * Created by age2pierre on 05/02/17.
  */
-const config = require('../../config');
-const fs = require('fs');
+const config = require('../../config'),
+  fs = require('fs');
 
 module.exports = class StatUtil{
   /**

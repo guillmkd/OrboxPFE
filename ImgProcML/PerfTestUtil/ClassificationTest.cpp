@@ -30,7 +30,7 @@ float ClassificationTest::normValue(float val, float lowerBound, float upperBoun
     return (val - lowerBound) / (upperBound - lowerBound);
 }
 
-void ClassificationTest::runSimpleKnn(int K = 10) {
+double ClassificationTest::testKnn(int K = 9) {
     vector<float> rslts;
     Ptr<ml::KNearest> kNearest(ml::KNearest::create());
     kNearest->setDefaultK(K);
@@ -42,11 +42,13 @@ void ClassificationTest::runSimpleKnn(int K = 10) {
     }
     double mean, stdev;
     calcMeanAndStDev(rslts, mean, stdev);
-    cout << '\t' << K << "-NN testing with " << KNN_KFOLD << "-fold cross validation"
+    cout << K << "-NN testing with " << KNN_KFOLD << "-fold cross validation"
             "\n\tMean error " << mean << endl;
+    return mean;
 }
 
-void ClassificationTest::runSimpleSVM(ml::SVM::Types type, ml::SVM::KernelTypes kernelType) {
+double
+ClassificationTest::testSvm(ml::SVM::Types type = ml::SVM::C_SVC, ml::SVM::KernelTypes kernelType = ml::SVM::CHI2) {
     vector<float> rslts;
     double mean, stdev;
     for (int i = 0; i < SVM_KFOLD; i++) {
@@ -59,19 +61,29 @@ void ClassificationTest::runSimpleSVM(ml::SVM::Types type, ml::SVM::KernelTypes 
         rslts.push_back(rslt);
     }
     calcMeanAndStDev(rslts, mean, stdev);
-    cout << "\tSVM testing with " << SVM_KFOLD << "-fold cross validation" <<
+    cout << "SVM testing with " << SVM_KFOLD << "-fold cross validation"
          "\n\tMean error " << mean << endl;
+    return mean;
 }
 
-ClassificationTest::ClassificationTest() {
+ClassificationTest::ClassificationTest(bool enPerimeter, bool enArea, bool enMinH, bool enMinW,
+                                       int totalHistBeam, int truncHistBeam, bool normalize = true
+) {
     FileStorage configFs("../../config.json", FileStorage::READ);
     configFs["dataPath"] >> dataPath;
     configFs.release();
 
+    enP = enPerimeter;
+    enA = enArea;
+    enH = enMinH;
+    enW = enMinW;
+    pTot = totalHistBeam;
+    pTrun = truncHistBeam;
+
     FileStorage inFs(dataPath + "indexRois.json", FileStorage::READ);
     FileNodeIterator it = inFs["index"].begin();
     while (it != inFs["index"].end()) {
-        Rois currentRoi(dataPath + "rois/" + to_string((int) *it) + ".json", dataPath);
+        Rois currentRoi(dataPath, ((int) *it));
         data[(currentRoi.getClassId() - 1)].push_back(currentRoi);
         it++;
     }
@@ -92,15 +104,10 @@ ClassificationTest::ClassificationTest() {
     minMaxP = minmax_element(vecP.begin(), vecP.end());
     minMaxH = minmax_element(vecH.begin(), vecH.end());
     minMaxW = minmax_element(vecW.begin(), vecW.end());
-}
 
-void ClassificationTest::createDataSet(
-        bool enPerimeter, bool enArea, bool enMinH, bool enMinW,
-        int totalHistBeam, int truncHistBeam, bool normalize = true
-) {
     vector<tuple<Mat_<float>, int>> vecSamples;
     int nbOfSamples = 0;
-    int nbOfFeatures = (enArea ? 1 : 0) + (enPerimeter ? 1 : 0) + (enMinH ? 1 : 0) + (enMinW ? 1 : 0) + totalHistBeam;
+    int nbOfFeatures = (enArea ? 1 : 0) + (enPerimeter ? 1 : 0) + (enMinH ? 1 : 0) + (enMinW ? 1 : 0) + truncHistBeam;
     // for each samples calc the features hist + shape descriptions
     for (auto &vecOfRoi : data)
         for (auto &roi : vecOfRoi) {
@@ -115,13 +122,16 @@ void ClassificationTest::createDataSet(
                 currentRow(0, i++) = (normalize ? normValue(h, *minMaxH.first, *minMaxH.second) : h);
             if (enMinW)
                 currentRow(0, i++) = (normalize ? normValue(w, *minMaxW.first, *minMaxW.second) : w);
-            for (float beam : roi.calcHueHist(totalHistBeam, 1.0))
+            for (float beam : roi.calcHueHist(totalHistBeam, 1.0)) {
                 currentRow(0, i++) = beam;
+                if(i == nbOfFeatures)
+                    break;
+            }
             vecSamples.push_back(make_tuple(currentRow, roi.getClassId()));
             nbOfSamples++;
         }
     // print info
-    cout << "Dataset number of samples : " << nbOfSamples << " - Features used : " <<
+    cout << "Dataset number of samples : " << nbOfSamples << "\nFeatures used : " <<
          (enArea ? "Area, " : "") << (enPerimeter ? "Perimter, " : "") <<
          (enMinH ? "Height of smallest bounding rect, " : "") << (enMinW ? "Width of smallest bounding rect, " : "")
          << " and " << truncHistBeam << '/' << totalHistBeam << " hue hist beam" << endl;
@@ -181,4 +191,43 @@ void ClassificationTest::createDataSet(
         svmTrainData[i] = ml::TrainData::create(matTestSamples, ml::ROW_SAMPLE, matTestResponses);
     }
 
+}
+
+void ClassificationTest::setKnn(int k = 9) {
+    Ptr<ml::KNearest> kNearest(ml::KNearest::create());
+    kNearest->setDefaultK(k);
+    kNearest->train(this->fullDataSet);
+    kNearest->save(dataPath + "knnconfig.yaml");
+    saveParams(false);
+}
+
+void ClassificationTest::setSvm(cv::ml::SVM::Types val = ml::SVM::C_SVC,
+                                cv::ml::SVM::KernelTypes kernelType = ml::SVM::CHI2) {
+    Ptr<ml::SVM> svm(ml::SVM::create());
+    svm->setType(val);
+    svm->setKernel(kernelType);
+    svm->trainAuto(this->fullDataSet);
+    svm->save(dataPath + "svmconfig.yaml");
+
+    saveParams(true);
+}
+
+void ClassificationTest::saveParams(bool useSvm) {
+    FileStorage fs(dataPath + "predictParam.json", cv::FileStorage::WRITE);
+    fs << "useSVM" << useSvm;
+    fs << "usePerimeter" << enP;
+    fs << "useArea" << enA;
+    fs << "useMinH" << enH;
+    fs << "useMinW" << enW;
+    fs << "minPerimeter" << *minMaxP.first;
+    fs << "maxPerimeter" << *minMaxP.second;
+    fs << "minArea" << *minMaxA.first;
+    fs << "maxArea" << *minMaxA.second;
+    fs << "minHeight" << *minMaxH.first;
+    fs << "maxHeight" << *minMaxH.second;
+    fs << "minWidth" << *minMaxW.first;
+    fs << "mawWidth" << *minMaxW.second;
+    fs << "totalHistBeam" << pTot;
+    fs << "truncHistBeam" << pTrun;
+    fs.release();
 }
