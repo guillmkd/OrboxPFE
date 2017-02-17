@@ -14,7 +14,7 @@ using namespace std;
 using namespace cv;
 
 int main() {
-    FileStorage configFs("../../config.json", FileStorage::READ);
+    FileStorage configFs("../config.json", FileStorage::READ);
     string dataPath;
     configFs["dataPath"] >> dataPath;
     configFs.release();

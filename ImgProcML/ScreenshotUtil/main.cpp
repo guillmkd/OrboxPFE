@@ -12,11 +12,12 @@ using namespace cv;
 
 int main(int argc, char **argv) {
     InputParser input(argc, argv);
+    int id;
+    const std::string &argStrId = input.getCmdOption("-id");
+    if (!argStrId.empty())
+        id = stoi(argStrId);
 
-    auto argStrId = input.getCmdOption("-id");
-    int id = stoi(argStrId);
-
-    FileStorage configFs("../../config.json", FileStorage::READ);
+    FileStorage configFs("../config.json", FileStorage::READ);
     string dataPath;
     configFs["dataPath"] >> dataPath;
     configFs.release();
@@ -45,12 +46,12 @@ int main(int argc, char **argv) {
     for_each(workers.begin(), workers.end(), [](thread &t) {
         t.join();
     });
-
- /*   rawLitOn = imread(dataPath + "pics/10502060RO.jpg");
+/*
+    rawLitOn = imread(dataPath + "pics/10502060RO.jpg");
     rawLitOff = imread(dataPath + "pics/10502060RF.jpg");
     undistOn = imread(dataPath + "pics/10502060UO.jpg");
-    undistOff = imread(dataPath + "pics/10502060UF.jpg");*/
-
+    undistOff = imread(dataPath + "pics/10502060UF.jpg");
+*/
     Screenshots screenshot(rawLitOn, rawLitOff, undistOn, undistOff, dataPath, id);
     screenshot.segmentation();
     screenshot.writeToFile(true);

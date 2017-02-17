@@ -1,0 +1,20 @@
+{
+  "name": "OrboxServer",
+  "version": "1.0.0",
+  "description": "Orbox webserver, api and html",
+  "author": "Pierre Robillard",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "~4.14.1",
+    "pug": "~2.0.0-beta6",
+    "body-parser": "~1.15.2",
+  },
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/age2pierre/netflop.git"
+  }
+}

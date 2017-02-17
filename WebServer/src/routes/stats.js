@@ -20,14 +20,14 @@ router.get('/', (req, res, next) => {
 
 router.get('/updatestat', (req, res, next) => {
   child_process.execSync('./statUtil', {
-    cwd: (config.buildPath + 'ImgProcML/StatUtil/')
+    cwd: (config.buildPath + 'StatUtil/')
   });
   res.redirect('/stats');
 });
 
 router.get('/updateperf', (req, res, next) => {
   child_process.execSync('./perfTestUtil', {
-    cwd: (config.buildPath + 'ImgProcML/PerfTestUtil/')
+    cwd: (config.buildPath + 'PerfTestUtil/')
   });
   res.redirect('/stats');
 });

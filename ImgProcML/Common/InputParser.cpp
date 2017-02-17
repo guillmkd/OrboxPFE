@@ -13,12 +13,12 @@ InputParser::InputParser(int &argc, char **argv) {
 }
 
 const string &InputParser::getCmdOption(const string &option) const {
-    vector<string>::const_iterator itr;
-    itr = std::find(this->tokens.begin(), this->tokens.end(), option);
-    if (itr != this->tokens.end() && ++itr != this->tokens.end()) {
+    std::vector<std::string>::const_iterator itr;
+    itr =  std::find(this->tokens.begin(), this->tokens.end(), option);
+    if (itr != this->tokens.end() && ++itr != this->tokens.end()){
         return *itr;
     }
-    return "";
+    return empty_string;
 }
 
 bool InputParser::cmdOptionExists(const std::string &option) const {

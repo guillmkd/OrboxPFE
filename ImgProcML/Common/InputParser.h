@@ -4,16 +4,19 @@
 #include <string>
 #include <vector>
 
-class InputParser{
-    private:
-        std::vector <std::string> tokens;
-        
-    public:
-        InputParser (int &argc, char **argv);
-        /// @author iain
-        const std::string& getCmdOption(const std::string &option) const;
-        /// @author iain
-        bool cmdOptionExists(const std::string &option) const;
+class InputParser {
+private:
+    std::vector<std::string> tokens;
+    std::string empty_string;
+
+public:
+    InputParser(int &argc, char **argv);
+
+    /// @author iain
+    const std::string &getCmdOption(const std::string &option) const;
+
+    /// @author iain
+    bool cmdOptionExists(const std::string &option) const;
 
 };
 

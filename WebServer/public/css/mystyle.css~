@@ -1,0 +1,17 @@
+.thumb {
+    object-fit: cover;
+    width:100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.scrollitem {
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+}

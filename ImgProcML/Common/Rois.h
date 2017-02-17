@@ -44,7 +44,7 @@ public:
     // Constructors
     Rois(std::string dataPath, int id);
 
-    Rois(cv::Mat color, cv::Mat mask, int X, int Y, std::vector<cv::Point> contour, int selfId);
+    Rois(cv::Mat color, cv::Mat mask, int X, int Y, std::vector<cv::Point> contour, std::string dataPath, int selfId);
 
     int getSelfId() const { return selfId; }
 

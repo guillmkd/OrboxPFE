@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
 cd /ImgProcML/build
-cmake ../..
+cmake ..
 make
 
 cd ../../WebServer
 npm install
-npm start
+sudo npm start

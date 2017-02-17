@@ -77,10 +77,9 @@ Screenshots::Screenshots(cv::Mat rawLitOn, cv::Mat rawLitOff,
     pathMaskBin = "pics/" + strId + "MB.jpg";
 }
 
-std::vector<Rois> Screenshots::segmentation() {
+void Screenshots::segmentation() {
     Mat diff, blurred, bin, hsv;
     vector<Mat> hsv_split;
-    vector<Rois> out;
     // subtract the two images, only objects lit by the LEDs will appear
     absdiff(undistLightOn, undistLightOff, diff);
 
@@ -111,18 +110,17 @@ std::vector<Rois> Screenshots::segmentation() {
         Rect rect = boundingRect(Mat(contour));
         rect.x += 29;
         rect.y += 37;
-        out.push_back(Rois(lightOn(rect),
-                           bin(rect),
-                           rect.x,
-                           rect.y,
-                           contour,
-                           roiId
-        ));
+        Rois roi(undistLightOn(rect),
+                 bin(rect),
+                 rect.x,
+                 rect.y,
+                 contour,
+                 dataPath,
+                 roiId
+        );
+        roi.writeToFile(true);
         roisChildId.insert(roiId);
     }
-    for(auto &roi : out)
-        roi.writeToFile(true);
-    return out;
 }
 
 

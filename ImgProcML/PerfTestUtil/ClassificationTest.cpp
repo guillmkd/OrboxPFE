@@ -69,7 +69,7 @@ ClassificationTest::testSvm(ml::SVM::Types type = ml::SVM::C_SVC, ml::SVM::Kerne
 ClassificationTest::ClassificationTest(bool enPerimeter, bool enArea, bool enMinH, bool enMinW,
                                        int totalHistBeam, int truncHistBeam, bool normalize = true
 ) {
-    FileStorage configFs("../../config.json", FileStorage::READ);
+    FileStorage configFs("../config.json", FileStorage::READ);
     configFs["dataPath"] >> dataPath;
     configFs.release();
 
