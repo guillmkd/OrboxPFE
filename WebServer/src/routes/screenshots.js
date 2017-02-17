@@ -16,9 +16,10 @@ router.get('/', (req, res, next) => {
 
 router.get('/snap', (req, res, next) => {
     let newId = ScreenshotsUtil.getNewId();
-    // child_process.execSync('./screenshotUtil -id ' + newId, {
-    //   cwd: (config.buildPath + 'ScreenshotUtil/')
-    // });
+    console.log("screenid : " + newId);
+    child_process.execSync('./screenshotUtil -id ' + newId, {
+      cwd: (config.buildPath + 'ScreenshotUtil/')
+    });
     let scrData = ScreenshotsUtil.getData(newId);
     let data = JSON.parse(fs.readFileSync(config.dataPath + 'unreviewedRois.json'));
     data["index"] = data["index"].concat(scrData["rois_id"]);
@@ -62,6 +63,7 @@ router.post('/review', (req, res, next) => {
 
 router.get('/predict', (req, res, next) => {
     let newId = ScreenshotsUtil.getNewId();
+    console.log("screenid : " + newId);
     child_process.execSync('./screenshotUtil -id ' + newId, {
       cwd: (config.buildPath + 'ScreenshotUtil/')
     });
