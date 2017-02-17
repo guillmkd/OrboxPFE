@@ -1,10 +1,12 @@
+The project is hosted at [https://github.com/age2pierre/OrboxPFE](https://github.com/age2pierre/OrboxPFE)
+
 ## Synopsis
 The Orbox is a projet initiated at Polytech' Tours in 2017. It aims at providing help to those suffering visual deficiency by providing audio message about the objects put on its surface.
 
-At its heart there is a RaspberryPi using OpenCV, a camera and some LEDs to
+At its heart there is a RaspberryPi using OpenCV, a camera and some LEDs to do some machine vision.
 
 ## Motivation
-The first physical prototype is nearly up and running. As of today (february 2017) only the remote control is working. But it'll be only a matter of month before to see that features implemented.
+The first physical prototype is nearly up and running. As of today (february 2017) only the remote control is working. But it'll be only a matter of weeks before that feature is fully implemented and tested.
 
 ## Hardware ressources
 In order to make your own Orbox, you can be creative and make your own case and PCBs... or you can use the followings schematics :
@@ -88,8 +90,6 @@ Developers maybe interested into two aspects :
     * _./ImgProcML/PerfTest/ClassificationTest.h/cpp_ there the are two type of method : _testXXX()_ is where you test your algorithm by k-fold cross validation and _setXXX()_ is where you serialize the result of training over the full dataset for later use by the predictUtil.
 
 ## License
-
-The project was originally hosted at [https://github.com/age2pierre/OrboxPFE](https://github.com/age2pierre/OrboxPFE)
 
 This file is part of Orbox.
 
