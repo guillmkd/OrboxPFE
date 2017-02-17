@@ -56,6 +56,8 @@ int main(int argc, char **argv) {
     screenshot.segmentation();
     screenshot.writeToFile(true);
 
+
+
     myApp.close();
     return 0;
 }
