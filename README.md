@@ -40,7 +40,7 @@ $ ./build
 You'll need two configure two file :
 * ./WebServer/config.js
 * ./ImgProcML/build/config.json
-In
+In each put the absolute path for ./data and ./ImgProcML/build
 
 You are now ready to compile and run the server.
 This can be done by running the following script :
@@ -72,7 +72,7 @@ For the former, using the Orbox is childish :
 1. Turn on the Orbox with the switch located on the side.
 2. Wait a few seconds for the system to boot (~15s and blinking led).
 3. Put the object to analyse on the glass and press the button on top of the box.
-4.
+4. Wait for the audio response
 
 For the later :
 1. Open a browser and navigate to [http://localhost:3000](http://localhost:3000) or [pi.ip.ad.rs:3000](#)
