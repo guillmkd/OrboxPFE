@@ -27,6 +27,7 @@ block content
         i.fa.fa-magic
         span &nbsp Test the prediction
 
-    div(style='max-width: 50%; max-height: 50%; text-align: center;').w3-margin
-        - var screenUrl = '/data/' + screenPicPath;
-        img(src=screenUrl).w3-image
+    if(screenPicPath)
+        div(style='max-width: 50%; max-height: 50%; text-align: center;').w3-margin
+            - var screenUrl = '/data/' + screenPicPath;
+            img(src=screenUrl).w3-image

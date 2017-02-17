@@ -48,7 +48,8 @@ Rois::Rois(string argDataPath, int id) {
     readFromFile();
 }
 
-Rois::Rois(cv::Mat color, cv::Mat mask, int X, int Y, std::vector<cv::Point> contour, int selfId) {
+Rois::Rois(cv::Mat color, cv::Mat mask, int X, int Y, std::vector<cv::Point> contour, string dataPath, int selfId) {
+    this->dataPath = dataPath;
     colorMat = color;
     maskMat = mask;
     boundRectX = X;

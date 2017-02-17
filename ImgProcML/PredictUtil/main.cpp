@@ -12,7 +12,7 @@ using namespace cv;
 int main(int argc, char **argv) {
 
     string dataPath;
-    FileStorage configFs("../../config.json", FileStorage::READ);
+    FileStorage configFs("../config.json", FileStorage::READ);
     configFs["dataPath"] >> dataPath;
     configFs.release();
 

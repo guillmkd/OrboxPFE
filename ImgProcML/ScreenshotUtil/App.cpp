@@ -17,17 +17,17 @@ void App::initLight() {
 
 void App::initCamera() {
     if (!videoCapture.open(deviceId))
-        logger.logMsg("ERROR : Failed to open device id " + to_string(deviceId));
+        cerr << "ERROR : Failed to open device id " + to_string(deviceId) << endl;
     else
-        logger.logMsg("Camera " + to_string(deviceId) + " opened !");
+        cerr << "Camera " + to_string(deviceId) + " opened !" << endl;
     if (!videoCapture.set(CAP_PROP_AUTOFOCUS, 0))
-        logger.logMsg("ERROR : Failed to set autofocus OFF");
+        cerr << "ERROR : Failed to set autofocus OFF" << endl;
     if (!videoCapture.set(CAP_PROP_AUTO_EXPOSURE, 0))
-        logger.logMsg("ERROR : Failed to set auto exposure OFF");
+        cerr << "ERROR : Failed to set auto exposure OFF"  << endl;
     if (!videoCapture.set(CAP_PROP_FRAME_WIDTH, 1920))
-        logger.logMsg("ERROR : Failed to set frame width to 1920");
+        cerr << "ERROR : Failed to set frame width to 1920" << endl;
     if (!videoCapture.set(CAP_PROP_FRAME_HEIGHT, 1080))
-        logger.logMsg("ERROR : Failed to set frame height to 1080");
+        cerr << "ERROR : Failed to set frame height to 1080" << endl;
 }
 
 Mat App::takeCroppedPicture(int x, int y, int width, int height) {
@@ -86,7 +86,7 @@ void App::calibrateCamera() {
                                              CV_16SC2,
                                              map1,
                                              map2);
-        fs.open(configFile, FileStorage::APPEND);
+        fs.open("../CalibrationConfig.xml", FileStorage::APPEND);
         fs << "map_1" << map1;
         fs << "map_2" << map2;
         camMap1 = map1;

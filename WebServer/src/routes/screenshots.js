@@ -16,9 +16,9 @@ router.get('/', (req, res, next) => {
 
 router.get('/snap', (req, res, next) => {
     let newId = ScreenshotsUtil.getNewId();
-    child_process.execSync('./screenshotUtil -id ' + newId, {
-      cwd: (config.buildPath + 'ImgProcML/ScreenshotUtil/')
-    });
+    // child_process.execSync('./screenshotUtil -id ' + newId, {
+    //   cwd: (config.buildPath + 'ScreenshotUtil/')
+    // });
     let scrData = ScreenshotsUtil.getData(newId);
     let data = JSON.parse(fs.readFileSync(config.dataPath + 'unreviewedRois.json'));
     data["index"] = data["index"].concat(scrData["rois_id"]);
@@ -63,13 +63,13 @@ router.post('/review', (req, res, next) => {
 router.get('/predict', (req, res, next) => {
     let newId = ScreenshotsUtil.getNewId();
     child_process.execSync('./screenshotUtil -id ' + newId, {
-      cwd: (config.buildPath + 'ImgProcML/ScreenshotUtil/')
+      cwd: (config.buildPath + 'ScreenshotUtil/')
     });
     let scrData = ScreenshotsUtil.getData(newId);
     let predictionRslts = {};
     for(let roisId of scrData["rois_id"]) {
       let strClassRslt = child_process.execSync('./predictUtil -id ' + roisId, {
-        cwd: (config.buildPath + 'ImgProcML/PredictUtil/')
+        cwd: (config.buildPath + 'PredictUtil/')
       });
       if(!(strClassRslt in predictionRslts))
         predictionRslts[strClassRslt] = 0;
