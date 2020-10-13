@@ -85,7 +85,7 @@ void Screenshots::segmentation() {
 
     // once converted to HSV, only the value channel will be used
     // as it contained information on how much light a pixel get
-    cvtColor(diff, hsv, CV_BGR2HSV);
+    cvtColor(diff, hsv, cv::COLOR_BGR2HSV);
     split(hsv, hsv_split);
 
     // blurring is used to get better result for thresholding

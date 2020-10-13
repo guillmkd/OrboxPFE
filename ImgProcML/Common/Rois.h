@@ -5,8 +5,8 @@
 #ifndef PROJECT_ROIS_H
 #define PROJECT_ROIS_H
 
-#include <opencv2/opencv.hpp>
-#include <opencv2/core.hpp>
+#include "/home/pi/OrboxPFE/opencv/include/opencv2/opencv.hpp"
+#include "/home/pi/OrboxPFE/opencv/modules/core/include/opencv2/core.hpp"
 
 class Rois {
 private:
@@ -50,7 +50,7 @@ public:
 
     int getClassId() const { return classId; }
 
-    int setClassId(int p) { classId = p; }
+    void setClassId(int p) { classId = p; }
 
     int getParentId() const { return parentId; }
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-cd /ImgProcML/build
+cd ImgProcML/build
 cmake ..
 make
 

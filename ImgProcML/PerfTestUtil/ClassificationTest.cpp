@@ -9,6 +9,7 @@
 #include <algorithm>
 #include <vector>
 #include <tuple>
+#include <numeric>
 #include "ClassificationTest.h"
 
 using namespace std;

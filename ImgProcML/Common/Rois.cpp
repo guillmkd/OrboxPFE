@@ -87,7 +87,7 @@ vector<float> Rois::calcHueHist(int numberOfBar, double normUpBound) {
     int channels[] = {0};
     int histSize[] = {numberOfBar};
 
-    cvtColor(colorMat, hsvRoi, CV_BGR2HSV);
+    cvtColor(colorMat, hsvRoi, cv::COLOR_BGR2HSV);
     calcHist(&hsvRoi, 1, channels, maskMat, hist, 1, histSize, ranges);
 
     rslt = hist.t();

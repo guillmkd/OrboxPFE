@@ -5,6 +5,7 @@
 #ifndef PROJECT_STAT_H
 #define PROJECT_STAT_H
 
+#include <numeric>
 #include <vector>
 #include <algorithm>
 using namespace std;
