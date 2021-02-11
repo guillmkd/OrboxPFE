@@ -1,6 +1,3 @@
-//
-// Created by age2pierre on 13/12/16.
-//
 
 #ifndef SCREENSHOTUTIL_APP_H
 #define SCREENSHOTUTIL_APP_H
@@ -10,7 +7,8 @@
 #include <opencv2/ml.hpp>
 #include <opencv2/imgcodecs.hpp>
 #include <opencv2/imgproc.hpp>
-#include <wiringPi.h>
+#include "opencv2/imgproc/imgproc_c.h"
+//#include <wiringPi.h>
 #include <iostream>
 #include <fstream>
 #include <ctime>
@@ -31,15 +29,15 @@ public:
 
     cv::Mat takeCroppedPicture(int x, int y, int width, int height);
 
-    void initLight();
+    //void initLight();
 
-    void turnLightOn(){
-        pwmWrite(1, lightParam);
-    };
+    //void turnLightOn(){
+    //    pwmWrite(1, lightParam);
+    //};
 
-    void turnLightOff() {
-        pwmWrite(1, 0);
-    };
+    //void turnLightOff() {
+    //    pwmWrite(1, 0);
+    //};
 
     void calibrateCamera();
 

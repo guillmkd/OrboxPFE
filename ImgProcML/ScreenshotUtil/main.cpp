@@ -25,19 +25,19 @@ int main(int argc, char **argv) {
     App myApp;
     myApp.calibrateCamera();
     myApp.initCamera();
-    myApp.initLight();
-    myApp.turnLightOff();
+    //myApp.initLight();
+    //myApp.turnLightOff();
 
     Mat rawLitOn, rawLitOff, undistOn, undistOff;
     vector<thread> workers;
 
-    myApp.turnLightOn();
+    //myApp.turnLightOn();
     rawLitOn = myApp.takeCroppedPicture(428, 13, 1100, 1067);
     workers.push_back(thread([&]() {
         myApp.undistord(rawLitOn, undistOn);
     }));
 
-    myApp.turnLightOff();
+    //myApp.turnLightOff();
     rawLitOff = myApp.takeCroppedPicture(428, 13, 1100, 1067);
     workers.push_back(thread([&]() {
         myApp.undistord(rawLitOff, undistOff);
@@ -61,4 +61,3 @@ int main(int argc, char **argv) {
     myApp.close();
     return 0;
 }
-

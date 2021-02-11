@@ -6,7 +6,7 @@ find_program(CMAKE_CXX_COMPILER NAMES $ENV{CXX} g++ PATHS ENV PATH NO_DEFAULT_PA
 project(ScreenshotUtil)
 
 find_package(OpenCV REQUIRED)
-find_package(WiringPi REQUIRED)
+#find_package(WiringPi REQUIRED)
 find_package(Threads REQUIRED)
 add_subdirectory(../Common shared_lib)
 
@@ -22,5 +22,5 @@ add_executable(screenshotUtil ${SOURCE_FILES})
 
 target_link_libraries(screenshotUtil shared_lib)
 target_link_libraries(screenshotUtil ${OpenCV_LIBS})
-target_link_libraries(screenshotUtil ${WIRINGPI_LIBRARIES})
+#target_link_libraries(screenshotUtil ${WIRINGPI_LIBRARIES})
 target_link_libraries(screenshotUtil ${CMAKE_THREAD_LIBS_INIT})

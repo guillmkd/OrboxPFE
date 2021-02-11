@@ -1,18 +1,14 @@
-//
-// Created by age2pierre on 13/12/16.
-//
-
 #include "App.h"
 
 using namespace cv;
 using namespace std;
 
-void App::initLight() {
+//void App::initLight() {
     // init wiring pi with mapping from virtual pin numbers 0 through 16
-    wiringPiSetup();
+//    wiringPiSetup();
     // set pin 1 in pwm mode
-    pinMode(1, PWM_OUTPUT);
-}
+//    pinMode(1, PWM_OUTPUT);
+//}
 
 
 void App::initCamera() {
@@ -104,23 +100,3 @@ void App::undistord(Mat &src, Mat &dst) {
     dst = src.clone();
     remap(src, dst, camMap1, camMap2, INTER_LANCZOS4);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
