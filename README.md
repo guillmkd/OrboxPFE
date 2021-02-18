@@ -12,7 +12,6 @@ The first physical prototype is nearly up and running. As of today (february 201
 In order to make your own Orbox, you can be creative and make your own case and PCBs... or you can use the followings schematics :
 
 * [OnShape document - mechanical CAD and drawings](https://cad.onshape.com/documents/5f9e1a768941a34f06bbb396/w/f230842e43067cb46ecea699/e/ded45623d71b4f65f55b64b7)
-* [Upverter document](https://upverter.com/OrboxTeam/cfa40d292bac9e7b/Orbox_PFE/)
 
 ## Installation
 
@@ -31,13 +30,12 @@ Install those by running the following script :
 $ sh ./installNode.sh
 ```
 
-If you are running on RasperryPi you'll need WiringPi.
+If you are running on RasperryPi you'll need PIGPIO.
 If it's not packaged by default with your distribution, run :
 ```
-$ git clone git://git.drogon.net/wiringPi
-$ cd ~/wiringPi
-$ ./build
+$ git clone https://github.com/joan2937/pigpio
 ```
+See http://abyz.me.uk/rpi/pigpio/ for installation.
 
 You'll need two configure two file :
 * ./WebServer/config.js
