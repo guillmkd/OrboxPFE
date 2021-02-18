@@ -17,6 +17,7 @@ router.get('/', (req, res, next) => {
 router.get('/snap', (req, res, next) => {
     let newId = ScreenshotsUtil.getNewId();
     console.log("screenid : " + newId);
+    console.log(config.buildPath + 'ScreenshotUtil/');
     child_process.execSync('./screenshotUtil -id ' + newId, {
       cwd: (config.buildPath + 'ScreenshotUtil/')
     });

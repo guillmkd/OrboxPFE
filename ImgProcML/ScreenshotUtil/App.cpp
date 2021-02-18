@@ -20,13 +20,15 @@ void App::initCamera() {
         cerr << "ERROR : Failed to set autofocus OFF" << endl;
     if (!videoCapture.set(CAP_PROP_AUTO_EXPOSURE, 0))
         cerr << "ERROR : Failed to set auto exposure OFF"  << endl;
-    if (!videoCapture.set(CAP_PROP_FRAME_WIDTH, 1920))
+    if (!videoCapture.set(CAP_PROP_FRAME_WIDTH, 1280))  //640
         cerr << "ERROR : Failed to set frame width to 1920" << endl;
-    if (!videoCapture.set(CAP_PROP_FRAME_HEIGHT, 1080))
+    if (!videoCapture.set(CAP_PROP_FRAME_HEIGHT, 960)) //480
         cerr << "ERROR : Failed to set frame height to 1080" << endl;
 }
 
 Mat App::takeCroppedPicture(int x, int y, int width, int height) {
+    cerr << "INFO : start takeCroppedPicture" << endl;
+
     if (videoCapture.isOpened()) {
         Mat frame, rslt;
         std::chrono::steady_clock::time_point current = std::chrono::steady_clock::now();
@@ -37,12 +39,30 @@ Mat App::takeCroppedPicture(int x, int y, int width, int height) {
             current = std::chrono::steady_clock::now();
         } while (std::chrono::duration_cast<std::chrono::milliseconds>(current - previous).count() < 15);
         // grab x frames to flush the buffer if grabbing takes less than 15 ms it comes from the buffer
-        videoCapture >> frame;
-        copyMakeBorder(frame(Rect(x, y, width, height)), rslt,
+        videoCapture >> frame; 
+	//imwrite("/home/pi/OrboxPFE/image.png", frame);
+
+    // Check if image is loaded fine
+    if( frame.empty()) {
+        cerr << " ERROR : frame is empty" << endl;
+    }
+
+    cerr << "INFO : copyMakeBorder" << endl;
+    try 
+    {
+	//Extraction d'une partie de la photo
+	copyMakeBorder(frame(Rect(x, y, width, height)), rslt,
                        0, (width > height) ? width - height : 0,
                        0, (width > height) ? 0 : width - height,
-                       BORDER_CONSTANT, Scalar(0));
+                       cv::BORDER_CONSTANT, Scalar(0));
+        cerr << "INFO : end takeCroppedPicture" << endl;
         return rslt;
+    }
+    catch (Exception e)
+    {
+        cerr << "Erreur MakeBorder : " << e.msg << endl;
+        return frame;
+    }
     }
     // ERROR : App.videoCapture is closed
     return Mat();

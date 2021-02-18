@@ -40,7 +40,7 @@ app.use((err, req, res, next) => {
 app.use(function (req, res, next) {
   res.status(404)
     .render('error', {
-      message: "Sorry can't find this page!",
+      message: "Sorry can't find this page! :(",
       error: {}
     });
 });
