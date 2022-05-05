@@ -5,6 +5,7 @@
 #include "App.h"
 #include "../Common/InputParser.h"
 #include "../Common/Screenshots.h"
+#include <unistd.h>
 
 using namespace std;
 using namespace cv;
@@ -22,44 +23,42 @@ int main(int argc, char **argv) {
     string dataPath;
     configFs["dataPath"] >> dataPath;
     configFs.release();
+    cerr << dataPath << endl;
 
     App myApp;
     myApp.calibrateCamera();
     myApp.initCamera();
     cerr << "INFO : init camera ok" << endl;
-    //myApp.initLight();
-    //myApp.turnLightOff();
+    myApp.initLight();
+    myApp.turnLightOff();
 
     Mat rawLitOn, rawLitOff, undistOn, undistOff;
-    //vector<thread> workers;
+    vector<thread> workers;
 
-    //myApp.turnLightOn();
+    myApp.turnLightOn();
+    usleep(10000000);
     rawLitOn = myApp.takeCroppedPicture(0, 0, 1280, 960);
-    /*workers.push_back(thread([&]() {
+    workers.push_back(thread([&]() {
         myApp.undistord(rawLitOn, undistOn);
-    }));*/
+    }));
     cerr << "INFO : rawLitOn ok" << endl;
 
-    //myApp.turnLightOff();
-/*    rawLitOff = myApp.takeCroppedPicture(0, 0, 1280, 960);
+    myApp.turnLightOff();
+    rawLitOff = myApp.takeCroppedPicture(0, 0, 1280, 960);
     workers.push_back(thread([&]() {
         myApp.undistord(rawLitOff, undistOff);
     }));
     cerr << "INFO : rawLitOff ok" << endl;
-*/
 
-    /*for_each(workers.begin(), workers.end(), [](thread &t) {
+    for_each(workers.begin(), workers.end(), [](thread &t) {
         t.join();
-    });*/
-
-/*
+    });
     rawLitOn = imread(dataPath + "pics/10502060RO.jpg");
     rawLitOff = imread(dataPath + "pics/10502060RF.jpg");
     undistOn = imread(dataPath + "pics/10502060UO.jpg");
     undistOff = imread(dataPath + "pics/10502060UF.jpg");
-*/
+
     cerr << "INFO : init screenshot" << endl;
-    //Screenshots screenshot(rawLitOn, rawLitOff, undistOn, undistOff, dataPath, id);
     Screenshots screenshot(rawLitOn, rawLitOn, undistOn, undistOn, dataPath, id);
 
     screenshot.segmentation();
@@ -67,7 +66,7 @@ int main(int argc, char **argv) {
     cerr << "INFO : segmentation ok" << endl;
     screenshot.writeToFile(true);
     cerr << "INFO : ecriture du fichier" << endl;
-
+    myApp.stopLight();
     myApp.close();
 }
 catch(Exception e)

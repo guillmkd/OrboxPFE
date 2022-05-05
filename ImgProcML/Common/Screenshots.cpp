@@ -104,7 +104,7 @@ void Screenshots::segmentation() {
     std::vector<std::vector<cv::Point>> contours;
     findContours(bin(Rect(29, 37, 1035, 1006)), contours, RETR_EXTERNAL, CHAIN_APPROX_SIMPLE);
 
-    IdProvider idProvider(dataPath + "indexRois.json");
+    IdProvider idProvider(dataPath + "/indexRois.json");
     for (vector<Point> contour : contours) {
         int roiId = idProvider.getNewId();
         Rect rect = boundingRect(Mat(contour));

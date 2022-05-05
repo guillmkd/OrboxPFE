@@ -5,7 +5,8 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++1y")
 find_package(OpenCV REQUIRED)
 
 include_directories(${OpenCV_INCLUDE_DIRS})
-#include_directories(/usr/local/lib) 
+include_directories(${pigpio_INCLUDE_DIR})
+include_directories(/usr/local/lib) 
 
 add_subdirectory(Common)
 add_subdirectory(StatUtil)

@@ -8,44 +8,33 @@
 #include <opencv2/imgcodecs.hpp>
 #include <opencv2/imgproc.hpp>
 #include "opencv2/imgproc/imgproc_c.h"
-//#include <wiringPi.h>
 #include <iostream>
 #include <fstream>
 #include <ctime>
 #include <mutex>
 #include <thread>
 #include <chrono>
+#include <pigpio.h>
+#include <unistd.h>
 
+constexpr unsigned int PWM_PIN = 18;
+constexpr int deviceId = 0;
 
 class App {
 private:
     cv::VideoCapture videoCapture;
-    int lightParam = 100;
-    int deviceId = 0;
     cv::Mat camMap1, camMap2;
 
 public:
     void initCamera();
-
     cv::Mat takeCroppedPicture(int x, int y, int width, int height);
-
-    //void initLight();
-
-    //void turnLightOn(){
-    //    pwmWrite(1, lightParam);
-    //};
-
-    //void turnLightOff() {
-    //    pwmWrite(1, 0);
-    //};
-
+    void initLight(); // Init Pigpio deamon (returns -1 in case of an error)
+    void stopLight(); // Stop Pigpio deamon
+    void turnLightOn();
+    void turnLightOff();
     void calibrateCamera();
-
     void undistord(cv::Mat &src, cv::Mat &dst);
-
-    void close(){
-        videoCapture.release();
-    };
+    void close(){ videoCapture.release(); gpioTerminate(); };
 };
 
 

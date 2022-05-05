@@ -84,7 +84,7 @@ router.get('/predict', (req, res, next) => {
       audioOutput += (predictionRslts[classId] + ' ' + objData["audio_fr"] + ", ");
     }
     audioOutput += '\"';
-    child_process.execSync('pico2wave -l fr-FR -w tts.wav ' + audioOutput + " && play tts.wav && rm tts.wav", {
+    child_process.execSync('pico2wave -l fr-FR -w tts.wav ' + audioOutput + " && aplay tts.wav && rm tts.wav", {
       cwd: config.dataPath
     });
     res.redirect('/screenshots/');

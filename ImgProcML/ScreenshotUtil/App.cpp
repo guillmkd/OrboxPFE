@@ -3,12 +3,34 @@
 using namespace cv;
 using namespace std;
 
-//void App::initLight() {
-    // init wiring pi with mapping from virtual pin numbers 0 through 16
-//    wiringPiSetup();
-    // set pin 1 in pwm mode
-//    pinMode(1, PWM_OUTPUT);
-//}
+void App::initLight() {
+    cerr << "DEBUG : initLight()" << endl;
+    int status;
+    if(gpioInitialise() < 0){
+	 cerr << "ERR : failed to initialise pigpio" << endl;
+    } 
+    if(gpioPWM(PWM_PIN, 500) < 0){
+	 cerr << "ERR : failed gpioPWM() function" << endl;
+    }
+    gpioSetMode(PWM_PIN, PI_OUTPUT);
+}
+
+void App::stopLight(){
+    cerr << "DEBUG : stopLight" << endl;
+    gpioPWM(PWM_PIN, 0);
+}
+
+void App::turnLightOff() {
+    cerr << "DEBUG : turnLightOff()" << endl;
+    gpioSetPWMdutycycle(PWM_PIN, 0);
+}
+
+void App::turnLightOn() {
+    cerr << "DEBUG : turnLightOn()" << endl;
+    gpioSetPWMfrequency(PWM_PIN, 0);
+    gpioSetPWMrange(PWM_PIN, 1000);
+    gpioSetPWMdutycycle(PWM_PIN, 500); // 50%
+}
 
 
 void App::initCamera() {
