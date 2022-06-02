@@ -102,9 +102,10 @@ void Screenshots::segmentation() {
 
     //find the bounding rectangle of each white spot and calculate outputs
     std::vector<std::vector<cv::Point>> contours;
-    findContours(bin(Rect(29, 37, 1035, 1006)), contours, RETR_EXTERNAL, CHAIN_APPROX_SIMPLE);
+    findContours(bin, contours, RETR_EXTERNAL, CHAIN_APPROX_SIMPLE);
 
     IdProvider idProvider(dataPath + "/indexRois.json");
+    cerr << "contour size : " << contours.size() << endl;
     for (vector<Point> contour : contours) {
         int roiId = idProvider.getNewId();
         Rect rect = boundingRect(Mat(contour));

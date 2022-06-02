@@ -18,7 +18,7 @@ router.get('/snap', (req, res, next) => {
     let newId = ScreenshotsUtil.getNewId();
     console.log("screenid : " + newId);
     console.log(config.buildPath + 'ScreenshotUtil/');
-    child_process.execSync('./screenshotUtil -id ' + newId, {
+    child_process.execSync('sudo ./screenshotUtil -id ' + newId, {
       cwd: (config.buildPath + 'ScreenshotUtil/')
     });
     let scrData = ScreenshotsUtil.getData(newId);
@@ -65,7 +65,7 @@ router.post('/review', (req, res, next) => {
 router.get('/predict', (req, res, next) => {
     let newId = ScreenshotsUtil.getNewId();
     console.log("screenid : " + newId);
-    child_process.execSync('./screenshotUtil -id ' + newId, {
+    child_process.execSync('sudo ./screenshotUtil -id ' + newId, {
       cwd: (config.buildPath + 'ScreenshotUtil/')
     });
     let scrData = ScreenshotsUtil.getData(newId);

@@ -29,12 +29,11 @@ public:
     void initCamera();
     cv::Mat takeCroppedPicture(int x, int y, int width, int height);
     void initLight(); // Init Pigpio deamon (returns -1 in case of an error)
-    void stopLight(); // Stop Pigpio deamon
     void turnLightOn();
     void turnLightOff();
     void calibrateCamera();
     void undistord(cv::Mat &src, cv::Mat &dst);
-    void close(){ videoCapture.release(); gpioTerminate(); };
+    void close();
 };
 
 

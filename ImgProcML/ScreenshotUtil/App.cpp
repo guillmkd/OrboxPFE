@@ -6,32 +6,22 @@ using namespace std;
 void App::initLight() {
     cerr << "DEBUG : initLight()" << endl;
     int status;
-    if(gpioInitialise() < 0){
-	 cerr << "ERR : failed to initialise pigpio" << endl;
-    } 
-    if(gpioPWM(PWM_PIN, 500) < 0){
-	 cerr << "ERR : failed gpioPWM() function" << endl;
+    if((status = gpioInitialise()) < 0){
+	 cerr << "ERR : failed to initialise pigpio, error code : " << status << endl;
     }
     gpioSetMode(PWM_PIN, PI_OUTPUT);
-}
-
-void App::stopLight(){
-    cerr << "DEBUG : stopLight" << endl;
-    gpioPWM(PWM_PIN, 0);
+    gpioSetPWMfrequency(PWM_PIN, 100);
 }
 
 void App::turnLightOff() {
     cerr << "DEBUG : turnLightOff()" << endl;
-    gpioSetPWMdutycycle(PWM_PIN, 0);
+    gpioPWM(PWM_PIN, 0);
 }
 
 void App::turnLightOn() {
     cerr << "DEBUG : turnLightOn()" << endl;
-    gpioSetPWMfrequency(PWM_PIN, 0);
-    gpioSetPWMrange(PWM_PIN, 1000);
-    gpioSetPWMdutycycle(PWM_PIN, 500); // 50%
+    gpioPWM(PWM_PIN, 128);
 }
-
 
 void App::initCamera() {
     if (!videoCapture.open(deviceId))
@@ -141,4 +131,10 @@ void App::calibrateCamera() {
 void App::undistord(Mat &src, Mat &dst) {
     dst = src.clone();
     remap(src, dst, camMap1, camMap2, INTER_LANCZOS4);
+}
+
+void App::close(){
+    cerr << "DEBUG : close()" << endl;
+    videoCapture.release();
+    gpioTerminate();
 }

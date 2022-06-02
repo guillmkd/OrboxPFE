@@ -12,6 +12,7 @@ using namespace cv;
 
 
 int main(int argc, char **argv) {
+    App myApp;
     try{
     InputParser input(argc, argv);
     int id;
@@ -23,9 +24,8 @@ int main(int argc, char **argv) {
     string dataPath;
     configFs["dataPath"] >> dataPath;
     configFs.release();
-    cerr << dataPath << endl;
+    cerr << dataPath << " id = " << id  << endl;
 
-    App myApp;
     myApp.calibrateCamera();
     myApp.initCamera();
     cerr << "INFO : init camera ok" << endl;
@@ -36,7 +36,7 @@ int main(int argc, char **argv) {
     vector<thread> workers;
 
     myApp.turnLightOn();
-    usleep(10000000);
+    sleep(5);
     rawLitOn = myApp.takeCroppedPicture(0, 0, 1280, 960);
     workers.push_back(thread([&]() {
         myApp.undistord(rawLitOn, undistOn);
@@ -53,11 +53,10 @@ int main(int argc, char **argv) {
     for_each(workers.begin(), workers.end(), [](thread &t) {
         t.join();
     });
-    rawLitOn = imread(dataPath + "pics/10502060RO.jpg");
-    rawLitOff = imread(dataPath + "pics/10502060RF.jpg");
-    undistOn = imread(dataPath + "pics/10502060UO.jpg");
-    undistOff = imread(dataPath + "pics/10502060UF.jpg");
-
+    /*rawLitOn = imread(dataPath + "pics/" + argStrId + "RO.jpg");
+    rawLitOff = imread(dataPath + "pics/" + argStrId + "RF.jpg");
+    undistOn = imread(dataPath + "pics/" + argStrId + "UO.jpg");
+    undistOff = imread(dataPath + "pics/" + argStrId + "UF.jpg");*/
     cerr << "INFO : init screenshot" << endl;
     Screenshots screenshot(rawLitOn, rawLitOn, undistOn, undistOn, dataPath, id);
 
@@ -66,7 +65,6 @@ int main(int argc, char **argv) {
     cerr << "INFO : segmentation ok" << endl;
     screenshot.writeToFile(true);
     cerr << "INFO : ecriture du fichier" << endl;
-    myApp.stopLight();
     myApp.close();
 }
 catch(Exception e)

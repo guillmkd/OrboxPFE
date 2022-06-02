@@ -2,6 +2,7 @@
 opencv/
 mjpg-streamer/
 WebServer/node_modules/
+pigpio-master/
 
 # Compiled source #
 ###################
@@ -24,3 +25,7 @@ install_manifest.txt
 compile_commands.json
 CTestTestfile.cmake
 _deps
+
+# Images
+*.jpg
+/data/screenshots/*.json
